@@ -3,5 +3,7 @@
  description: Testing functionality
  authors:
    - Ernesto Ongaro
+ resources:
+   - http://localhost:8080/jasperserver-pro/client/visualize.js
  normalize_css: no
  ...
