@@ -1,0 +1,7 @@
+---
+ name: Visualize.js Hello World
+ description: Testing functionality
+ authors:
+   - Ernesto Ongaro
+ normalize_css: no
+ ...
