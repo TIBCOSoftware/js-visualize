@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.8/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.8/js/jquery.dataTables.js"></script>
+</head>
+
+<body>
+
+<table id="examples" class="display" cellspacing="0" width="100%"></table>
+
+<script>
+
+
+
+$(document).ready(function () {
+
+
+$.getJSON("https://api.github.com/repos/ernestoongaro/Visualize.JS-Examples/contents?callback=?", function(json) {
+  tableData = json;
+});
+
+var tableData;
+console.log(tableData);
+
+    $('#examples').DataTable( {
+    	data: tableData,
+    	columns: [
+    		{ title: "name"}
+    	]
+   } );
+}
+);
+
+</script>
+</body>
+</html>
