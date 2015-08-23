@@ -1,6 +1,6 @@
 ---
- name: Visualize.js Hello World
- description: Testing functionality
+ name: Authentication Hello World
+ description: Testing authentication functionality
  authors:
    - Ernesto Ongaro
  resources:
