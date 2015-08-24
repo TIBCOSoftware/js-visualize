@@ -1,5 +1,5 @@
 ---
- name: Hello World
- description: Simple initialization of the library, plain text authentication and loading a report
+ name: "Hello World"
+ description: "Simple initialization of the library, plain text authentication and loading a report"
  resources:
-   - http://localhost:8080/jasperserver-pro/client/visualize.js
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
