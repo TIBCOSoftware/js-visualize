@@ -1,3 +1,9 @@
+/*
+Make sure to first configure Token based Authentication on the Server:
+http://community.jaspersoft.com/documentation/tibco-jasperreports-server-authentication-cookbook/v610/token-based-authentication
+
+*/
+
 var t = encodeURIComponent("u=Sven|r=ROLE_USER|o=organization_1|pa1=Sweden");
 
 visualize({
@@ -9,13 +15,11 @@ visualize({
 
 }, function (v) {
 
-    //render report from provided resource
     v("#container").report({
         resource: "/public/Samples/Reports/States",
         error: handleError
     });
 
-    //show error
     function handleError(err) {
         alert(err.message);
     }
