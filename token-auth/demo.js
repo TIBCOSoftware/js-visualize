@@ -1,9 +1,12 @@
+var t = encodeURIComponent("u=Sven|r=ROLE_USER|o=organization_1|pa1=Sweden");
+
 visualize({
     auth: {
-        name: "jasperadmin",
-        password: "jasperadmin",
-        organization: "organization_1"
+        token: t,
+        preAuth: true,
+        tokenName: "pp"
     }
+
 }, function (v) {
 
     //render report from provided resource
