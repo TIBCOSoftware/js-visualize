@@ -8,7 +8,7 @@ visualize({
 
     //render report from provided resource
     v("#container").report({
-        resource: "/public/Samples/Reports/9.CustomerDetailReport",
+        resource: "/public/Samples/Reports/States",
         error: handleError
     });
 
