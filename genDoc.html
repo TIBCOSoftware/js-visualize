@@ -51,13 +51,14 @@ $(document).ready(function () {
       }
       $('#examples').DataTable( {
           data: tableData,
-          ordering: false,
+          ordering: true,
           searching: false,
           paging: false,
+          info: false,
           columns: [
             { title: "Name"},
-            { description: "Name"},
-            { description: "Open in JS Fiddle"}
+            { title: "Description"},
+            { title: "Open in JS Fiddle"}
           ]
       });
       
