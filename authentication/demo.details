@@ -1,7 +1,0 @@
----
- name: Authentication Hello World
- description: Testing authentication functionality
- authors:
-   - Ernesto Ongaro
- resources:
-   - http://localhost:8080/jasperserver-pro/client/visualize.js

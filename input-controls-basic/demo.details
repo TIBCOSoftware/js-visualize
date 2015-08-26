@@ -1,0 +1,5 @@
+---
+ name: "003. Report Input Controls - Simple"
+ description: "Setting inputs for reports with a hard coded parameter"
+ resources:
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
