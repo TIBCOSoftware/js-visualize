@@ -51,6 +51,9 @@ $(document).ready(function () {
       }
       $('#examples').DataTable( {
           data: tableData,
+          ordering: false,
+          searching: false,
+          paging: false,
           columns: [
             { title: "Name"},
             { description: "Name"},
