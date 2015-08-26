@@ -1,0 +1,5 @@
+---
+ name: "006. Report Parameter Passing"
+ description: "Passing parameters via hyperlinks from one report to another"
+ resources:
+   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
