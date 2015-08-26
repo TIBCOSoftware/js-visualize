@@ -7,8 +7,11 @@ visualize({
 }, function (v) {
 
     //render report from provided resource
-    v("#container").report({
-        resource: "/public/Samples/Reports/States",
+    v("#container").dashboard({
+        resource: "/public/Samples/Dashboards/1._Supermart_Dashboard",
+        params: {
+        Store_Country: ["Mexico"]
+    },
         error: handleError
     });
 

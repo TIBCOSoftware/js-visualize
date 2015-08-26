@@ -1,5 +1,0 @@
----
- name: "005. Input Controls - Cascading"
- description: "Values depending on each other"
- resources:
-   - "http://localhost:8080/jasperserver-pro/client/visualize.js"

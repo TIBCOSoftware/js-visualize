@@ -1,5 +1,5 @@
 ---
- name: "002. Token Based Authentication"
+ name: "006. Token Based Authentication"
  description: "Authentication with a token - see the TIBCO JasperReports Server Authentication Cookbook"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
