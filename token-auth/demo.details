@@ -3,4 +3,5 @@
  description: "Authentication with a token - see the TIBCO JasperReports Server Authentication Cookbook"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+
  doc: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-login-and-logout#Login_With_SSO_Token"
