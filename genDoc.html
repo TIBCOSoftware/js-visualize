@@ -48,7 +48,7 @@ $(document).ready(function () {
           parsed.name,
           parsed.description,
           '<a href="'+fiddleURL+'" target="_blank">Open Fiddle</a>',
-          //parsed.doc
+          parsed.docs
         ]);
       }
       $('#examples').DataTable( {
@@ -61,7 +61,7 @@ $(document).ready(function () {
             { title: "Name"},
             { title: "Description"},
             { title: "Open in JS Fiddle", "width": "20%"}, //why isn't width working???
-          //  { title: "Link to Doc"}
+            { title: "Link to Doc"}
           ]
       });
       
