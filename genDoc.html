@@ -48,8 +48,8 @@ $(document).ready(function () {
           parsed.name,
           parsed.description,
           '<a href="'+fiddleURL+'" target="_blank">Open Fiddle</a>',
-          parsed.docs
-        ]);
+          '<a href="'+parsed.docs+'" target="_blank">Show Documentation</a>',
+]);
       }
       $('#examples').DataTable( {
           data: tableData,
