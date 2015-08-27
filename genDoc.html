@@ -16,7 +16,7 @@
 <script>
 
 var githubUsername = 'ernestoongaro';
-var githubReponame = 'Visualize.JS-Examples';
+var githubReponame = 'vis.js-simple-6.1';
 var gitBranch = 'master';
 
 $(document).ready(function () {
@@ -37,17 +37,18 @@ $(document).ready(function () {
       var tableData = [];
       for(var i in result){
         var data = result[i];
-        console.log(data);
+        //console.log(data);
         var decoded = atob(data.content);
         var parsed = yaml(decoded);
-
+		console.log(parsed);
         var fiddleURL = 'http://jsfiddle.net/gh/get/library/pure/'+githubUsername+'/'+githubReponame+'/tree/'+gitBranch+'/'+getLastFolderName(i);
 
+//populate table data
         tableData.push([
           parsed.name,
           parsed.description,
           '<a href="'+fiddleURL+'" target="_blank">Open Fiddle</a>',
-          parsed.doc
+          //parsed.doc
         ]);
       }
       $('#examples').DataTable( {
@@ -60,7 +61,7 @@ $(document).ready(function () {
             { title: "Name"},
             { title: "Description"},
             { title: "Open in JS Fiddle", "width": "20%"}, //why isn't width working???
-            { title: "Link to Doc"}
+          //  { title: "Link to Doc"}
           ]
       });
       
