@@ -46,7 +46,8 @@ $(document).ready(function () {
         tableData.push([
           parsed.name,
           parsed.description,
-          '<a href="'+fiddleURL+'" target="_blank">Open Fiddle</a>'
+          '<a href="'+fiddleURL+'" target="_blank">Open Fiddle</a>',
+          parsed.doc
         ]);
       }
       $('#examples').DataTable( {
@@ -58,7 +59,8 @@ $(document).ready(function () {
           columns: [
             { title: "Name"},
             { title: "Description"},
-            { title: "Open in JS Fiddle"}
+            { title: "Open in JS Fiddle", "width": "20%"}, //why isn't width working???
+            { title: "Link to Doc"}
           ]
       });
       
