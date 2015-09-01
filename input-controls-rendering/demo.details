@@ -1,5 +1,6 @@
 ---
  name: "004. Report Input Controls - Rendering Options"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-inputcontrols"
  description: "Render the values from the server"
  resources:
    - "http://localhost:8080/jasperserver-pro/client/visualize.js"

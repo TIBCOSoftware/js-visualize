@@ -53,14 +53,16 @@ $(document).ready(function () {
       }
       $('#examples').DataTable( {
           data: tableData,
-          ordering: true,
+          ordering: false,
+          "order": [[ 0, 'asc' ]],
           searching: false,
           paging: false,
           info: false,
+          "autoWidth": false,
           columns: [
             { title: "Name"},
             { title: "Description"},
-            { title: "Open in JS Fiddle", "width": "20%"}, //why isn't width working???
+            { title: "Open in JS Fiddle"}, //why isn't width working???
             { title: "Link to Doc"}
           ]
       });
