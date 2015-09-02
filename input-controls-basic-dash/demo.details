@@ -1,5 +1,5 @@
 ---
- name: "005. Dashboard Input Controls - Simple"
+ name: "006. Dashboard Input Controls - Simple"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-dashboard#Using_Dashboard_Parameters"
  description: "Setting inputs for dashboards with a hard coded parameter"
  resources:

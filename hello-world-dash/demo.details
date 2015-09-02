@@ -1,5 +1,5 @@
 ---
- name: "002. Hello World - Dashboards"
+ name: "003. Hello World - Dashboards"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-dashboard"
  description: "Simple initialization of the library, plain text authentication and loading a dashboard"
  resources:

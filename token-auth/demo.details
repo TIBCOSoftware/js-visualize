@@ -1,5 +1,5 @@
 ---
- name: "007. Token Based Authentication"
+ name: "008. Token Based Authentication"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-login-and-logout#Login_With_SSO_Token"
  description: "Authentication with a token - see the TIBCO JasperReports Server Authentication Cookbook"
  resources:

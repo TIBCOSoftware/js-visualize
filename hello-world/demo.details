@@ -1,5 +1,5 @@
 ---
- name: "001. Hello World - Reports"
+ name: "002. Hello World - Reports"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Simple initialization of the library, plain text authentication and loading a report"
  resources:

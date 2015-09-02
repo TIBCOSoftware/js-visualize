@@ -7,6 +7,12 @@
 <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.8/js/jquery.dataTables.js"></script>
 <script type="text/javascript" charset="utf8" src="yaml.js"></script>
 
+<style>
+#examples {
+    width: 870px !Important;
+    float: left;
+}
+</style>
 </head>
 
 <body>
@@ -53,17 +59,17 @@ $(document).ready(function () {
       }
       $('#examples').DataTable( {
           data: tableData,
-          ordering: false,
-          "order": [[ 0, 'asc' ]],
+          ordering: true,
+          orderFixed: [[ 0, 'asc' ]],
           searching: false,
           paging: false,
           info: false,
-          "autoWidth": false,
+          autoWidth: false,
           columns: [
-            { title: "Name"},
-            { title: "Description"},
-            { title: "Open in JS Fiddle"}, //why isn't width working???
-            { title: "Link to Doc"}
+            { title: "Name", "width": "20%"},
+            { title: "Description","width": "50%"},
+            { title: "Open in JS Fiddle","width": "15%"}, 
+            { title: "Link to Doc","width": "15%"}
           ]
       });
       
