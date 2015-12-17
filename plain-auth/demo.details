@@ -2,7 +2,3 @@
  name: "001. Plain Text Authentication"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-login-and-logout#Login_With_Plain_Text_Credentials"
  description: "Authentication with plain text and initialization of visualize.js library"
- resources:
-   - "http://localhost:8080/jasperserver-pro/client/visualize.js"
- 
- 
