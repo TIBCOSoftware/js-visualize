@@ -2,3 +2,4 @@
  name: "005. Report Input Controls - Rendering Options"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-inputcontrols"
  description: "Render the values from the server"
+ wrap: l
