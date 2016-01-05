@@ -5,8 +5,8 @@ There are many ways to authenticate - one of them is plain text but you can also
 
 visualize({
     auth: {
-        name: "jasperadmin",
-        password: "jasperadmin",
+        name: "joeuser",
+        password: "joeuser",
         organization: "organization_1",
         timezone: "Europe/Dublin"
     }

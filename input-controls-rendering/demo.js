@@ -2,8 +2,8 @@ reportUri = "/public/Samples/Reports/Cascading_Report_2_Updated";
 
 visualize({
     auth: {
-        name: "jasperadmin",
-        password: "jasperadmin",
+        name: "joeuser",
+        password: "joeuser",
         organization: "organization_1"
     }
 

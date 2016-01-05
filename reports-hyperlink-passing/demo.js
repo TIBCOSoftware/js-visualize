@@ -2,8 +2,8 @@ var reportResource = "/public/Samples/Reports/States";
 
 visualize({
     auth: {
-        name: "jasperadmin",
-        password: "jasperadmin",
+        name: "joeuser",
+        password: "joeuser",
         organization: "organization_1"
     }
 }, function (v) {
