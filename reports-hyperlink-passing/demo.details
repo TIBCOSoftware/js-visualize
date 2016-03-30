@@ -1,5 +1,0 @@
----
- name: "007. Report Parameter Passing"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-usage-hyperlinks"
- description: "Passing parameters via hyperlinks from one report to another"
- wrap: l

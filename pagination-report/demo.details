@@ -1,5 +1,0 @@
----
- name: "011. Paginate Reports"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-report#Creating_Pagination_NextPrevious"
- description: "Paging through multi-page reports"
- wrap: l

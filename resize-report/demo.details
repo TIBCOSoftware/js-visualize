@@ -1,5 +1,0 @@
----
- name: "008. Resize Reports"
- docs: "http://undocumented.feature.in.61"
- description: "Resizing a report made in ad hoc"
- wrap: l

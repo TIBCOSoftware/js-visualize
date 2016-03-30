@@ -1,5 +1,0 @@
----
- name: "009. Export Reports"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-report#Exporting_From_a_Report"
- description: "Export a report to a given format"
- wrap: l

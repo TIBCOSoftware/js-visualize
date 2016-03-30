@@ -1,5 +1,0 @@
----
- name: "010. Refresh Reports"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-report#Refreshing_a_Report"
- description: "Refresh the output of a report"
- wrap: l
