@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Share common config between calls"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Allow several reports to load from a shared Visualize.js configuration"
+ wrap: l

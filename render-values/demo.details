@@ -1,0 +1,5 @@
+---
+ name: "Render input control values"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Dynamically render the input control values from the report hosted on the JasperReport Server."
+ wrap: l

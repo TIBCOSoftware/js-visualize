@@ -1,0 +1,18 @@
+.control {
+    display: block;
+}
+.control.input.text > .wrap {
+    display:block;
+}
+.control > input {
+    width: 360px;
+}
+.error, .logout {
+    color: red;
+}
+.success {
+    color: green;
+}
+.message {
+    display: none;
+}

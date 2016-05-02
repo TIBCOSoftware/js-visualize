@@ -1,0 +1,5 @@
+---
+ name: "Input anchor and page/range"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Provide input control of anchor and page/range along with dynamic call out of the currently selected values."
+ wrap: l

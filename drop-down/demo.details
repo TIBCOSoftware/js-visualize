@@ -1,0 +1,5 @@
+---
+ name: "Custom input control"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Change report paramater with a custom drop-down input control."
+ wrap: l

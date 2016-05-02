@@ -1,0 +1,5 @@
+---
+ name: "Visualize: Pagination (Range)"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Allow a range selection for pagination with Visualize.js"
+ wrap: l

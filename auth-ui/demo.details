@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: UI for login/logout"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Provide a UI layout to demonstrate the potential for authentication control"
+ wrap: l

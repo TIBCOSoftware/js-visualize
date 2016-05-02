@@ -1,0 +1,5 @@
+---
+ name: "Dynamic resource types"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Visualize: Discover available types, formats etc."
+ wrap: l
