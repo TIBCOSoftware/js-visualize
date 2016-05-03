@@ -4,8 +4,8 @@ function handleError(e) {
 
 visualize({
     auth: {
-        name: "superuser",
-        password: "superuser"
+        name: "joeuser",
+        password: "joeuser"
     }
 }, function (v) {
     var initialParams = {};
