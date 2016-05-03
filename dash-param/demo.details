@@ -1,5 +1,5 @@
 ---
- name: "Dashboard Paramater Pass"
+ name: "Apply dashboard paramaters"
  docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Simple input control paramater passing with a dashboard"
+ description: "Pass various paramaters into a dashboard."
  wrap: l
