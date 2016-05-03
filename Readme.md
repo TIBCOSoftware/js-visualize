@@ -103,7 +103,7 @@ Try it:
 
 <b>[Paramater passing]</b>, <b>[basic drop-down]</b>, <b>[render values]</b>
 
-Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom input controls such as in this drop-down example. In addition, input control values can be rendered directly from the JasperReport Server.
+Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.
 
 >Try: A hard coded or dynamic variable...
 
@@ -229,26 +229,26 @@ Try it:
 
 <b>[Dashboard login/logout]</b>
 
-Simple plain text authentication with demonstration of destroying session with dashboards.
+Simple authentication with demonstration of destroying session with dashboards.
 
 [JRS - Authentication Cookbook >][Cookbook]
 
 >*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
 
+### Custom Input Controls
+
 Try it:
 
-<b>[Login/Logout with hooks]</b>
+<b>[Paramater passing]</b>
 
-Alternatively, authenticate and destroy the session with the method of your choice through the hooks that are made available through Visualize.
+Input for a dashboard with a hard coded parameter
 
 
 [Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-embed/
 
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-auth/
 
-[From a list]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-list/
-
-[Login/Logout with hooks]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/login-hook/
+[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-param/
 
 [Authentication Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction

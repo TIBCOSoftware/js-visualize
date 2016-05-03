@@ -1,0 +1,5 @@
+---
+ name: "Dashboard Paramater Pass"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Simple input control paramater passing with a dashboard"
+ wrap: l
