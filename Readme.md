@@ -170,35 +170,34 @@ Try it:
 
 A sample UI providing users full authentication options to the JasperReport Server.
 
-[Simple report rendering]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/
-[from a list]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-list/
-[Load multiple reports]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/common-config/
+[Simple report rendering]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-render/
+[from a list]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-list/
+[Load multiple reports]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/common-config/
 
-[Next/previous]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/next-previous/
-[enter range]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/page-range/
-[pagination events]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/page-event/
+[Next/previous]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/next-previous/
+[enter range]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-range/
+[pagination events]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-event/
 
-[Anchors]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/page-anchor/
-[range with anchor]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/range-anchor/
-[anchor and page search]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/navigating-report/
+[Anchors]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-anchor/
+[range with anchor]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/range-anchor/
+[anchor and page search]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/navigating-report/
 
-[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/param-pass/
-[basic drop-down]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/drop-down/
-[render values]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/render-values/
-[Dynamic resource types]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/render-types/
+[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/
+[basic drop-down]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/
+[render values]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/
+[Dynamic resource types]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/
 
-[Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/
+[Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
 
-[Page totals]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/page-totals/
-[report status]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-status/
-[pagination control]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/page-event/
+[Page totals]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
+[report status]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
 
-[Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/
-[Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/token-auth/
+[Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
+[Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
 
-[Login/logout with hooks]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/login-hook/
+[Login/logout with hooks]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/login-hook/
 
-[Login/logout UI]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/auth-ui/
+[Login/logout UI]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/auth-ui/
 
 [Authentication Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -244,11 +243,11 @@ Try it:
 Various inputs for passing paramaters into a dashboard.
 
 
-[Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-embed/
+[Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
 
-[Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-auth/
+[Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
-[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-param/
+[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
 
 [Authentication Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
