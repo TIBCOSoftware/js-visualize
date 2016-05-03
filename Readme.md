@@ -241,7 +241,7 @@ Try it:
 
 <b>[Paramater passing]</b>
 
-Input for a dashboard with a hard coded parameter.
+Various inputs for passing paramaters into a dashboard.
 
 
 [Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-embed/
