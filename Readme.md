@@ -211,9 +211,9 @@ Dashboard Samples
 
 Try it:
 
-<b>[Dashboard render]</b>
+<b>[Simple dashboard render]</b>
 
-Initialization of the visualize.js library with simple rendering of a dashboard using plain text authentication. See full authentication samples in this guide for securing dashboards with the JasperReports Server and Visualize.js.
+Initialization of the visualize.js library with simple rendering of a dashboard using plain text authentication.
 
 >You can easily change the resource to embed a different dashboard from the JasperReport Server.
 
@@ -231,12 +231,6 @@ Try it:
 
 Simple plain text authentication with demonstration of destroying session with dashboards.
 
-Try it:
-
-<b>[Secure dashboard authentication]</b>
-
-Token based authentication and initialization of the visualize.js library with a dashboard. 
-
 [JRS - Authentication Cookbook >][Cookbook]
 
 >*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
@@ -248,12 +242,12 @@ Try it:
 Alternatively, authenticate and destroy the session with the method of your choice through the hooks that are made available through Visualize.
 
 
-[Dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-embed/
+[Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-embed/
 
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/dash-auth/
 
 [From a list]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/report-list/
-[Secure dashboard authentication]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/token-auth/
+
 [Login/Logout with hooks]: http://jsfiddle.net/gh/get/mootools/1.2/TIBCOSoftware/JS-visualize/tree/master/login-hook/
 
 [Authentication Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
