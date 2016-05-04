@@ -1,0 +1,5 @@
+---
+ name: "Dashboard hyperlinks"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Select values from a report within a dashboard to update a secondary report."
+ wrap: l

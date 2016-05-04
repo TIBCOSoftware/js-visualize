@@ -242,12 +242,22 @@ Try it:
 
 Various inputs for passing paramaters into a dashboard.
 
+### Hyperlinks
+
+Try it:
+
+<b>[Dashboard hyperlink]</b>
+
+Passing hyperlinks from one dashboard to open and control a secondary report.
+
 
 [Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
 
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
 [Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
+
+[Dashboard hyperlink]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
 
 [Authentication Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
