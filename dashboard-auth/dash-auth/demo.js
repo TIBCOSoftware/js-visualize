@@ -7,7 +7,7 @@ visualize({
     }
 }, function (v) {
     var dashboard = v.dashboard({
-        resource: "/public/Samples/Dashboards/1._Supermart_Dashboard",
+        resource: "/public/Samples/Dashboards/4._New_Dashboard",
         container: $("#container"),
         error: function(e) {
             alert(e);
