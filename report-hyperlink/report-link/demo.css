@@ -1,3 +1,7 @@
-#main {
-    height: 330px;
+#main{
+   float: left; 
+}
+
+#drill-down{
+    float: left; 
 }

@@ -129,7 +129,7 @@ Try it:
 
 <b>[Basic drill-down]</b>
 
-Simple parameter passing from one report to another.
+Select from a report hyperlink to open a new report.
 
 ### Events
 

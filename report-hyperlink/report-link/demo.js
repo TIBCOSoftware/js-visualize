@@ -1,36 +1,41 @@
-// Use a master report to control parameters (hyperlinks) within a secondary slave report.
-
-var reportResource = "/public/Samples/Reports/States";
-
 visualize({
     auth: {
-        name: "joeuser",
-        password: "joeuser",
+        name: "joeadmin",
+        password: "joeadmin",
         organization: "organization_1"
     }
 }, function (v) {
+      
     v("#main").report({
-        resource: reportResource,
+        resource: "/public/viz/Hyperlinks/Drill_Reports_with_Controls/main_report",
         linkOptions: {
+            beforeRender: function (linkToElemPairs) {
+                linkToElemPairs.forEach(showCursor);
+            },
             events: {
-                "click": function (ev, link) {
-                    if (link.type == "ReportExecution") {
+                "click": function(ev, link){
+                   if (link.type == "ReportExecution"){
                         v("#drill-down").report({
                             resource: link.parameters._report,
                             params: {
-                                state: [link.parameters.store_state]
-                            },
-                        });
-                        console.log(link.parameters.store_state);
-
+                                city: [link.parameters.city],
+                                country: link.parameters.country,
+                                state: link.parameters.state
+                            }, 
+                        });     
                     }
+                     console.log(link);
                 }
-            }
+            }    
         },
         error: function (err) {
             alert(err.message);
         }
     });
-
-
+    
+    function showCursor(pair){
+           var el = pair.element;
+               el.style.cursor = "pointer";
+    }
+    
 });
