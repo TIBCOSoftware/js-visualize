@@ -1,7 +1,7 @@
 visualize({
     auth: {
-        name: "joeadmin",
-        password: "joeadmin",
+        name: "joeuser",
+        password: "joeuser",
         organization: "organization_1"
     }
 }, function (v) {
