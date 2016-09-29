@@ -12,7 +12,7 @@ Professional (and as an add-on with Jaspersoft Reporting).
 [Download Jaspersoft >][Download JRS]
 
 Installing Jaspersoft
----------------------
+----------------------
  
  *Note: All fiddles in this guide are live and available to view before install*
  
