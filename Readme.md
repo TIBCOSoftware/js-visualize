@@ -238,7 +238,7 @@ Simple authentication with demonstration of destroying session with dashboards.
 
 Try it:
 
-<b>[Paramater passing]</b>
+<b>[Dashboard paramater passing]</b>
 
 Various inputs for passing paramaters into a dashboard.
 
@@ -255,7 +255,7 @@ Passing hyperlinks from one dashboard to open and control a secondary report.
 
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
-[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
+[Dashboard paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
 
 [Dashboard hyperlink]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
 
