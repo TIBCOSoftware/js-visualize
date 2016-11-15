@@ -131,7 +131,7 @@ Try it:
 
 Select from a report hyperlink to open a new report.
 
-<b>[Parameter passing on selection]</b>, <b>[passing into a new page]</b>
+<b>[Parameter passing on selection]</b>, <b>[into a new page]</b>
 
 Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.
 
@@ -193,7 +193,7 @@ A sample UI providing users full authentication options to the JasperReport Serv
 
 [Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
 [Parameter passing on selection]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/series-selection/
-[passing into a new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/new-page/
+[into a new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/new-page/
 
 [Page totals]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
 [report status]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
