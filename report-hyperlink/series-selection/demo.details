@@ -1,0 +1,5 @@
+---
+ name: "Parameter passing on selection"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Select from a chart series to open and pass a paramater into a secondary report."
+ wrap: l
