@@ -207,8 +207,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [Page totals]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
 [report status]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
 
-[Table column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
-[table column conditional formatting]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
+[Table column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-sorting/
+[table column conditional formatting]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-formatting/
 
 [Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
 [Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
