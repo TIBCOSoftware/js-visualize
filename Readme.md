@@ -131,6 +131,8 @@ Try it:
 
 Select from a report hyperlink to open a new report.
 
+Try it:
+
 <b>[Parameter passing on selection]</b>, <b>[into a new page]</b>
 
 Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.
