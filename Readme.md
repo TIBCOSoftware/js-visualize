@@ -145,7 +145,7 @@ Try it:
 
 Listen through events for a change in the page totals and report completed status.
 
-### UI Control
+### UI Controls
 
 Try it:
 
