@@ -145,6 +145,13 @@ Try it:
 
 Listen through events for a change in the page totals and report completed status.
 
+### UI Control
+
+Try it:
+
+<b>[Table column sorting order]</b>, <b>[table column conditional formatting]</b>
+
+Dynamically control UI elements for table columns.
 
 ### Authentication
 
@@ -199,6 +206,9 @@ A sample UI providing users full authentication options to the JasperReport Serv
 
 [Page totals]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
 [report status]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
+
+[Table column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
+[table column conditional formatting]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
 
 [Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
 [Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
