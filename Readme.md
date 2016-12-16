@@ -207,7 +207,7 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [Dynamic resource types]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/
 
 [Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
-[open report in new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
+[open report in new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new/
 [Parameter passing on selection]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/
 [parameter in a new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
 
