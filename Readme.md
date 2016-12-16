@@ -127,13 +127,13 @@ Discover reporting resources available and formats from the JasperReport Server 
 
 Try it:
 
-<b>[Basic drill-down]</b>
+<b>[Basic drill-down]</b>, <b>[open report in new page]</b>
 
-Select from a report hyperlink to open a new report.
+Select a report hyperlink to open a new "drill-down" report with selected parameter.
 
 Try it:
 
-<b>[Parameter passing on selection]</b>, <b>[into a new page]</b>
+<b>[Parameter passing on selection]</b>, <b>[parameter in a new page]</b>
 
 Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.
 
@@ -207,8 +207,9 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [Dynamic resource types]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/
 
 [Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
-[Parameter passing on selection]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/series-selection/
-[into a new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/new-page/
+[open report in new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
+[Parameter passing on selection]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/
+[parameter in a new page]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
 
 [Page totals]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
 [report status]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
