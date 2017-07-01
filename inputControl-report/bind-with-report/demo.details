@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Bind Input Control to Report"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Bind embedded JRS input control to embedded report on the page."
+ wrap: l

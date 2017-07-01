@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Render Cascading Input Control with Single and Multi-Select"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Render JRS cascading input control which includes both control with a single and multi-select."
+ wrap: l

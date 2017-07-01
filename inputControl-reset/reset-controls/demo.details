@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Reset Input Controls"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Reset embedded JRS Input Controls back to their original state."
+ wrap: l

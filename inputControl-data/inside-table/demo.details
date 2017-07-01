@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Place JRS InputControls data in table"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Demonstrating pulling data from a JRS InputControl by placing it inside an HTML table."
+ wrap: l

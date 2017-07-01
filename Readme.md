@@ -291,6 +291,101 @@ Passing hyperlinks from one dashboard to open and control a secondary report.
 [Cookbook]: http://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 
 
+Input Control Samples
+=================
+
+### Get Input Control Data
+
+Try it:
+
+<b>[Custom drop down]</b>, <b>[show inside table]</b>
+
+These examples show accessing data directly from a JRS Input Control.
+
+>All the following Input Control samples are related to direct embedding of JRS Input Controls and their data. These first two examples are different in that they deal only with data.
+
+
+### Bind Input Control to Report
+
+Try it:
+
+<b>[Embed report and input control]</b>
+
+Simple embedding of a report and it's associated input control.
+
+
+### View Input Control Types
+
+Try it:
+
+<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade]</b>, <b>[cascade with multi and single selects]</b>
+
+View all JRS input controls, with default values and cascades.
+
+
+### Reset
+
+Try it:
+
+<b>[Reset input controls]</b>
+
+Change back to originally selected input control values.
+
+
+### Events
+
+Try it:
+
+<b>[Listen for changes]</b>, <b>[with cascade]</b>
+
+Provide events to listen input control changes, updating the application as needed.
+
+
+Try it:
+
+<b>[Bind cascade with report]</b>
+
+Listen to changes with cascade input control.
+
+
+Try it:
+
+<b>[Validation]</b>
+
+Validation result in change event.
+
+
+### CSS Overrides
+
+Try it:
+
+<b>[Specific CSS overrides]</b>, <b>[all types]</b>
+
+Example CSS overrides (classes) with JRS input controls.
+
+
+[Custom drop down]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
+[show inside table]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/
+
+[Embed report and input control]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/
+
+[Render input controls (all types)]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/
+[default values]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/
+[with cascade]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade/
+[cascade with multi and single selects]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
+
+[Reset input controls]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/
+
+[Listen for changes]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/
+[with cascade]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/
+[Bind cascade with report]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/
+[Validation]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/
+
+[Specific CSS overrides]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/
+[all types]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/
+
+
+
 License
 =================
 

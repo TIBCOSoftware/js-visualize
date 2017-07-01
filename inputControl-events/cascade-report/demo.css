@@ -1,0 +1,13 @@
+#container{
+    width: 1200px
+}
+
+#ic {
+    width:300px;
+    float:left;
+}
+
+#report {
+  width:800px;
+  float:left;
+}

@@ -1,0 +1,5 @@
+---
+ name: "Visualize.js: Listen to changes with Input Controls"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "An event for listening to changes with JRS Input Controls."
+ wrap: l
