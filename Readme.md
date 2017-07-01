@@ -305,7 +305,7 @@ These examples show accessing data directly from a JRS Input Control.
 >All the following Input Control samples are related to direct embedding of JRS Input Controls and their data. These first two examples are different in that they deal only with data.
 
 
-### Bind Input Control to Report
+### Bind to Report
 
 Try it:
 
@@ -314,7 +314,7 @@ Try it:
 Simple embedding of a report and it's associated input control.
 
 
-### View Input Control Types
+### View Control Types
 
 Try it:
 
