@@ -8,7 +8,7 @@ visualize({
 
     //render report from provided resource
     v("#container").dashboard({
-        resource: "/public/Samples/Dashboards/3.2_Inventory_Metrics",
+        resource: "/public/Samples/Dashboards/4._New_Dashboard",
         error: handleError
     });
 
