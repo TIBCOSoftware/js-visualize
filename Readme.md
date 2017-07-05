@@ -294,17 +294,6 @@ Passing hyperlinks from one dashboard to open and control a secondary report.
 Input Control Samples
 =================
 
-### Get Input Control Data
-
-Try it:
-
-<b>[Custom drop down]</b>, <b>[show inside table]</b>
-
-These examples show accessing data directly from a JRS Input Control.
-
->All the following Input Control samples are related to direct embedding of JRS Input Controls and their data. These first two examples are different in that they deal only with data.
-
-
 ### Bind to Report
 
 Try it:
