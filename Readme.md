@@ -242,13 +242,6 @@ Try it:
 
 Initialization of the visualize.js library with simple rendering of a dashboard using plain text authentication.
 
->You can easily change the resource to embed a different dashboard from the JasperReport Server.
-
->For example:
-
-``` javascript
-        resource: "/public/Samples/Dashboards/1._Supermart_Dashboard"
-``` 
 
 ### Authentication
 
