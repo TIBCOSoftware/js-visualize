@@ -238,9 +238,9 @@ Dashboard Samples
 
 Try it:
 
-<b>[Simple dashboard render]</b>
+<b>[Dashboard with embedded input control]</b>
 
-Initialization of the visualize.js library with simple rendering of a dashboard using plain text authentication.
+Initialization of the visualize.js library with simple rendering of a dashboard (including an embedded input control and hyperlinks) using plain text authentication.
 
 
 ### Authentication
@@ -278,7 +278,7 @@ Try it:
 Passing hyperlinks from one dashboard to open and control a secondary report.
 
 
-[Simple dashboard render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
+[Dashboard render with embedded input control]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
 
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 

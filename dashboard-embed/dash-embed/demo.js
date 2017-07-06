@@ -8,7 +8,7 @@ visualize({
 
     //render report from provided resource
     v("#container").dashboard({
-        resource: "/public/Samples/Dashboards/4._New_Dashboard",
+        resource: "/public/Samples/Dashboards/1._Supermart_Dashboard",
         error: handleError
     });
 
