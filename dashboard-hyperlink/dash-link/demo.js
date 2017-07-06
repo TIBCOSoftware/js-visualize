@@ -25,7 +25,7 @@ visualize({
             events: {
                 "mouseover": function(event, link) {
                     $tooltip.css({
-                        top: $(event.target).position().top,
+                        top: "42px",
                         left: $(event.target).position().left
                     }).text(link.tooltip).show();
                 },
