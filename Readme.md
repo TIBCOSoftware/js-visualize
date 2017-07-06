@@ -240,7 +240,7 @@ Try it:
 
 <b>[Dashboard render with input control]</b>
 
-Initialization of the visualize.js library with simple rendering of a dashboard (including an input control and hyperlinks) using plain text authentication.
+Initialization of the visualize.js library with simple rendering of a dashboard (with an embedded input control and hyperlinks) using plain text authentication.
 
 >With this example you can easily change the resource to embed a different dashboard from the JasperReport Server.
 
