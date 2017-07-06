@@ -309,7 +309,7 @@ Try it:
 
 These examples show accessing data directly from a JRS Input Control.
 
->The following samples directly embed JRS Input Controls and/or their data. These first two simply pass data into the application.
+>The following samples directly embed JRS Input Controls and/or their data. These first two examples simply pass data into the application.
 
 ### Bind to Report
 
