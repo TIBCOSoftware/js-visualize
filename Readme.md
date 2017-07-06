@@ -295,7 +295,7 @@ Try it:
 
 These examples show accessing data directly from a JRS Input Control.
 
->All the following Input Control samples are related to direct embedding of JRS Input Controls and their data. These first two examples are different in that they deal only with data.
+>The following samples directly embed JRS Input Controls and/or their data. These first two simply pass data into the application.
 
 ### Bind to Report
 
@@ -330,14 +330,14 @@ Try it:
 
 <b>[Listen for changes]</b>, <b>[with cascade]</b>
 
-Provide events to listen input control changes, updating the application as needed.
+Provide events to listen to input control changes, updating the application as needed.
 
 
 Try it:
 
 <b>[Bind cascade with report]</b>
 
-Listen to changes with cascade input control.
+Listen to changes with cascade input controls.
 
 
 Try it:
@@ -353,7 +353,9 @@ Try it:
 
 <b>[Specific CSS overrides]</b>, <b>[all types]</b>
 
-Example CSS overrides (classes) with JRS input controls.
+Example CSS overrides with JRS input controls.
+
+>This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 
 
 [Custom drop down]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
