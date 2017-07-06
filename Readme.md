@@ -263,6 +263,12 @@ Try it:
 
 Various inputs for passing paramaters into a dashboard.
 
+Try it:
+
+<b>[Undo/redo parameter events]</b>
+
+Control the dashboard navigation with undo/redo events.
+
 ### Hyperlinks
 
 Try it:
@@ -277,6 +283,7 @@ Passing hyperlinks from one dashboard to open and control a secondary report.
 [Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
 [Dashboard paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
+[Undo/redo parameter events]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/
 
 [Dashboard hyperlink]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
 
