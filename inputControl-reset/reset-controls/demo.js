@@ -21,6 +21,17 @@ visualize({
     }
   });
 
+$("#validate").click(
+function(){
+  inputControls.validate();
+}
+);
+
+$("#getParams").click(
+function(){
+  console.log(inputControls.params());
+}
+);
 $("#run").click(
 function(){
 console.log(inputControls.data().parameters)
