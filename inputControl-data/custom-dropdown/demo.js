@@ -9,6 +9,7 @@ visualize({
         resource: "/public/Samples/Reports/9g.CustomerDetailReport",
         success: function (controls) {
             controls.forEach(buildControl);
+            document.getElementById("loader").style.display = "none";
         },
         error: function (err) {
             alert(err);
@@ -30,5 +31,4 @@ visualize({
 
         $("#container").append($(content));
     }
-    
 });

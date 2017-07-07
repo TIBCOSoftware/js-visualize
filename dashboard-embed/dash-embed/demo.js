@@ -16,5 +16,4 @@ visualize({
     function handleError(err) {
         alert(err.message);
     }
-
 });
