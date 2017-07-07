@@ -9,7 +9,12 @@ visualize({
     
     var report = v.report({
     		resource: resourceUri, 
-        container: "#report" 
+        container: "#report",
+        events: {
+            reportCompleted: function(status) {
+                success: document.getElementById("loader").style.display = "none";
+            }
+        },
     });
     
      var inputControls = v.inputControls({
