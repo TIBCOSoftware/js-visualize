@@ -9,12 +9,12 @@ visualize({
     
     var report = v.report({
     		resource: resourceUri, 
-        container: "#report-container" 
+        container: "#report" 
     });
     
      var inputControls = v.inputControls({
     		resource: resourceUri,
-    		container: "#inputcontrols-container",
+    		container: "#ic",
         events: {
         	change: function(params, error){
           	if (!error){
@@ -23,5 +23,4 @@ visualize({
           }
         }
     });
-    
 });

@@ -1,3 +1,14 @@
-#inputcontrols-container {
-  padding-left: 100px;
+#container{
+    width: 1200px
+}
+
+#ic {
+    width:300px;
+    float:left;
+    padding-right: 15px;
+}
+
+#report {
+  width:800px;
+  float:left;
 }
