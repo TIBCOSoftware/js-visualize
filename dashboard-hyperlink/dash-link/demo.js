@@ -61,5 +61,4 @@ visualize({
            var el = pair.element;
                el.style.cursor = "pointer";
     }
-    
 });

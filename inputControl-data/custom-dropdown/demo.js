@@ -9,6 +9,7 @@ visualize({
         resource: "/public/Samples/Reports/9g.CustomerDetailReport",
         success: function (controls) {
             controls.forEach(buildControl);
+            //Remove custom loading indicator once data successfully loads
             document.getElementById("loader").style.display = "none";
         },
         error: function (err) {
@@ -25,7 +26,7 @@ visualize({
             }, "")
         }
 
-        var template = "<label>{label}</label><select>{options}</select><br>",
+        var template = "<br>&nbsp;<label>{label}</label>&nbsp;<select>{options}</select><br>",
             content = template.replace("{label}", control.label)
                 .replace("{options}", buildOptions(control.state.options));
 
