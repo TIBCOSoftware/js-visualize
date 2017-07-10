@@ -11,6 +11,8 @@ visualize({
     resource: "/public/Samples/Reports/9g.CustomerDetailReport",
     success: function(controls) {
       controls.forEach(buildTable);
+      //Remove custom loading indicator once data has successfully loaded
+      document.getElementById("loader").style.display = "none";
     },
     error: function(err) {
       alert(err);
@@ -27,7 +29,7 @@ visualize({
     }
 
     var template = "<table class='table'>"+
-    									"<thead><tr><td>{label}</td></tr></thead>" +
+                      "<thead><tr><td>{label}</td></tr></thead>" +
                       "<tbody{rows}</tbody>" + 
                       "</table>";
       content = template.replace("{label}", control.label)
@@ -35,5 +37,4 @@ visualize({
 
     $("#container").append($(content));
   }
-
 });
