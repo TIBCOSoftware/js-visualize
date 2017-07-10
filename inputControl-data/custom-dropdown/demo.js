@@ -9,7 +9,7 @@ visualize({
         resource: "/public/Samples/Reports/9g.CustomerDetailReport",
         success: function (controls) {
             controls.forEach(buildControl);
-            //Remove custom loading indicator once data successfully loads
+            //Remove custom loading indicator once data has successfully loaded
             document.getElementById("loader").style.display = "none";
         },
         error: function (err) {
