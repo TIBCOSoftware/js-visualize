@@ -1,0 +1,18 @@
+#containerInput {
+    width: 300px
+}
+
+/* You can replace the following with your own custom loading indicator */
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+p {
+  position: relative;
+  top: 50px;
+  
+  font: italic bold 1.2em/1 Bodoni, serif;
+  color: #555;
+  text-align: center;

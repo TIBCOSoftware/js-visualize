@@ -4,11 +4,16 @@ visualize({
         password: "joeuser"
     }
 }, function (v) {
-    var inputControls = v.inputControls({
+    v.inputControls({
+        container: "#container",
         resource: "/public/viz/InputControl/Cascading_Report_2_Updated",
-        container: "#containerInput",
         error: function (err) {
-            console.error(err);
+            alert(err);
+        },
+        events: {
+            change : function(params) { 
+                console.log(params);
+            }
         }
     });
 });
