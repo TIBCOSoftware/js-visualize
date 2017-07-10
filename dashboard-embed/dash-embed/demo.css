@@ -13,6 +13,7 @@
 p {
   position: relative;
   top: 50px;
+  right: 250px;
   
   font: italic bold 1.2em/1 Bodoni, serif;
   color: #555;
