@@ -8,7 +8,7 @@ visualize({
 }, function (v) {
     var dashboard = v.dashboard({
         resource: "/public/Samples/Dashboards/4._New_Dashboard",
-        container: $("#container"),
+        container: $("#dashboard"),
         error: function(e) {
             alert(e);
         }
@@ -20,5 +20,4 @@ visualize({
             .fail(function(e) { alert(e); })
             .done(function() { console.log("dashboard destroyed"); });
     });
-    
 });

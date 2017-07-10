@@ -12,7 +12,7 @@ visualize({
     
     var dashboard = v.dashboard({
         resource: "/public/Samples/Dashboards/2._Performance_Summary_Dashboard",
-        container: "#container",
+        container: "#dashboard",
         error: handleError,
         success: function() {
             $("button").prop("disabled", false);

@@ -6,7 +6,7 @@ visualize({
 }, function(v) {
   var dashboard = v.dashboard({
     resource: "/public/Samples/Dashboards/2._Performance_Summary_Dashboard",
-    container: "#container",
+    container: "#dashboard",
     error: handleError,
     success: function() {
       $("#apply").prop("disabled", false);
