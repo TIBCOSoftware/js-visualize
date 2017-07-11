@@ -11,6 +11,4 @@ visualize({
             console.error(err);
         }
     });
-
-
 });
