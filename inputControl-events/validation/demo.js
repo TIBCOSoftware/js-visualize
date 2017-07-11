@@ -7,7 +7,6 @@ visualize({
     
     var _report="/public/Samples/Reports/ProfitDetailReport";
   
-    
     var controls= v.inputControls({
         container: "#filters",
         resource: _report,
