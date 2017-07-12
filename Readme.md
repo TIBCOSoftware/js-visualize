@@ -159,6 +159,20 @@ Try it:
 
 Dynamically control UI elements for Crosstabs.
 
+### Exporting
+
+Try it:
+
+<b>[Export formats]</b>
+
+A custom dropdown with available export formats.
+
+Try it:
+
+<b>[Crosstab column sorting order]</b>, <b>[crosstab row sorting order]</b>
+
+Dynamically control UI elements for Crosstabs.
+
 ### Authentication
 
 Try it:
@@ -219,6 +233,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 
 [Crosstab column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-column-sorting/
 [crosstab row sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-row-sorting/
+
+[Export formats]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/export-formats/
 
 [Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
 [Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
