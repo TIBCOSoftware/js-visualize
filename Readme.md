@@ -165,7 +165,7 @@ Try it:
 
 <b>[Export formats]</b>, <b>[auto export]</b>
 
-Custom export options with various export formats.
+Custom export options with various formats.
 
 Try it:
 
