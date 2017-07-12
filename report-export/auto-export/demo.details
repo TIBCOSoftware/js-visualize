@@ -1,0 +1,5 @@
+---
+ name: "Auto export"
+ docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "Automatically export a report at a prespecified format."
+ wrap: l
