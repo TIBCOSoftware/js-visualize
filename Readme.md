@@ -179,7 +179,7 @@ Try it:
 
 <b>[Save/Save As]</b>
 
-Save/Save As functionality with custom UI.
+Custom UI with ability to overwrite reports with location, label and description.
 
 ### Authentication
 
