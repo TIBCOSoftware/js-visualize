@@ -1,0 +1,47 @@
+body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+svg text {
+    font-size: 12px;
+}
+
+rect {
+    shape-rendering: crispEdges;
+}
+
+.mainrect {
+    fill-opacity: 0;
+    stroke-width: 0.5;
+    stroke: black;
+    stroke-opacity: 0;
+    shape-rendering: auto;
+}
+
+    .mainrect.selected {
+        stroke-opacity: 1;
+    }
+
+.barlabel, .barvalue, .barpercent {
+    font-weight: normal;
+}
+
+.barpercent {
+    fill: grey;
+}
+
+    .barlabel.selected,
+    .barvalue.selected,
+    .barpercent.selected {
+        font-weight: bold;
+    }
+
+.header {
+    font-size: 15px;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+.header text {
+    fill: grey;
+}

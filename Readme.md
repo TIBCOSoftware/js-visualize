@@ -169,9 +169,9 @@ Custom export options with various formats.
 
 Try it:
 
-<b>[Crosstab column sorting order]</b>, <b>[crosstab row sorting order]</b>
+<b>[Export CSV and render]</b>, <b>[export JSON and render]</b>
 
-Dynamically control UI elements for Crosstabs.
+Export data from a report and render with a custom visualization.
 
 ### Authentication
 
@@ -236,6 +236,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 
 [Export formats]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/export-formats/
 [auto export]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/auto-export/
+[Export CSV and render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/csv-export-d3/
+[export JSON and render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/json-export-d3/
 
 [Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
 [Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
