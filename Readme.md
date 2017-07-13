@@ -159,7 +159,7 @@ Try it:
 
 Dynamically control UI elements for Crosstabs.
 
-### Exporting
+### Export
 
 Try it:
 
@@ -172,6 +172,14 @@ Try it:
 <b>[Export CSV and render]</b>, <b>[export JSON and render]</b>
 
 Export data from a report and render with a custom visualization.
+
+### Save
+
+Try it:
+
+<b>[Save/Save As]</b>
+
+Save/Save As functionality with custom UI.
 
 ### Authentication
 
@@ -238,6 +246,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [auto export]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/auto-export/
 [Export CSV and render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/csv-export-d3/
 [export JSON and render]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-export/json-export-d3/
+
+[Save/Save As]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-save/save-as/
 
 [Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
 [Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.1/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
