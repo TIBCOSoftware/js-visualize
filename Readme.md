@@ -177,7 +177,7 @@ Export data from a report and render with a custom visualization.
 
 Try it:
 
-<b>[Save/Save As]</b>
+<b>[Save/Save As UI]</b>
 
 Custom UI with ability to overwrite reports with location, label and description.
 
