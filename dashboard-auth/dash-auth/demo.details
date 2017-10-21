@@ -1,5 +1,5 @@
 ---
  name: "Visualize.js: Basic dashboard login/logout"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Login and logout/destroy the current user session with dashboards"
  wrap: l
