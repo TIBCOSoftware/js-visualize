@@ -1,5 +1,5 @@
 ---
  name: "Visualize: Pagination (Next/Previous)"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Basic next/previous pagination with Visualize.js"
  wrap: l

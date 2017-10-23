@@ -1,5 +1,5 @@
 ---
  name: "Basic Report Embed"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Simple initialization of the library, plain text authentication and loading a report"
  wrap: l

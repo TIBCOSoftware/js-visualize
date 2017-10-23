@@ -1,5 +1,5 @@
 ---
  name: "Basic drill-down"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Use a master report and select from hyperlinks to open a secondary slave report within the same page."
  wrap: l

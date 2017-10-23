@@ -1,5 +1,5 @@
 ---
  name: "Rendering from report list"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Render from a list of reports using plain text authentication"
  wrap: l

@@ -1,5 +1,5 @@
 ---
  name: "Visualize.js: CSS Overrides - All Types"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Demonstrating CSS overrides for all types of JRS input controls."
  wrap: l

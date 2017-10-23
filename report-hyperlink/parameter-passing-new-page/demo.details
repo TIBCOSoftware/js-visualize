@@ -1,5 +1,5 @@
 ---
  name: "Open New Page on Series Selection"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Select from a chart series to open and pass the paramater into a new page."
  wrap: l

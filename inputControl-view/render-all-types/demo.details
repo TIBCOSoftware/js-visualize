@@ -1,5 +1,5 @@
 ---
  name: "Visualize.js: Render all JRS Input Controls"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "View all JRS Input Control types that can be embedded with reports."
  wrap: l

@@ -1,5 +1,5 @@
 ---
  name: "Visualize.js: Bind Cascade with Report"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Bind a JRS cascade input control with a report."
  wrap: l

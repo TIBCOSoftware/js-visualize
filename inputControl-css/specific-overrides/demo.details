@@ -1,5 +1,5 @@
 ---
  name: "Visualize.js: Customization with Secific Overrides"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Specific CSS override to a JRS input control class."
  wrap: l

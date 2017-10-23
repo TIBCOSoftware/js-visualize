@@ -1,5 +1,5 @@
 ---
  name: "Export with CSV and render"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Export CSV data from a report and render with a custom visualization."
  wrap: l

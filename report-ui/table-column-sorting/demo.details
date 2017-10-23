@@ -1,5 +1,5 @@
 ---
  name: "Table column sorting order"
- docs: "http://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
  description: "Dynamically control a table's column sorting order."
  wrap: l
