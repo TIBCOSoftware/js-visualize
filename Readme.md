@@ -314,14 +314,14 @@ Try it:
 Passing hyperlinks from one dashboard to open and control a secondary report.
 
 
-[Dashboard render with input control]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
+[Dashboard render with input control]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
 
-[Dashboard Login/Logout]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
+[Dashboard Login/Logout]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
-[Dashboard paramater passing]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
-[Undo/redo parameter events]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/
+[Dashboard paramater passing]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
+[Undo/redo parameter events]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/
 
-[Dashboard hyperlink]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
+[Dashboard hyperlink]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -401,25 +401,25 @@ Example CSS overrides with JRS input controls.
 >This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 
 
-[Custom drop down]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
-[show inside table]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/
+[Custom drop down]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
+[show inside table]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/
 
-[Embed report and input control]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/
+[Embed report and input control]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/
 
-[Render input controls (all types)]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/
-[default values]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/
-[with cascade]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade/
-[cascade with multi and single selects]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
+[Render input controls (all types)]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/
+[default values]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/
+[with cascade]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade/
+[cascade with multi and single selects]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
 
-[Reset input controls]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/
+[Reset input controls]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/
 
-[Listen for changes]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/
-[with cascade]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/
-[Bind cascade with report]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/
-[Validation]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/
+[Listen for changes]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/
+[with cascade]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/
+[Bind cascade with report]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/
+[Validation]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/
 
-[Specific CSS overrides]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/
-[all types]: https://jsfiddle.net/gh/get/mootools//TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/
+[Specific CSS overrides]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/
+[all types]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/
 
 
 
