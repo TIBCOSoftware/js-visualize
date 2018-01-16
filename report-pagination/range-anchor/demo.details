@@ -1,5 +1,0 @@
----
- name: "Page range with anchor"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Control report pagination with a range of pages and an anchor."
- wrap: l
