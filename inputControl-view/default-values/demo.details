@@ -1,5 +1,0 @@
----
- name: "Visualize.js: Render Input Controls with Default Values"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Show a set of JRS Input Controls rendered from a report with default values."
- wrap: l
