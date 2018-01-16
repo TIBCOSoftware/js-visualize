@@ -1,5 +1,0 @@
----
- name: "Visualize.js: Validation Result in Change Event"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Get the validation result after running input controls."
- wrap: l
