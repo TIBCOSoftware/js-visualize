@@ -1,5 +1,0 @@
----
- name: "Visualize.js: Destroy Session"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Log out and destroy the current user session"
- wrap: l
