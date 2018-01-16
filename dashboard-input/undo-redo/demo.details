@@ -1,5 +1,0 @@
----
- name: "Undo/redo parameter events"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Control the dashboard navigation undo/redo events using Visualize.js."
- wrap: l
