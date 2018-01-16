@@ -1,5 +1,0 @@
----
- name: "Apply dashboard paramaters"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Pass various paramaters into a dashboard."
- wrap: l
