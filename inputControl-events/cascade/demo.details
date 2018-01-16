@@ -1,5 +1,0 @@
----
- name: "Visualize.js: Listen to changes with input controls with cascade."
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Event listening for changes with a JRS cascade input control."
- wrap: l
