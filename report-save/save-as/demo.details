@@ -1,5 +1,0 @@
----
- name: "Report Save/Save As"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Save/Save As for reports with Visualize.js."
- wrap: l
