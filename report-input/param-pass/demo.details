@@ -1,5 +1,0 @@
----
- name: "Basic Paramater Passing"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Setting simple hard coded paramaters for inputs on a report"
- wrap: l
