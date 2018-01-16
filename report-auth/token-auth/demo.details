@@ -1,5 +1,0 @@
----
- name: "Token Based Authentication"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Authentication with a token - see the TIBCO JasperReports Server Authentication Cookbook"
- wrap: l
