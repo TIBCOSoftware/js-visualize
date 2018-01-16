@@ -1,0 +1,651 @@
+
+<!doctype html>
+<html>
+  <head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-218413-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+      
+    gtag('config', 'UA-218413-1');
+  
+    <!-- Google Tag Manager -->
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5BNWTHP');
+    <!-- End Google Tag Manager -->
+    </script>
+    
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Documentation</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all_nosearch.js"></script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+      <div id="toc" class="toc-list-h1">
+          <li>
+            <a href="#getting-started" class="toc-h1 toc-link" data-title="Visualize.js">Getting Started</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#installing-jaspersoft" class="toc-h2 toc-link" data-title="Installing Jaspersoft">Installing Jaspersoft</a>
+                  </li>
+                  <li>
+                    <a href="#getting-started" class="toc-h2 toc-link" data-title="Getting Started">Getting Started</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#report-samples" class="toc-h1 toc-link" data-title="Report Samples">Report Samples</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#basic-embed" class="toc-h2 toc-link" data-title="Basic Embed">Basic Embed</a>
+                  </li>
+                  <li>
+                    <a href="#pagination" class="toc-h2 toc-link" data-title="Pagination">Pagination</a>
+                  </li>
+                  <li>
+                    <a href="#custom-input-controls" class="toc-h2 toc-link" data-title="Custom Input Controls">Custom Input Controls</a>
+                  </li>
+                  <li>
+                    <a href="#hyperlinks" class="toc-h2 toc-link" data-title="Hyperlinks">Hyperlinks</a>
+                  </li>
+                  <li>
+                    <a href="#events" class="toc-h2 toc-link" data-title="Events">Events</a>
+                  </li>
+                  <li>
+                    <a href="#ui-controls" class="toc-h2 toc-link" data-title="UI Controls">UI Controls</a>
+                  </li>
+                  <li>
+                    <a href="#export" class="toc-h2 toc-link" data-title="Export">Export</a>
+                  </li>
+                  <li>
+                    <a href="#save" class="toc-h2 toc-link" data-title="Save">Save</a>
+                  </li>
+                  <li>
+                    <a href="#authentication" class="toc-h2 toc-link" data-title="Authentication">Authentication</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#dashboard-samples" class="toc-h1 toc-link" data-title="Dashboard Samples">Dashboard Samples</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#basic-embed-2" class="toc-h2 toc-link" data-title="Basic Embed">Basic Embed</a>
+                  </li>
+                  <li>
+                    <a href="#authentication-2" class="toc-h2 toc-link" data-title="Authentication">Authentication</a>
+                  </li>
+                  <li>
+                    <a href="#custom-input-controls-2" class="toc-h2 toc-link" data-title="Custom Input Controls">Custom Input Controls</a>
+                  </li>
+                  <li>
+                    <a href="#hyperlinks-2" class="toc-h2 toc-link" data-title="Hyperlinks">Hyperlinks</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#input-control-samples" class="toc-h1 toc-link" data-title="Input Control Samples">Input Control Samples</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-input-control-data" class="toc-h2 toc-link" data-title="Get Input Control Data">Get Input Control Data</a>
+                  </li>
+                  <li>
+                    <a href="#bind-to-report" class="toc-h2 toc-link" data-title="Bind to Report">Bind to Report</a>
+                  </li>
+                  <li>
+                    <a href="#view-control-types" class="toc-h2 toc-link" data-title="View Control Types">View Control Types</a>
+                  </li>
+                  <li>
+                    <a href="#reset" class="toc-h2 toc-link" data-title="Reset">Reset</a>
+                  </li>
+                  <li>
+                    <a href="#events-2" class="toc-h2 toc-link" data-title="Events">Events</a>
+                  </li>
+                  <li>
+                    <a href="#css-overrides" class="toc-h2 toc-link" data-title="CSS Overrides">CSS Overrides</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#license" class="toc-h1 toc-link" data-title="License">License</a>
+          </li>
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='getting-started'>Getting Started</h1>
+<p>Visualize.js is a JavaScript API framework used to embed JasperReport Server reports &amp; visualizations inside web applications.
+It comes bundled with the commercial editions of TIBCO JasperReports® Server, specifically Jaspersoft AWS, Enterprise or
+Professional (and as an add-on with Jaspersoft Reporting).</p>
+
+<blockquote>
+<p>In this guide you will find a full listing of Visualize.js API code samples.</p>
+
+<p>For greater detail also view the full <a href="https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs">Visualize.js API reference guide</a>.</p>
+</blockquote>
+
+<p><a href="https://jaspersoft.com/download">Download Jaspersoft &gt;</a></p>
+<h2 id='installing-jaspersoft'>Installing Jaspersoft</h2>
+<p><em>Note: All fiddles in this guide are live and available to view before install</em></p>
+
+<ul>
+<li>Download the commercial edition of <a href="https://jaspersoft.com/download">JasperReport Server</a></li>
+<li>Use our <a href="https://jaspersoft.com/jaspersoft-quick-start-guide">quick start guide</a> for installation and configuration</li>
+</ul>
+<h2 id='getting-started'>Getting Started</h2>
+<p>### Live Fiddles</p>
+
+<p>View and reuse the live Visualize.js API samples in this guide and(or) reference to your own <a href="https://jaspersoft.com/download">installation</a></p>
+
+<p>To use your own install change the following HTML in the fiddles... </p>
+<pre class="highlight html tab-html"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"http://visualizejsdemo.jaspersoft.com/jasperserver-pro/client/visualize.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre>
+<p>and reference the location of your JasperReport Server installation...</p>
+<pre class="highlight html tab-html"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"[myserver]/jasperserver-pro/client/visualize.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre>
+<p>### Video Tutorials</p>
+
+<ul>
+<li>Need a jump start? Watch our <a href="https://community.jaspersoft.com/wiki/visualizejs-tutorials">API video tutorials</a> for more information on Visualize.js and embedding inside your application.</li>
+</ul>
+
+<p>### Via GitHub</p>
+
+<ul>
+<li>Fork this Visualize.js API <a href="https://github.com/TIBCOSoftware/JS-visualize">sample set and guide</a> for your own use</li>
+<li>Download our <a href="https://github.com/TIBCOSoftware/JS-FDSample">sample application</a> on GitHub featuring Visualize.js</li>
+</ul>
+<h1 id='report-samples'>Report Samples</h1><h3 id='basic-embed'>Basic Embed</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-render/">Simple report rendering</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-list/">from a list</a></b></p>
+
+<p>Initialization of the visualize.js library with simple rendering of an HTML report using plain text authentication. See full authentication samples in this guide for securing data and reports with the JasperReports Server and Visualize.js.</p>
+
+<blockquote>
+<p>You can easily change the resource to embed a different report from the JasperReport Server.</p>
+
+<p>For example:</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>        <span class="nx">resource</span><span class="p">:</span> <span class="s2">"/public/Samples/Reports/SalesByMonthReport"</span>
+</code></pre>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/common-config/">Load multiple reports</a></b></p>
+
+<p>Use a common configuration to load multiple reports.</p>
+<h3 id='pagination'>Pagination</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/next-previous/">Next/previous</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-range/">enter range</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-event/">pagination events</a></b></p>
+
+<p>Provide control for report pagination with either individual selectors or a directly inputed range. Also, see pagination with events for full control of inputs.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-anchor/">Anchors</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/range-anchor/">range with anchor</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/navigating-report/">anchor and page search</a></b></p>
+
+<p>Provide the ability to move quickly through reports with direct page anchors. Also see an anchor with a range of rendered pages and an example of searching both an anchor and page/range with an event to callout the current selection.</p>
+<h3 id='custom-input-controls'>Custom Input Controls</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/">Paramater passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/">basic drop-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/">render values</a></b></p>
+
+<p>Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.</p>
+
+<blockquote>
+<p>Try: A hard coded or dynamic variable...</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>      <span class="nx">inputSelection</span> <span class="o">=</span> <span class="s2">"Non-Consumable"</span>
+</code></pre>
+<blockquote>
+<p>for parameter control...</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>      <span class="s2">"ProductFamily"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Food"</span><span class="p">,</span> <span class="nx">inputSelection</span><span class="p">]</span>
+</code></pre>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/">Dynamic resource types</a></b></p>
+
+<p>Discover reporting resources available and formats from the JasperReport Server for use with input controls.</p>
+<h3 id='hyperlinks'>Hyperlinks</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/">Basic drill-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new-page/">open report in new page</a></b></p>
+
+<p>Select a report hyperlink to open a new &quot;drill-down&quot; report with selected parameter.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/">Parameter passing on selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/">parameter in a new page</a></b></p>
+
+<p>Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.</p>
+<h3 id='events'>Events</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/">Page totals</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/">report status</a></b></p>
+
+<p>Listen through events for a change in the page totals and report completed status.</p>
+<h3 id='ui-controls'>UI Controls</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-sorting/">Table column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-formatting/">table column conditional formatting</a></b></p>
+
+<p>Dynamically control UI elements for table columns.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-column-sorting/">Crosstab column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-row-sorting/">crosstab row sorting order</a></b></p>
+
+<p>Dynamically control UI elements for Crosstabs.</p>
+<h3 id='export'>Export</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/export-formats/">Export formats</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/auto-export/">auto export</a></b></p>
+
+<p>Custom export options with various formats.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/csv-export-d3/">Export CSV and render</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/json-export-d3/">export JSON and render</a></b></p>
+
+<p>Export data from a report and render with a custom visualization.</p>
+<h3 id='save'>Save</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-save/save-as/">Save/Save As UI</a></b></p>
+
+<p>Custom UI with ability to overwrite reports with location, label and description.</p>
+<h3 id='authentication'>Authentication</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/">Basic login/logout</a></b></p>
+
+<p>Simple plain text authentication with demonstration of destroying session with reports.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/">Secure token authentication</a></b></p>
+
+<p>Token based authentication and initialization of the visualize.js library with a list of reports. </p>
+
+<p><a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction">JRS - Authentication Cookbook &gt;</a></p>
+
+<blockquote>
+<p><em>Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the <a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction">Authentication Cookbook</a> for details on configuring authentication correctly.</em></p>
+</blockquote>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/login-hook/">Login/logout with hooks</a></b></p>
+
+<p>Authenticate and destroy the session with the method of your choice through the hooks that are made available through Visualize.js.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/auth-ui/">Login/logout UI</a></b></p>
+
+<p>A sample UI providing users full authentication options to the JasperReport Server.</p>
+<h1 id='dashboard-samples'>Dashboard Samples</h1><h3 id='basic-embed-2'>Basic Embed</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/">Dashboard render with input control</a></b></p>
+
+<p>Initialization of the visualize.js library with simple rendering of a dashboard (with an embedded input control and hyperlinks) using plain text authentication.</p>
+
+<blockquote>
+<p>With this example you can easily change the resource to embed a different dashboard from the JasperReport Server.</p>
+
+<p>For example:</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>        <span class="nx">resource</span><span class="p">:</span> <span class="s2">"/public/Samples/Dashboards/4._New_Dashboard"</span>
+</code></pre><h3 id='authentication-2'>Authentication</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/">Dashboard login/logout</a></b></p>
+
+<p>Simple authentication with demonstration of destroying session with dashboards.</p>
+
+<p><a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction">JRS - Authentication Cookbook &gt;</a></p>
+
+<blockquote>
+<p><em>Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the <a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction">Authentication Cookbook</a> for details on configuring authentication correctly.</em></p>
+</blockquote>
+<h3 id='custom-input-controls-2'>Custom Input Controls</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/">Dashboard paramater passing</a></b></p>
+
+<p>Various inputs for passing paramaters into a dashboard.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/">Undo/redo parameter events</a></b></p>
+
+<p>Control the dashboard navigation with undo/redo events.</p>
+<h3 id='hyperlinks-2'>Hyperlinks</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/">Dashboard hyperlink</a></b></p>
+
+<p>Passing hyperlinks from one dashboard to open and control a secondary report.</p>
+<h1 id='input-control-samples'>Input Control Samples</h1><h3 id='get-input-control-data'>Get Input Control Data</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/">Custom drop down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/">show inside table</a></b></p>
+
+<p>These examples show accessing data directly from a JRS Input Control.</p>
+
+<blockquote>
+<p>The following samples embed JRS Input Controls and/or their data. These first two are the exception in that they only pass data into the application.</p>
+</blockquote>
+<h3 id='bind-to-report'>Bind to Report</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/">Embed report and input control</a></b></p>
+
+<p>Simple embedding of a report and it&#39;s associated input control.</p>
+<h3 id='view-control-types'>View Control Types</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/">Render input controls (all types)</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/">default values</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/">with cascade</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/">cascade with multi and single selects</a></b></p>
+
+<p>View all JRS input controls, with default values and cascades.</p>
+<h3 id='reset'>Reset</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/">Reset input controls</a></b></p>
+
+<p>Change back to originally selected input control values.</p>
+<h3 id='events-2'>Events</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/">Listen for changes</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/">with cascade</a></b></p>
+
+<p>Provide events to listen to input control changes, updating the application as needed.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/">Bind cascade with report</a></b></p>
+
+<p>Listen to changes with cascade input controls.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/">Validation</a></b></p>
+
+<p>Validation result in change event.</p>
+<h3 id='css-overrides'>CSS Overrides</h3>
+<p>Try it:</p>
+
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/">Specific CSS overrides</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/">all types</a></b></p>
+
+<p>Example CSS overrides with JRS input controls.</p>
+
+<blockquote>
+<p>This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.</p>
+</blockquote>
+<h1 id='license'>License</h1>
+<p>Copyright © 2017 TIBCO Software Inc. All Rights Reserved. </p>
+
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+
+<ol>
+<li><p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</p></li>
+<li><p>Neither the name of TIBCO Software Inc.  nor the names of any contributors may  be used to endorse or promote products derived from this software without specific prior written permission. </p></li>
+</ol>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT OWNER AND CONTRIBUTORS  &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<p>THIRD PARTY NOTICES</p>
+
+<p>*jQuery 1.11.3</p>
+
+<p>Copyright jQuery Foundation and other contributors, https://jquery.org/</p>
+
+<p>This software consists of voluntary contributions made by many
+individuals. For exact contribution history, see the revision history
+available at https://github.com/jquery/jquery</p>
+
+<p>The following license applies to all parts of this software except as
+documented below:</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+&quot;Software&quot;), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<p>All files located in the node_modules and external directories are
+externally maintained libraries used by this software which have their
+own licenses; we recommend you read them, as their terms may differ from
+the terms above.</p>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
