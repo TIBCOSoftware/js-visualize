@@ -1,5 +1,0 @@
----
- name: "Report hyperlink in new page"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Select a report hyperlink to open a drill down report in a new page."
- wrap: l
