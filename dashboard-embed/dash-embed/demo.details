@@ -1,5 +1,0 @@
----
- name: "Basic Dashboard Embed"
- docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
- description: "Simple initialization of the library, plain text authentication and loading a dashboard"
- wrap: l
