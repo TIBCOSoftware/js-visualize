@@ -101,7 +101,7 @@ Provide the ability to move quickly through reports with direct page anchors. Al
 
 Try it:
 
-<b>[Paramater passing]</b>, <b>[basic drop-down]</b>, <b>[render values]</b>
+<b>[Parameter passing]</b>, <b>[basic drop-down]</b>, <b>[render values]</b>
 
 Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.
 
@@ -135,7 +135,7 @@ Try it:
 
 <b>[Parameter passing on selection]</b>, <b>[parameter in a new page]</b>
 
-Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.
+Select from a chart series to pass a parameter into a secondary report. In addition pass this same parameter into a new page/tab.
 
 ### Events
 
