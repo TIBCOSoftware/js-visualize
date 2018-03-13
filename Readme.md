@@ -295,9 +295,9 @@ Simple authentication with demonstration of destroying session with dashboards.
 
 Try it:
 
-<b>[Dashboard paramater passing]</b>
+<b>[Dashboard parameter passing]</b>
 
-Various inputs for passing paramaters into a dashboard.
+Various inputs for passing parameters into a dashboard.
 
 Try it:
 
