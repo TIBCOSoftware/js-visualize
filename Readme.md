@@ -34,7 +34,7 @@ Getting Started
  
  - Run index.html from the pages folder to navigate and view the Visualize.js API code samples.
  
- - Note: You'll want to make sure the fiddle you are running point to the location you have JRS installed for Visualize.js. 
+ - Note: You'll want to make sure the fiddles you are running point to the location you have JRS installed for Visualize.js. 
 	This is usually on localhost:8080 - "http://localhost:8080/jasperserver-pro/client/visualize.js"
 	
  
@@ -54,7 +54,7 @@ Getting Started
  
  ### Video Tutorials
  
- * Need a jump start? Watch our [API video tutorials] for more information on Visualize.js and embedding inside your application.
+ * Need a jump start? Watch our [Visualize.js tutorial series] and see what's new for version 7. Also you can view our general [API video tutorials] for more information on Visualize.js and embedding inside your application.
  
  ### Via GitHub
  
@@ -66,6 +66,7 @@ Getting Started
 [quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
 [video tutorial series!]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
+[Visualize.js tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
 [MAMP]: https://www.mamp.info/en/
 
 [Download JRS]: https://jaspersoft.com/download
