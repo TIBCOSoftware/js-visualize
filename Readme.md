@@ -7,8 +7,6 @@ Professional (and as an add-on with Jaspersoft Reporting).
 
 > In this guide you will find a full listing of Visualize.js API code samples.
 
-> Follow these steps to run the samples
-
 > For greater detail also view the full [Visualize.js API reference guide].
 
 [Download Jaspersoft >][Download JRS]
@@ -24,6 +22,8 @@ Getting Started
  
  ### Fiddles
  
+ > Follow these steps to run the samples
+ 
  - Install Jaspersoft locally onto your system.
  
  - Download this github repo onto your local web server.
@@ -32,8 +32,9 @@ Getting Started
  
  - Run index.html from the pages folder to navigate and view the Visualize.js API code samples.
  
- - Note: You'll want to be sure the fiddle you are running points to the location you have JRS installed for Visualize.js. 
+ - Note: You'll want to be sure the fiddle you are running point to the location you have JRS installed for Visualize.js. 
 	This is usually on localhost:8080 - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+	
  
  View and reuse the Visualize.js API samples in this guide and(or) reference to your own [installation]
  
