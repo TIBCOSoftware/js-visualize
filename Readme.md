@@ -46,7 +46,7 @@ Getting Started
  <script src="http://visualizejsdemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>
  ```
  
- and reference the location of your JasperReport Server installation...
+ and reference the location of your JasperReport Server installation....
  
   ``` html
  <script src="[myserver]/jasperserver-pro/client/visualize.js"></script>
