@@ -7,6 +7,8 @@ Professional (and as an add-on with Jaspersoft Reporting).
 
 > In this guide you will find a full listing of Visualize.js API code samples.
 
+> Follow these steps to run the samples
+
 > For greater detail also view the full [Visualize.js API reference guide].
 
 [Download Jaspersoft >][Download JRS]
@@ -14,17 +16,26 @@ Professional (and as an add-on with Jaspersoft Reporting).
 Installing Jaspersoft
 ----------------------
  
- *Note: All fiddles in this guide are live and available to view before install*
- 
  * Download the commercial edition of [JasperReport Server]
  * Use our [quick start guide] for installation and configuration
 
 Getting Started
 ---------------
  
- ### Live Fiddles
+ ### Fiddles
  
- View and reuse the live Visualize.js API samples in this guide and(or) reference to your own [installation]
+ - Install Jaspersoft locally onto your system.
+ 
+ - Download this github repo onto your local web server.
+ 
+ - Import the jrs-export.zip file from the resources folder onto the JasperReport Server (admin > server settings > import).
+ 
+ - Run index.html from the pages folder to navigate and view the Visualize.js API code samples.
+ 
+ - Note: You'll want to be sure the fiddle you are running points to the location you have JRS installed for Visualize.js. 
+	This is usually on localhost:8080 - "http://localhost:8080/jasperserver-pro/client/visualize.js"
+ 
+ View and reuse the Visualize.js API samples in this guide and(or) reference to your own [installation]
  
  To use your own install change the following HTML in the fiddles... 
  
@@ -45,388 +56,20 @@ Getting Started
  ### Via GitHub
  
  * Fork this Visualize.js API [sample set and guide] for your own use
- * Download our [sample application] on GitHub featuring Visualize.js
 
 [Visualize.js API reference guide]: https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs
 [JasperReport Server]: https://jaspersoft.com/download
 [installation]: https://jaspersoft.com/download
 [quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
-[sample set and guide]: https://github.com/TIBCOSoftware/JS-visualize
-[sample application]: https://github.com/TIBCOSoftware/JS-FDSample
 
 [Download JRS]: https://jaspersoft.com/download
-
-
-Report Samples
-=======
-
-### Basic Embed
-
-Try it:
-
-<b>[Simple report rendering], [from a list]</b>
-
-Initialization of the visualize.js library with simple rendering of an HTML report using plain text authentication. See full authentication samples in this guide for securing data and reports with the JasperReports Server and Visualize.js.
-
->You can easily change the resource to embed a different report from the JasperReport Server.
-
->For example:
-
-``` javascript
-        resource: "/public/Samples/Reports/SalesByMonthReport"
-``` 
-
-Try it:
-
-<b>[Load multiple reports]</b>
-
-Use a common configuration to load multiple reports.
-
-### Pagination
-
-Try it:
-
-<b>[Next/previous]</b>, <b>[enter range]</b>, <b>[pagination events]</b>
-
-Provide control for report pagination with either individual selectors or a directly inputed range. Also, see pagination with events for full control of inputs.
-
-Try it:
-
-<b>[Anchors]</b>, <b>[range with anchor]</b>, <b>[anchor and page search]</b>
-
-Provide the ability to move quickly through reports with direct page anchors. Also see an anchor with a range of rendered pages and an example of searching both an anchor and page/range with an event to callout the current selection.
-
-### Custom Input Controls
-
-Try it:
-
-<b>[Parameter passing]</b>, <b>[basic drop-down]</b>, <b>[render values]</b>
-
-Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.
-
->Try: A hard coded or dynamic variable...
-
-``` javascript
-      inputSelection = "Non-Consumable"
-``` 
-
->for parameter control...
-
-``` javascript
-      "ProductFamily": ["Food", inputSelection]
-```
-
-Try it:
-
-<b>[Dynamic resource types]</b>
-
-Discover reporting resources available and formats from the JasperReport Server for use with input controls.
-
-### Hyperlinks
-
-Try it:
-
-<b>[Basic drill-down]</b>, <b>[open report in new page]</b>
-
-Select a report hyperlink to open a new "drill-down" report with selected parameter.
-
-Try it:
-
-<b>[Parameter passing on selection]</b>, <b>[parameter in a new page]</b>
-
-Select from a chart series to pass a parameter into a secondary report. In addition pass this same parameter into a new page/tab.
-
-### Events
-
-Try it:
-
-<b>[Page totals]</b>, <b>[report status]</b>
-
-Listen through events for a change in the page totals and report completed status.
-
-### UI Controls
-
-Try it:
-
-<b>[Table column sorting order]</b>, <b>[table column conditional formatting]</b>
-
-Dynamically control UI elements for table columns.
-
-Try it:
-
-<b>[Crosstab column sorting order]</b>, <b>[crosstab row sorting order]</b>
-
-Dynamically control UI elements for Crosstabs.
-
-### Export
-
-Try it:
-
-<b>[Export formats]</b>, <b>[auto export]</b>
-
-Custom export options with various formats.
-
-Try it:
-
-<b>[Export CSV and render]</b>, <b>[export JSON and render]</b>
-
-Export data from a report and render with a custom visualization.
-
-### Save
-
-Try it:
-
-<b>[Save/Save As UI]</b>
-
-Custom UI with ability to overwrite reports with location, label and description.
-
-### Authentication
-
-Try it:
-
-<b>[Basic login/logout]</b>
-
-Simple plain text authentication with demonstration of destroying session with reports.
-
-Try it:
-
-<b>[Secure token authentication]</b>
-
-Token based authentication and initialization of the visualize.js library with a list of reports. 
-
-[JRS - Authentication Cookbook >][Cookbook]
-
->*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
-
-Try it:
-
-<b>[Login/logout with hooks]</b>
-
-Authenticate and destroy the session with the method of your choice through the hooks that are made available through Visualize.js.
-
-Try it:
-
-<b>[Login/logout UI]</b>
-
-A sample UI providing users full authentication options to the JasperReport Server.
-
-[Simple report rendering]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-render/
-[from a list]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-list/
-[Load multiple reports]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/common-config/
-
-[Next/previous]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/next-previous/
-[enter range]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-range/
-[pagination events]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-event/
-
-[Anchors]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-anchor/
-[range with anchor]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/range-anchor/
-[anchor and page search]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/navigating-report/
-
-[Paramater passing]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/
-[basic drop-down]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/
-[render values]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/
-[Dynamic resource types]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/
-
-[Basic drill-down]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
-[open report in new page]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
-[Parameter passing on selection]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/
-[parameter in a new page]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
-
-[Page totals]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
-[report status]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
-
-[Table column sorting order]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-sorting/
-[table column conditional formatting]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-formatting/
-
-[Crosstab column sorting order]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-column-sorting/
-[crosstab row sorting order]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-row-sorting/
-
-[Export formats]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/export-formats/
-[auto export]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/auto-export/
-[Export CSV and render]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/csv-export-d3/
-[export JSON and render]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/json-export-d3/
-
-[Save/Save As UI]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-save/save-as/
-
-[Basic Login/Logout]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
-[Secure token authentication]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
-
-[Login/logout with hooks]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/login-hook/
-
-[Login/logout UI]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/auth-ui/
-
-[Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
-[Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
-
-
-Dashboard Samples
-=================
-
-### Basic Embed
-
-Try it:
-
-<b>[Dashboard render with input control]</b>
-
-Initialization of the visualize.js library with simple rendering of a dashboard (with an embedded input control and hyperlinks) using plain text authentication.
-
->With this example you can easily change the resource to embed a different dashboard from the JasperReport Server.
-
->For example:
-
-``` javascript
-        resource: "/public/Samples/Dashboards/4._New_Dashboard"
-``` 
-
-### Authentication
-
-Try it:
-
-<b>[Dashboard login/logout]</b>
-
-Simple authentication with demonstration of destroying session with dashboards.
-
-[JRS - Authentication Cookbook >][Cookbook]
-
->*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
-
-### Custom Input Controls
-
-Try it:
-
-<b>[Dashboard parameter passing]</b>
-
-Various inputs for passing parameters into a dashboard.
-
-Try it:
-
-<b>[Undo/redo parameter events]</b>
-
-Control the dashboard navigation with undo/redo events.
-
-### Hyperlinks
-
-Try it:
-
-<b>[Dashboard hyperlink]</b>
-
-Passing hyperlinks from one dashboard to open and control a secondary report.
-
-
-[Dashboard render with input control]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
-
-[Dashboard Login/Logout]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
-
-[Dashboard paramater passing]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
-[Undo/redo parameter events]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/
-
-[Dashboard hyperlink]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
-
-[Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
-[Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
-
-
-Input Control Samples
-=================
-
-### Get Input Control Data
-
-Try it:
-
-<b>[Custom drop down]</b>, <b>[show inside table]</b>
-
-These examples show accessing data directly from a JRS Input Control.
-
->The following samples embed JRS Input Controls and/or their data. These first two are the exception in that they only pass data into the application.
-
-### Bind to Report
-
-Try it:
-
-<b>[Embed report and input control]</b>
-
-Simple embedding of a report and it's associated input control.
-
-
-### View Control Types
-
-Try it:
-
-<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade]</b>, <b>[cascade with multi and single selects]</b>
-
-View all JRS input controls, with default values and cascades.
-
-
-### Reset
-
-Try it:
-
-<b>[Reset input controls]</b>
-
-Change back to originally selected input control values.
-
-
-### Events
-
-Try it:
-
-<b>[Listen for changes]</b>, <b>[with cascade]</b>
-
-Provide events to listen to input control changes, updating the application as needed.
-
-
-Try it:
-
-<b>[Bind cascade with report]</b>
-
-Listen to changes with cascade input controls.
-
-
-Try it:
-
-<b>[Validation]</b>
-
-Validation result in change event.
-
-
-### CSS Overrides
-
-Try it:
-
-<b>[Specific CSS overrides]</b>, <b>[all types]</b>
-
-Example CSS overrides with JRS input controls.
-
->This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
-
-
-[Custom drop down]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
-[show inside table]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/
-
-[Embed report and input control]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/
-
-[Render input controls (all types)]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/
-[default values]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/
-[with cascade]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade/
-[cascade with multi and single selects]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
-
-[Reset input controls]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/
-
-[Listen for changes]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/
-[with cascade]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/
-[Bind cascade with report]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/
-[Validation]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/
-
-[Specific CSS overrides]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/
-[all types]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/
-
 
 
 License
 =================
 
-Copyright © 2018 TIBCO Software Inc. All Rights Reserved. 
+Copyright © 2017 TIBCO Software Inc. All Rights Reserved. 
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
