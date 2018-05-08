@@ -28,13 +28,13 @@ Getting Started
  
  - Install Jaspersoft locally onto your system.
  
- - Download this github repo onto your local web server. You any tool that you like (for example: [MAMP]) to host.
+ - Download this github repo onto your local web server. Use any tool that you like (for example: [MAMP]) to host.
  
- - Import the jrs-export.zip file from the resources folder onto the JasperReport Server by logging in as superuser and going to (admin > server settings > import).
+ - Import the jrs-export.zip file from the resources folder on this repo into the JasperReport Server by logging in as superuser and going to (admin > server settings > import).
  
  - Run index.html from the pages folder to navigate and view the Visualize.js API code samples.
  
- - Note: You'll want to be sure the fiddle you are running point to the location you have JRS installed for Visualize.js. 
+ - Note: You'll want to make sure the fiddle you are running point to the location you have JRS installed for Visualize.js. 
 	This is usually on localhost:8080 - "http://localhost:8080/jasperserver-pro/client/visualize.js"
 	
  
