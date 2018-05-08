@@ -28,7 +28,7 @@ Getting Started
  
  - Install Jaspersoft locally onto your system.
  
- - Download this github repo onto your local web server.
+ - Download this github repo onto your local web server. You can use any tool (such as [MAMP]) that you like.
  
  - Import the jrs-export.zip file from the resources folder onto the JasperReport Server (admin > server settings > import).
  
@@ -66,6 +66,7 @@ Getting Started
 [quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
 [video tutorial series!]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
+[MAMP]: https://www.mamp.info/en/
 
 [Download JRS]: https://jaspersoft.com/download
 
