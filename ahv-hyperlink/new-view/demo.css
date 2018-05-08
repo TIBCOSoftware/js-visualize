@@ -1,0 +1,14 @@
+.selected {
+  display: inline;
+  font-size: 1.3em;
+  color: #3C1A06;
+}
+
+#firstContainer {
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+#secondContainer {
+  height: 250px;
+}

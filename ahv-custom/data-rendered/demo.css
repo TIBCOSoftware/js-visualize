@@ -1,0 +1,34 @@
+/*Disabled visualization selector*/
+#container .jr-mAdhoc-visualization-launcher.jr {
+  display: none;
+}
+
+.jr-isHidden {
+  display: none;
+}
+
+.background {
+  background-color: #E8E6DF;
+  margin-top: -22px;
+  margin-left: -10px;
+  margin-right: -15px;
+}
+
+.content {
+  margin-left: 25px;
+}
+
+.nameData {
+  display: inline;
+  font-size: 2em;
+  color: #D96F35;
+}
+
+.saleData {
+  margin-top: 8px;
+  margin-bottom: 25px;
+  margin-left: 145px;
+  color: #514338;
+  font-size: 2em;
+  font-weight: bold;
+}

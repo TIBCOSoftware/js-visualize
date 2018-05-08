@@ -1,0 +1,29 @@
+.selected {
+  display: inline;
+  font-size: 1.3em;
+  color: #3C1A06;
+}
+
+#field {
+  margin-right: 20px;
+}
+
+#firstContainer {
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+#backButton {
+  display:none;
+  outline: none;
+  position: relative;
+  float: right;
+  top: -10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 1.15em;
+  border: 1px solid #524236;
+  border-radius: 20px;
+  background-color: #E8E6DF;
+  color: #3C1A06;
+}

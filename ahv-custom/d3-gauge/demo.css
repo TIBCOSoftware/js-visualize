@@ -1,0 +1,13 @@
+/*Disabled visualization selector*/
+#container .jr-mAdhoc-visualization-launcher.jr {
+  display: none;
+}
+
+.label {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  width: 100%;
+}
