@@ -5,7 +5,11 @@ Visualize.js is a JavaScript API framework used to embed JasperReport Server rep
 It comes bundled with the commercial editions of TIBCO JasperReports® Server, specifically Jaspersoft AWS, Enterprise or
 Professional (and as an add-on with Jaspersoft Reporting).
 
- * See what's new with Visualize.js in v7 with our full [video tutorial series!]
+ * See what's new with Visualize.js in v7 with our full [video tutorial series]
+ 
+ * Also try our [live demo here] showing new fully embeddable ad hoc views with Visualize.js!
+ 
+ * You can download the source files for this demo and the [tutorial series here on GitHub.]
 
 > In this guide you will find a full listing of Visualize.js API code samples.
 
@@ -65,8 +69,10 @@ Getting Started
 [installation]: https://jaspersoft.com/download
 [quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
-[video tutorial series!]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
+[video tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
 [Visualize.js tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
+[live demo here]: http://54.244.191.72/urban-roast/cafe.html
+[tutorial series here on GitHub.]: http://54.244.191.72/urban-roast/cafe.html
 [MAMP]: https://www.mamp.info/en/
 
 [Download JRS]: https://jaspersoft.com/download
