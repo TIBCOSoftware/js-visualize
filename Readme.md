@@ -30,7 +30,7 @@ Getting Started
  
  - Download this github repo onto your local web server. You can use any tool (for example: [MAMP]) that you like.
  
- - Import the jrs-export.zip file from the resources folder onto the JasperReport Server (admin > server settings > import).
+ - Import the jrs-export.zip file from the resources folder onto the JasperReport Server by logging in as superuser and going to (admin > server settings > import).
  
  - Run index.html from the pages folder to navigate and view the Visualize.js API code samples.
  
