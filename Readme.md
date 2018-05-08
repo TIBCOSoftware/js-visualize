@@ -28,7 +28,7 @@ Getting Started
  
  - Install Jaspersoft locally onto your system.
  
- - Download this github repo onto your local web server. You can use any tool (such as [MAMP]) that you like.
+ - Download this github repo onto your local web server. You can use any tool (for example: [MAMP]) that you like.
  
  - Import the jrs-export.zip file from the resources folder onto the JasperReport Server (admin > server settings > import).
  
