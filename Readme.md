@@ -58,7 +58,7 @@ Getting Started
  
  ### Via GitHub
  
- * Fork this Visualize.js API [sample set and guide] for your own use
+ * Fork this Visualize.js API [sample set and guide] for your own use on GitHub.
 
 [Visualize.js API reference guide]: https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs
 [JasperReport Server]: https://jaspersoft.com/download
@@ -75,7 +75,7 @@ Getting Started
 License
 =================
 
-Copyright © 2017 TIBCO Software Inc. All Rights Reserved. 
+Copyright © 2018 TIBCO Software Inc. All Rights Reserved. 
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
