@@ -7,7 +7,7 @@ Professional (and as an add-on with Jaspersoft Reporting).
 
  * See what's new with Visualize.js in v7 with our full [video tutorial series].
  
- * Also try our [live demo here] showing new fully embeddable ad hoc views with Visualize.js!
+ * Also try our [application demo here] showing new fully embeddable ad hoc views with Visualize.js!
  
  * You can download the source files for this demo and the [tutorial series here on GitHub.]
 
@@ -71,7 +71,7 @@ Getting Started
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
 [video tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
 [Visualize.js tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
-[live demo here]: http://54.244.191.72/urban-roast/cafe.html
+[application demo here]: https://github.com/TIBCOSoftware/js-workshops
 [tutorial series here on GitHub.]: https://github.com/TIBCOSoftware/js-workshops
 [MAMP]: https://www.mamp.info/en/
 
