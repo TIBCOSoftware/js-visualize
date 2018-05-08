@@ -5,7 +5,7 @@ Visualize.js is a JavaScript API framework used to embed JasperReport Server rep
 It comes bundled with the commercial editions of TIBCO JasperReports® Server, specifically Jaspersoft AWS, Enterprise or
 Professional (and as an add-on with Jaspersoft Reporting).
 
- * See what's new with Visualize.js in v7 with our full [video tutorial series]!
+ * See what's new with Visualize.js in v7 with our full [video tutorial series!]
 
 > In this guide you will find a full listing of Visualize.js API code samples.
 
@@ -65,7 +65,7 @@ Getting Started
 [installation]: https://jaspersoft.com/download
 [quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
-[video tutorial series]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
+[video tutorial series!]: https://www.youtube.com/watch?v=hELgK1RG01M&list=PL5NudtWaQ9l4wsnGx0GFyOsvztFBJp1_S
 
 [Download JRS]: https://jaspersoft.com/download
 
