@@ -173,37 +173,37 @@ Token based authentication and initialization of the visualize.js library with a
 
 >*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
 
-[Render Table]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/basic-render/
-[customize with CSS]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/customize-css/
-[crosstab with CSS]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/crosstab-css/
-[chart with selector]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/chart-selector/
-[Load multiple views]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/multiple-views/
+[Render Table]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/basic-render/
+[customize with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/customize-css/
+[crosstab with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/crosstab-css/
+[chart with selector]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/chart-selector/
+[Load multiple views]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/multiple-views/
 
-[Set canvas type]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/set-canvas/
-[dynamically from a list]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
+[Set canvas type]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/set-canvas/
+[dynamically from a list]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
-[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-input/pass-param/
-[basic drop-down]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-input/basic-drop/
-[Dynamic input control values]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-input/dynamic-values/
+[Paramater passing]: http://jsfiddle.net/3knj15L6/
+[basic drop-down]: http://jsfiddle.net/s4yofqz0/
+[Dynamic input control values]: http://jsfiddle.net/mvbhpbwv/
 
-[Pass values]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-hyperlink/pass-values/
-[fields and measures]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-hyperlink/fields-measures/
-[Drill down on selection]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-hyperlink/drill-down/
-[in new view]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-hyperlink/new-view/
-[Hyperlink changes beforeRender]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-hyperlink/before-render/
+[Pass values]: http://jsfiddle.net/3knj15L6/
+[fields and measures]: http://jsfiddle.net/5bqz7dys/
+[Drill down on selection]: http://jsfiddle.net/nxtrox1b/
+[in new view]: http://jsfiddle.net/wb71eL4L/
+[Hyperlink changes beforeRender]: http://jsfiddle.net/6daa6ao5/
 
-[Data rendered on page]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-custom/data-rendered/
-[with D3 gauges]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-custom/d3-gauge/
-[Loading of data]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-custom/loading-data/
-[through return values]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-custom/return-values/
+[Data rendered on page]: http://jsfiddle.net/kufLpLhd/
+[with D3 gauges]: http://jsfiddle.net/16yo3m38/
+[Loading of data]: http://jsfiddle.net/v2txf33r/
+[through return values]: http://jsfiddle.net/oh5s4kro/
 
-[Table row selection]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-control/row-selection/
-[column selection with highlight]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-control/col-selection/
-[Resize Ad Hoc View]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-control/resize-view/
+[Table row selection]: http://jsfiddle.net/wq55kfkw/
+[column selection with highlight]: http://jsfiddle.net/h7hztn96/
+[Resize Ad Hoc View]: http://jsfiddle.net/gefu4z7m/
 
-[Refresh]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-auth/refresh/
-[destroy session]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-auth/destroy/
-[Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-auth/token/
+[Refresh]: http://jsfiddle.net/xybx7890/
+[destroy session]: http://jsfiddle.net/zta4egmz/
+[Secure token authentication]: http://jsfiddle.net/ygeobyw4/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
