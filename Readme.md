@@ -186,11 +186,11 @@ Token based authentication and initialization of the visualize.js library with a
 [basic drop-down]: http://jsfiddle.net/s4yofqz0/
 [Dynamic input control values]: http://jsfiddle.net/cbzgwhs0/
 
-[Pass values]: http://jsfiddle.net/3knj15L6/
-[fields and measures]: http://jsfiddle.net/5bqz7dys/
-[Drill down on selection]: http://jsfiddle.net/nxtrox1b/
-[in new view]: http://jsfiddle.net/wb71eL4L/
-[Hyperlink changes beforeRender]: http://jsfiddle.net/6daa6ao5/
+[Pass values]: http://jsfiddle.net/9x2pvaes/
+[fields and measures]: http://jsfiddle.net/mLjgvuo6/
+[Drill down on selection]: http://jsfiddle.net/26ngj3hs/
+[in new view]: http://jsfiddle.net/g6fnj1br/
+[Hyperlink changes beforeRender]: http://jsfiddle.net/vt67jr3m/
 
 [Data rendered on page]: http://jsfiddle.net/kufLpLhd/
 [with D3 gauges]: http://jsfiddle.net/16yo3m38/
