@@ -3,8 +3,8 @@ var perCost = [];
 
 visualize({
   auth: {
-    name: "jasperadmin",
-    password: "jasperadmin",
+    name: "joeuser",
+    password: "joeuser",
     organization: "organization_1"
   }
 }, function(v) {

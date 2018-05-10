@@ -3,8 +3,8 @@ var secondView = "/public/viz/Adhoc/Store_Sales2";
 
 visualize({
   auth: {
-    name: "superuser",
-    password: "superuser"
+    name: "joeuser",
+    password: "joeuser"
   }
 }, function(v) {
   var first = v.adhocView({

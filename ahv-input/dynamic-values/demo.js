@@ -1,7 +1,7 @@
 visualize({
   auth: {
-    name: "jasperadmin",
-    password: "jasperadmin"
+    name: "joeuser",
+    password: "joeuser"
   }
 }, function(v) {
     var adv

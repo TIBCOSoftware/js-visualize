@@ -3,8 +3,8 @@ var adv;
 var visualType = "Table";
 visualize({
       auth: {
-        name: "superuser",
-        password: "superuser"
+        name: "joeuser",
+        password: "joeuser"
       }
     }, function(v) {
       function renderView() {

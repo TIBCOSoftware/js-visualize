@@ -1,7 +1,7 @@
 visualize({
   auth: {
-    name: "superuser",
-    password: "superuser"
+    name: "joeuser",
+    password: "joeuser"
   }
 }, function(v) {
   var ahv = v.adhocView({

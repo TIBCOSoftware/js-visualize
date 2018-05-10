@@ -1,6 +1,5 @@
 // Change report paramater with custom drop-down
 
-
 visualize({
     auth: {
         name: "joeuser",
