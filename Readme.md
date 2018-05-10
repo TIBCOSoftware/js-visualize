@@ -182,7 +182,7 @@ Token based authentication and initialization of the visualize.js library with a
 [Set canvas type]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/set-canvas/
 [dynamically from a list]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
-[Paramater passing]: http://jsfiddle.net/3knj15L6/
+[Paramater passing]: http://jsfiddle.net/3am5hs7x/
 [basic drop-down]: http://jsfiddle.net/s4yofqz0/
 [Dynamic input control values]: http://jsfiddle.net/mvbhpbwv/
 
