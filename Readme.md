@@ -197,13 +197,13 @@ Token based authentication and initialization of the visualize.js library with a
 [Loading of data]: http://jsfiddle.net/r6w3bvpn/
 [through return values]: http://jsfiddle.net/qaaLcto0/
 
-[Table row selection]: http://jsfiddle.net/wq55kfkw/
-[column selection with highlight]: http://jsfiddle.net/h7hztn96/
-[Resize Ad Hoc View]: http://jsfiddle.net/gefu4z7m/
+[Table row selection]: http://jsfiddle.net/40792tab/
+[column selection with highlight]: http://jsfiddle.net/exrraxzw/
+[Resize Ad Hoc View]: http://jsfiddle.net/us4ycpfr/
 
-[Refresh]: http://jsfiddle.net/xybx7890/
-[destroy session]: http://jsfiddle.net/zta4egmz/
-[Secure token authentication]: http://jsfiddle.net/ygeobyw4/
+[Refresh]: http://jsfiddle.net/dnskca90/
+[destroy session]: http://jsfiddle.net/h571fp7v/
+[Secure token authentication]: http://jsfiddle.net/67ajbay2/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
