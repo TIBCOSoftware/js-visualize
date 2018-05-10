@@ -182,7 +182,7 @@ Token based authentication and initialization of the visualize.js library with a
 [Set canvas type]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/set-canvas/
 [dynamically from a list]: https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
-[Paramater passing]: http://jsfiddle.net/3am5hs7x/
+[Paramater passing]: http://jsfiddle.net/umqfhs79/
 [basic drop-down]: http://jsfiddle.net/s4yofqz0/
 [Dynamic input control values]: http://jsfiddle.net/cbzgwhs0/
 
@@ -192,10 +192,10 @@ Token based authentication and initialization of the visualize.js library with a
 [in new view]: http://jsfiddle.net/g6fnj1br/
 [Hyperlink changes beforeRender]: http://jsfiddle.net/vt67jr3m/
 
-[Data rendered on page]: http://jsfiddle.net/kufLpLhd/
-[with D3 gauges]: http://jsfiddle.net/16yo3m38/
-[Loading of data]: http://jsfiddle.net/v2txf33r/
-[through return values]: http://jsfiddle.net/oh5s4kro/
+[Data rendered on page]: http://jsfiddle.net/qg1u27ys/
+[with D3 gauges]: http://jsfiddle.net/xoh6f6jv/
+[Loading of data]: http://jsfiddle.net/r6w3bvpn/
+[through return values]: http://jsfiddle.net/qaaLcto0/
 
 [Table row selection]: http://jsfiddle.net/wq55kfkw/
 [column selection with highlight]: http://jsfiddle.net/h7hztn96/
