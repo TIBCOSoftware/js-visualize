@@ -76,7 +76,7 @@ Initialization of the visualize.js library with simple rendering of ad hoc views
 >For example:
 
 ``` javascript
-        resource: "/public/Samples/Reports/SalesByMonthReport"
+        resource: "/public/viz/Adhoc/Change_Visualization2"
 ``` 
 
 Try it:
