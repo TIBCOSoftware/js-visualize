@@ -184,7 +184,7 @@ Token based authentication and initialization of the visualize.js library with a
 
 [Paramater passing]: http://jsfiddle.net/3am5hs7x/
 [basic drop-down]: http://jsfiddle.net/s4yofqz0/
-[Dynamic input control values]: http://jsfiddle.net/mvbhpbwv/
+[Dynamic input control values]: http://jsfiddle.net/cbzgwhs0/
 
 [Pass values]: http://jsfiddle.net/3knj15L6/
 [fields and measures]: http://jsfiddle.net/5bqz7dys/
