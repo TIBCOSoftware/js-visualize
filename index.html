@@ -247,6 +247,32 @@
               </ul>
           </li>
           <li>
+            <a href="#adhocview-samples" class="toc-h1 toc-link" data-title="AdHoc View Samples">Ad Hoc View Samples</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#basic-embed-3" class="toc-h2 toc-link" data-title="Basic Embed">Basic Embed</a>
+                  </li>
+                  <li>
+                    <a href="#canvas-type" class="toc-h2 toc-link" data-title="Control Canvas">Control Canvas</a>
+                  </li>
+                  <li>
+                    <a href="#custom-input-controls-3" class="toc-h2 toc-link" data-title="Custom Input Controls">Input Controls</a>
+                  </li>
+                  <li>
+                    <a href="#hyperlinks-3" class="toc-h2 toc-link" data-title="Hyperlinks">Hyperlinks</a>
+                  </li>
+                  <li>
+                    <a href="#custom-visual" class="toc-h2 toc-link" data-title="Custom Visualizations">Custom Visualization</a>
+                  </li>
+                  <li>
+                    <a href="#ui-controls-3" class="toc-h2 toc-link" data-title="UI Controls">UI Controls</a>
+                  </li>
+                  <li>
+                    <a href="#authentication-3" class="toc-h2 toc-link" data-title="Authentication">Authentication</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#report-samples" class="toc-h1 toc-link" data-title="Report Samples">Report Samples</a>
               <ul class="toc-list-h2">
                   <li>
@@ -371,6 +397,135 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <li>Fork this Visualize.js API <a href="https://github.com/TIBCOSoftware/JS-visualize" target="_blank">sample set and guide</a> for your own use</li>
 <li>Download our <a href="https://github.com/TIBCOSoftware/JS-FDSample" target="_blank">sample application</a> on GitHub featuring Visualize.js</li>
 </ul>
+ 
+          
+          
+          
+          
+          
+          
+          
+          
+<h1 id='adhocview-samples'>Ad Hoc View Samples</h1><h3 id='basic-embed-3'>Basic Embed</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/zgs076vw/" target="_blank">Render table</a>, <a href="http://jsfiddle.net/yrjvh13g/" target="_blank">customize with CSS</a>, <a href="http://jsfiddle.net/4gLtp1ow/" target="_blank">crosstab with CSS</a>, <a href="http://jsfiddle.net/ek7q9tkg/" target="_blank">chart with selector</a></b></p>
+          
+<p>Initialization of the visualize.js library with simple rendering of ad hoc views using plain text authentication. See full authentication samples in this guide for securing data and views with the JasperReports Server and Visualize.js.</p>
+
+<blockquote>
+<p>You can easily change the resource to embed a different view from the JasperReport Server.</p>
+
+<p>For example:</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>        <span class="nx">resource</span><span class="p">:</span> <span class="s2">"/public/viz/Adhoc/Change_Visualization2"</span>
+</code></pre>
+                    
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/6b5k888j/" target="_blank">Load multiple views</a></b></p>
+<p>Use a common configuration to load multiple views.</p>
+          
+<h3 id='canvas-type'>Control Canvas</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/L1f20v23/" target="_blank">Set canvas type</a></b>, <b><a href="http://jsfiddle.net/egk8kdc8/" target="_blank">dynamically from a list</a></b></p>
+
+<p>Control the ad hoc view visualization type (canvas) for users to access. The default visualization selector can be turned off with a line of CSS and only select visualizations used. See dynamic list example for all available visualizations and each name reference.</p>
+          
+<h3 id='custom-input-controls-3'>Input Controls</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/mLc7vbdv/" target="_blank">Parameter passing</a></b>, <b><a href="http://jsfiddle.net/nqgcca7n/" target="_blank">basic drop-down</a></b></p>
+
+<p>Pass a simple set of hard-coded parameters to control ad hoc view output. This can be expanded with custom inputs controls such as a drop-down.</p>
+          
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/cbzgwhs0/" target="_blank">Dynamic input control values</a></b></p>
+
+<p>Build a custom input control dynamically using input control data from an ad hoc view.</p>          
+          
+<blockquote>
+<p>Try: A hard coded or dynamic variable...</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>      <span class="nx">inputSelection</span> <span class="o">=</span> <span class="s2">"Non-Consumable"</span>
+</code></pre>
+<blockquote>
+<p>for parameter control...</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code>      <span class="s2">"ProductFamily"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Food"</span><span class="p">,</span> <span class="nx">inputSelection</span><span class="p">]</span>
+</code></pre>
+
+<h3 id='hyperlinks-3'>Hyperlinks</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/9x2pvaes/" target="_blank">Pass values</a></b>, <b><a href="http://jsfiddle.net/mLjgvuo6/" target="_blank">fields and measures</a></b></p>
+
+<p>On selection of a data point pass it's value or field and measure.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/26ngj3hs/" target="_blank">Drill down on selection</a></b>, <b><a href="http://jsfiddle.net/g6fnj1br/" target="_blank">in new view</a></b></p>
+
+<p>Select an ad hoc view data point to drill down into data within the same view (container) based on the selected field and measure, updating the visualization type. Pass the same values to render a new ad hoc view on the page.</p>
+          
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/vt67jr3m/" target="_blank">Hyperlink changes beforeRender</a></b></p>
+
+<p>Take action on hyperlinks before they render. Useful for changing the styles on hyperlinks.</p>
+                
+<h3 id='custom-visual'>Custom Visualization</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/kufLpLhd/" target="_blank">Data rendered on page</a></b>, <b><a href="http://jsfiddle.net/16yo3m38/" target="_blank">with D3 gauges</a></b></p>
+
+<p>Render just the Ad Hoc View data on the page or pass to a custom visualization library such as D3.</p>
+          
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/v2txf33r/" target="_blank">Loading of data</a></b>, <b><a href="http://jsfiddle.net/oh5s4kro/" target="_blank">through return values</a></b></p>
+
+<p>Navigate the internal data API and return values to update and return the number of columns and rows.</p>          
+          
+<h3 id='ui-controls-3'>UI Controls</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/wq55kfkw/" target="_blank">Table row selection</a></b>, <b><a href="http://jsfiddle.net/h7hztn96/" target="_blank">column selection with highlight</a></b></p>
+
+<p>Select all values on a table row/column using CSS styles to highlight.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/gefu4z7m/" target="_blank">Resize Ad Hoc View</a></b></p>
+          
+<p>Ad hoc views are web responsive and the container size can be changed as needed.</p>
+          
+<h3 id='authentication-3'>Authentication</h3>
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/xybx7890/" target="_blank">Refresh</a></b>, <b><a href="http://jsfiddle.net/zta4egmz/" target="_blank">destroy session</a></b></p>
+
+<p>Hooks for both refreshing and destroying the authentication for an ad hoc view.</p>
+
+<p>Try it:</p>
+
+<p><b><a href="http://jsfiddle.net/ygeobyw4/" target="_blank">Secure token authentication</a></b></p>
+
+<p>Token based authentication and initialization of the visualize.js library with a list of ad hoc views. </p>
+
+<p><a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction" target="_blank">JRS - Authentication Cookbook &gt;</a></p>
+
+<blockquote>
+<p><em>Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the <a href="https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction" target="_blank">Authentication Cookbook</a> for details on configuring authentication correctly.</em></p>
+</blockquote>
+
+          
+          
+          
+          
+          
 <h1 id='report-samples'>Report Samples</h1><h3 id='basic-embed'>Basic Embed</h3>
 <p>Try it:</p>
 
@@ -405,7 +560,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='custom-input-controls'>Custom Input Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/" target="_blank">Paramater passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/" target="_blank">basic drop-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/" target="_blank">render values</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/" target="_blank">Parameter passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/" target="_blank">basic drop-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/" target="_blank">render values</a></b></p>
 
 <p>Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.</p>
 
@@ -435,7 +590,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 
 <p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/" target="_blank">Parameter passing on selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/" target="_blank">parameter in a new page</a></b></p>
 
-<p>Select from a chart series to pass a paramater into a secondary report. In addition pass this same paramater into a new page/tab.</p>
+<p>Select from a chart series to pass a parameter into a secondary report. In addition pass this same parameter into a new page/tab.</p>
 <h3 id='events'>Events</h3>
 <p>Try it:</p>
 
@@ -530,9 +685,9 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='custom-input-controls-2'>Custom Input Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/" target="_blank">Dashboard paramater passing</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/" target="_blank">Dashboard parameter passing</a></b></p>
 
-<p>Various inputs for passing paramaters into a dashboard.</p>
+<p>Various inputs for passing parameters into a dashboard.</p>
 
 <p>Try it:</p>
 
