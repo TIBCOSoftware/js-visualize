@@ -4,25 +4,17 @@ visualize({
     password: "joeuser"
   }
 }, function(v) {
-	var adv
-  function renderView() {
-    adv = v.adhocView({
-      resource: "/public/viz/Adhoc/Product_Sales1",
-      container: "#container",
-      success: function() {
-      	//use to find available params (filters) for ad hoc view
-     		console.log(adv.data().metadata.inputParameters);
-      },
-      //control ad hoc view parameters
-      params: {
-        product_category_1: ["Hot Beverages", "Bread"]
-      },
-      error: function() {
-        alert("error");
-        console.log(arguments);
+  var ahv = v.adhocView({
+    resource: "/public/viz/Adhoc/Table1",
+    container: "#container",
+    //Use linkOptions to pass selected value
+    linkOptions: {
+      events: {
+        click: function(ev, data) {
+         $(".selected").html("<span>Clicked: <b>" + ev.currentTarget.innerText + "</b></span>")
+          console.log(data);
+        }
       }
-    });
-  }
-  //render initial view
-  renderView();
+    }
+  });
 });

@@ -1,6 +1,12 @@
+.selected {
+  padding: 20px;
+  font-size: 1.3em;
+  color: #3C1A06;
+}
+
 #container {
   height: 400px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /*Start of Crosstab specific styles*/
@@ -87,8 +93,7 @@
   background-color: #E0D2BC;
 }
 
-/*Use to turn off visualization selector
+/*Use to turn off visualization selector*/
 #container .jr-mAdhoc-visualization-launcher.jr {
   display: none;
 }
-*/
