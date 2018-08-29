@@ -129,7 +129,7 @@ visualize({
                             memo.params[subkey] = [];
                         }
                         
-                        memo.params[subkey].push(value);
+                        memo.params[subkey].push(decodeURIComponent(value));
                          
                     } else if (!_.isEmpty(key)) {
                         memo[key] = value;
