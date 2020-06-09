@@ -49,7 +49,6 @@ visualize({
       .fail(handleError)
       .always(function() {
         $("#apply").prop("disabled", false);
-        fillWithValues();
       });
   });
 
