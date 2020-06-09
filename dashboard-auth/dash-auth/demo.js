@@ -8,7 +8,7 @@ visualize({
 }, function (v) {
     var dashboard = v.dashboard({
         resource: "/public/Samples/Dashboards/4._New_Dashboard",
-        container: $("#dashboard"),
+        container: "#dashboard",
         error: function(e) {
             alert(e);
         }
