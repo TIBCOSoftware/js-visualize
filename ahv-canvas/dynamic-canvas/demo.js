@@ -13,10 +13,10 @@ visualize({
           type: "Table"
       },
       success: function() {
-        console.log(arguments);
+        console.log("rendered");
       },
-      error: function() {
-        console.log(arguments);
+      error: function(e) {
+        console.log(e);
       }
     });
   }
