@@ -13,7 +13,7 @@ visualize({
           type: "Table"
       },
       success: function() {
-        console.log("rendered");
+        console.log("Arguments" + arguments);
       },
       error: function(e) {
         console.log(e);
