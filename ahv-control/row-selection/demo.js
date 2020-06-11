@@ -8,7 +8,7 @@ visualize({
     resource: "/public/viz/Hyperlinks/Table",
     container: "#container",
     success: function() {
-      console.log("rendered");
+      console.log("rendered" + _);
     },
     error: function(e) {
       console.log(e);
