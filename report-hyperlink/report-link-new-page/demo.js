@@ -35,6 +35,7 @@ visualize({
     function collectReportProperties(reportProperties) {
         var newProperties = findReportProperties(location.href);
         reportProperties =  _.extend(reportProperties);
+        console.log('Report Properties:' + reportProperties);
         return reportProperties;
     }
     
