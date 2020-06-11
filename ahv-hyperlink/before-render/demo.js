@@ -16,9 +16,9 @@ visualize({
           pair.element.style.textDecoration = "underline";
           pair.element.style.cursor = "pointer";
           pair.element.style.fontStyle = "italic";
-          pair.element.style.color = "#7C3414"
-          console.log(pair.element)
-          console.log(elemToLinkPairs);
+          pair.element.style.color = "#7C3414";
+          console.log("Pair element" + pair.element);
+          console.log("elemToLinkPairs" + elemToLinkPairs); 
         });
       }
     }
