@@ -17,6 +17,13 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5BNWTHP');
     <!-- End Google Tag Manager -->
+       $(document).ready(function(){
+        $('a[href^="https://"]').each(function(){ 
+            var oldUrl = $(this).attr("href"); // Get current url
+            var newUrl = oldUrl.replace("Anup1998", "TIBCOSoftware"); // Create new url
+            $(this).attr("href", newUrl); // Set herf value
+        });
+    });
     </script>
     
     <meta charset="utf-8">
