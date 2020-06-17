@@ -19,10 +19,9 @@
     })(window,document,'script','dataLayer','GTM-5BNWTHP');
     <!-- End Google Tag Manager -->
        jQuery(document).ready(function(){
-      debugger;
         jQuery('a[href^="https://"]').each(function(){ 
             var oldUrl = jQuery(this).attr("href"); 
-            var newUrl = oldUrl.replace("Anup1998", "TIBCOSoftware"); 
+            var newUrl = oldUrl.replace("CONTENT-URL", window.location.pathname.split("/")[1]); 
             jQuery(this).attr("href", newUrl); 
         });
     });
@@ -366,7 +365,7 @@
 It comes bundled with the commercial editions of TIBCO JasperReports® Server, specifically Jaspersoft AWS, Enterprise or
 Professional (and as an add-on with Jaspersoft Reporting).</p>
         
-        <a href="https://github.com/Anup1998/js-visualize" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a> 
+        <a href="https://github.com/CONTENT-URL/js-visualize" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a> 
         
 <blockquote>
 <p>In this guide you will find a full listing of Visualize.js API code samples.</p>
@@ -408,8 +407,8 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <p><b>Via GitHub</b></p>
 
 <ul>
-<li>Fork this Visualize.js API <a href="https://github.com/Anup1998/JS-visualize" target="_blank">sample set and guide</a> for your own use</li>
-<li>Download our <a href="https://github.com/Anup1998/JS-FDSample" target="_blank">sample application</a> on GitHub featuring Visualize.js</li>
+<li>Fork this Visualize.js API <a href="https://github.com/CONTENT-URL/JS-visualize" target="_blank">sample set and guide</a> for your own use</li>
+<li>Download our <a href="https://github.com/CONTENT-URL/JS-FDSample" target="_blank">sample application</a> on GitHub featuring Visualize.js</li>
 </ul>
  
           
@@ -423,7 +422,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h1 id='adhocview-samples'>Ad Hoc View Samples</h1><h3 id='basic-embed-3'>Basic Embed</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-embed/basic-render/" target="_blank">Render table</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-embed/customize-css/" target="_blank">customize with CSS</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-embed/crosstab-css/" target="_blank">crosstab with CSS</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-embed/chart-selector/" target="_blank">chart with selector</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/basic-render/" target="_blank">Render table</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/customize-css/" target="_blank">customize with CSS</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/crosstab-css/" target="_blank">crosstab with CSS</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/chart-selector/" target="_blank">chart with selector</a></b></p>
           
 <p>Initialization of the visualize.js library with simple rendering of ad hoc views using plain text authentication. See full authentication samples in this guide for securing data and views with the JasperReports Server and Visualize.js.</p>
 
@@ -437,26 +436,26 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
                     
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-embed/multiple-views/" target="_blank">Load multiple views</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/multiple-views/" target="_blank">Load multiple views</a></b></p>
 <p>Use a common configuration to load multiple views.</p>
           
 <h3 id='canvas-type'>Control Canvas</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-canvas/set-canvas/" target="_blank">Set canvas type</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/" target="_blank">dynamically from a list</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/" target="_blank">Set canvas type</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/" target="_blank">dynamically from a list</a></b></p>
 
 <p>Control the ad hoc view visualization type (canvas) for users to access. The default visualization selector can be turned off with a line of CSS and only select visualizations used. See dynamic list example for all available visualizations and each name reference.</p>
           
 <h3 id='custom-input-controls-3'>Input Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/umqfhs79/" target="_blank">Parameter passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-input/basic-drop/" target="_blank">basic drop-down</a></b></p>
+<p><b><a href="https://jsfiddle.net/umqfhs79/" target="_blank">Parameter passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/" target="_blank">basic drop-down</a></b></p>
 
 <p>Pass a simple set of hard-coded parameters to control ad hoc view output. This can be expanded with custom inputs controls such as a drop-down.</p>
           
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-input/dynamic-values/" target="_blank">Dynamic input control values</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/" target="_blank">Dynamic input control values</a></b></p>
 
 <p>Build a custom input control dynamically using input control data from an ad hoc view.</p>          
           
@@ -474,19 +473,19 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='hyperlinks-3'>Hyperlinks</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-hyperlink/pass-values/" target="_blank">Pass values</a></b>, <b><a href="https://jsfiddle.net/mLjgvuo6/" target="_blank">fields and measures</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/pass-values/" target="_blank">Pass values</a></b>, <b><a href="https://jsfiddle.net/mLjgvuo6/" target="_blank">fields and measures</a></b></p>
 
 <p>On selection of a data point pass it's value or field and measure.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master//ahv-hyperlink/drill-down/" target="_blank">Drill down on selection</a></b>, <b><a href="https://jsfiddle.net/g6fnj1br/" target="_blank">in new view</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master//ahv-hyperlink/drill-down/" target="_blank">Drill down on selection</a></b>, <b><a href="https://jsfiddle.net/g6fnj1br/" target="_blank">in new view</a></b></p>
 
 <p>Select an ad hoc view data point to drill down into data within the same view (container) based on the selected field and measure, updating the visualization type. Pass the same values to render a new ad hoc view on the page.</p>
           
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-hyperlink/before-render/" target="_blank">Hyperlink changes beforeRender</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/before-render/" target="_blank">Hyperlink changes beforeRender</a></b></p>
 
 <p>Take action on hyperlinks before they render. Useful for changing the styles on hyperlinks.</p>
                 
@@ -499,14 +498,14 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
           
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-custom/loading-data/" target="_blank">Loading of data</a></b>, <b><a href="https://jsfiddle.net/qaaLcto0/" target="_blank">through return values</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/loading-data/" target="_blank">Loading of data</a></b>, <b><a href="https://jsfiddle.net/qaaLcto0/" target="_blank">through return values</a></b></p>
 
 <p>Navigate the internal data API and return values to update and return the number of columns and rows.</p>          
           
 <h3 id='ui-controls-3'>UI Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-control/row-selection/" target="_blank">Table row selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-control/col-selection/" target="_blank">column selection with highlight</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/row-selection/" target="_blank">Table row selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/col-selection/" target="_blank">column selection with highlight</a></b></p>
 
 <p>Select all values on a table row/column using CSS styles to highlight.</p>
 
@@ -519,7 +518,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='authentication-3'>Authentication</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-auth/refresh/" target="_blank">Refresh</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/ahv-auth/destroy/" target="_blank">destroy session</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/refresh/" target="_blank">Refresh</a></b>, <b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/destroy/" target="_blank">destroy session</a></b></p>
 
 <p>Hooks for both refreshing and destroying the authentication for an ad hoc view.</p>
 
@@ -543,7 +542,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h1 id='report-samples'>Report Samples</h1><h3 id='basic-embed'>Basic Embed</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-embed/report-render/" target="_blank">Simple report rendering</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-embed/report-list/" target="_blank">from a list</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-embed/report-render/" target="_blank">Simple report rendering</a>, <a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-embed/report-list/" target="_blank">from a list</a></b></p>
 
 <p>Initialization of the visualize.js library with simple rendering of an HTML report using plain text authentication. See full authentication samples in this guide for securing data and reports with the JasperReports Server and Visualize.js.</p>
 
@@ -556,25 +555,25 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 </code></pre>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-embed/common-config/" target="_blank">Load multiple reports</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-embed/common-config/" target="_blank">Load multiple reports</a></b></p>
 
 <p>Use a common configuration to load multiple reports.</p>
 <h3 id='pagination'>Pagination</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/next-previous/" target="_blank">Next/previous</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/page-range/" target="_blank">enter range</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/page-event/" target="_blank">pagination events</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/next-previous/" target="_blank">Next/previous</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-range/" target="_blank">enter range</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-event/" target="_blank">pagination events</a></b></p>
 
 <p>Provide control for report pagination with either individual selectors or a directly inputed range. Also, see pagination with events for full control of inputs.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/page-anchor/" target="_blank">Anchors</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/range-anchor/" target="_blank">range with anchor</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-pagination/navigating-report/" target="_blank">anchor and page search</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-anchor/" target="_blank">Anchors</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/range-anchor/" target="_blank">range with anchor</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-pagination/navigating-report/" target="_blank">anchor and page search</a></b></p>
 
 <p>Provide the ability to move quickly through reports with direct page anchors. Also see an anchor with a range of rendered pages and an example of searching both an anchor and page/range with an event to callout the current selection.</p>
 <h3 id='custom-input-controls'>Custom Input Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-input/param-pass/" target="_blank">Parameter passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-input/drop-down/" target="_blank">basic drop-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-input/render-values/" target="_blank">render values</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-input/param-pass/" target="_blank">Parameter passing</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-input/drop-down/" target="_blank">basic drop-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-input/render-values/" target="_blank">render values</a></b></p>
 
 <p>Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.</p>
 
@@ -590,67 +589,67 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 </code></pre>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-input/render-types/" target="_blank">Dynamic resource types</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-input/render-types/" target="_blank">Dynamic resource types</a></b></p>
 
 <p>Discover reporting resources available and formats from the JasperReport Server for use with input controls.</p>
 <h3 id='hyperlinks'>Hyperlinks</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-hyperlink/report-link/" target="_blank">Basic drill-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-hyperlink/report-link-new-page/" target="_blank">open report in new page</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link/" target="_blank">Basic drill-down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link-new-page/" target="_blank">open report in new page</a></b></p>
 
 <p>Select a report hyperlink to open a new &quot;drill-down&quot; report with selected parameter.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-hyperlink/parameter-passing/" target="_blank">Parameter passing on selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/" target="_blank">parameter in a new page</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing/" target="_blank">Parameter passing on selection</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/" target="_blank">parameter in a new page</a></b></p>
 
 <p>Select from a chart series to pass a parameter into a secondary report. In addition pass this same parameter into a new page/tab.</p>
 <h3 id='events'>Events</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-events/page-totals/" target="_blank">Page totals</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-events/report-status/" target="_blank">report status</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-events/page-totals/" target="_blank">Page totals</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-events/report-status/" target="_blank">report status</a></b></p>
 
 <p>Listen through events for a change in the page totals and report completed status.</p>
 <h3 id='ui-controls'>UI Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-ui/table-column-sorting/" target="_blank">Table column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-ui/table-column-formatting/" target="_blank">table column conditional formatting</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-ui/table-column-sorting/" target="_blank">Table column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-ui/table-column-formatting/" target="_blank">table column conditional formatting</a></b></p>
 
 <p>Dynamically control UI elements for table columns.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-ui/crosstab-column-sorting/" target="_blank">Crosstab column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-ui/crosstab-row-sorting/" target="_blank">crosstab row sorting order</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-ui/crosstab-column-sorting/" target="_blank">Crosstab column sorting order</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-ui/crosstab-row-sorting/" target="_blank">crosstab row sorting order</a></b></p>
 
 <p>Dynamically control UI elements for Crosstabs.</p>
 <h3 id='export'>Export</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-export/export-formats/" target="_blank">Export formats</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-export/auto-export/" target="_blank">auto export</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-export/export-formats/" target="_blank">Export formats</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-export/auto-export/" target="_blank">auto export</a></b></p>
 
 <p>Custom export options with various formats.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-export/csv-export-d3/" target="_blank">Export CSV and render</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-export/json-export-d3/" target="_blank">export JSON and render</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-export/csv-export-d3/" target="_blank">Export CSV and render</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-export/json-export-d3/" target="_blank">export JSON and render</a></b></p>
 
 <p>Export data from a report and render with a custom visualization.</p>
 <h3 id='save'>Save</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/report-save/save-as" target="_blank">Save/Save As UI</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-save/save-as" target="_blank">Save/Save As UI</a></b></p>
 
 <p>Custom UI with ability to overwrite reports with location, label and description.</p>
 <h3 id='authentication'>Authentication</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-auth/report-login/" target="_blank">Basic login/logout</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-auth/report-login/" target="_blank">Basic login/logout</a></b></p>
 
 <p>Simple plain text authentication with demonstration of destroying session with reports.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-auth/token-auth/" target="_blank">Secure token authentication</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-auth/token-auth/" target="_blank">Secure token authentication</a></b></p>
 
 <p>Token based authentication and initialization of the visualize.js library with a list of reports. </p>
 
@@ -662,19 +661,19 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-auth/login-hook/" target="_blank">Login/logout with hooks</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-auth/login-hook/" target="_blank">Login/logout with hooks</a></b></p>
 
 <p>Authenticate and destroy the session with the method of your choice through the hooks that are made available through Visualize.js.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/report-auth/auth-ui/" target="_blank">Login/logout UI</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-auth/auth-ui/" target="_blank">Login/logout UI</a></b></p>
 
 <p>A sample UI providing users full authentication options to the JasperReport Server.</p>
 <h1 id='dashboard-samples'>Dashboard Samples</h1><h3 id='basic-embed-2'>Basic Embed</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/dashboard-embed/dash-embed/" target="_blank">Dashboard render with input control</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/dashboard-embed/dash-embed/" target="_blank">Dashboard render with input control</a></b></p>
 
 <p>Initialization of the visualize.js library with simple rendering of a dashboard (with an embedded input control and hyperlinks) using plain text authentication.</p>
 
@@ -687,7 +686,7 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 </code></pre><h3 id='authentication-2'>Authentication</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/dashboard-auth/dash-auth/" target="_blank">Dashboard login/logout</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/dashboard-auth/dash-auth/" target="_blank">Dashboard login/logout</a></b></p>
 
 <p>Simple authentication with demonstration of destroying session with dashboards.</p>
 
@@ -699,25 +698,25 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='custom-input-controls-2'>Custom Input Controls</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/dashboard-input/dash-param/" target="_blank">Dashboard parameter passing</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/dashboard-input/dash-param/" target="_blank">Dashboard parameter passing</a></b></p>
 
 <p>Various inputs for passing parameters into a dashboard.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/Anup1998/JS-visualize/tree/master/dashboard-input/undo-redo/" target="_blank">Undo/redo parameter events</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-input/undo-redo/" target="_blank">Undo/redo parameter events</a></b></p>
 
 <p>Control the dashboard navigation with undo/redo events.</p>
 <h3 id='hyperlinks-2'>Hyperlinks</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/dashboard-hyperlink/dash-link/" target="_blank">Dashboard hyperlink</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/dashboard-hyperlink/dash-link/" target="_blank">Dashboard hyperlink</a></b></p>
 
 <p>Passing hyperlinks from one dashboard to open and control a secondary report.</p>
 <h1 id='input-control-samples'>Input Control Samples</h1><h3 id='get-input-control-data'>Get Input Control Data</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-data/custom-dropdown/" target="_blank">Custom drop down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998 /JS-visualize/tree/master/inputControl-data/inside-table/" target="_blank">show inside table</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-data/custom-dropdown/" target="_blank">Custom drop down</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL /JS-visualize/tree/master/inputControl-data/inside-table/" target="_blank">show inside table</a></b></p>
 
 <p>These examples show accessing data directly from a JRS Input Control.</p>
 
@@ -727,43 +726,43 @@ Professional (and as an add-on with Jaspersoft Reporting).</p>
 <h3 id='bind-to-report'>Bind to Report</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-report/bind-with-report/" target="_blank">Embed report and input control</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-report/bind-with-report/" target="_blank">Embed report and input control</a></b></p>
 
 <p>Simple embedding of a report and it&#39;s associated input control.</p>
 <h3 id='view-control-types'>View Control Types</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-view/render-all-types/" target="_blank">Render input controls (all types)</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-view/default-values/" target="_blank">default values</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-events/cascade/" target="_blank">with cascade</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-view/cascade-multi-single/" target="_blank">cascade with multi and single selects</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/render-all-types/" target="_blank">Render input controls (all types)</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/default-values/" target="_blank">default values</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/" target="_blank">with cascade</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade-multi-single/" target="_blank">cascade with multi and single selects</a></b></p>
 
 <p>View all JRS input controls, with default values and cascades.</p>
 <h3 id='reset'>Reset</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-reset/reset-controls/" target="_blank">Reset input controls</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-reset/reset-controls/" target="_blank">Reset input controls</a></b></p>
 
 <p>Change back to originally selected input control values.</p>
 <h3 id='events-2'>Events</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-events/control-changes/" target="_blank">Listen for changes</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-events/cascade/" target="_blank">with cascade</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/control-changes/" target="_blank">Listen for changes</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/" target="_blank">with cascade</a></b></p>
 
 <p>Provide events to listen to input control changes, updating the application as needed.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-events/cascade-report/" target="_blank">Bind cascade with report</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade-report/" target="_blank">Bind cascade with report</a></b></p>
 
 <p>Listen to changes with cascade input controls.</p>
 
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-events/validation/" target="_blank">Validation</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/validation/" target="_blank">Validation</a></b></p>
 
 <p>Validation result in change event.</p>
 <h3 id='css-overrides'>CSS Overrides</h3>
 <p>Try it:</p>
 
-<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-css/specific-overrides/" target="_blank">Specific CSS overrides</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/Anup1998/JS-visualize/tree/master/inputControl-css/all-types/" target="_blank">all types</a></b></p>
+<p><b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/specific-overrides/" target="_blank">Specific CSS overrides</a></b>, <b><a href="https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/" target="_blank">all types</a></b></p>
 
 <p>Example CSS overrides with JRS input controls.</p>
 
@@ -826,3 +825,4 @@ the terms above.</p>
     </div>
   </body>
 </html>
+
