@@ -18,12 +18,12 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5BNWTHP');
     <!-- End Google Tag Manager -->
-       $(document).ready(function(){
+       jQuery(document).ready(function(){
       debugger;
-        $('a[href^="https://"]').each(function(){ 
-            var oldUrl = $(this).attr("href"); 
+        jQuery('a[href^="https://"]').each(function(){ 
+            var oldUrl = jQuery(this).attr("href"); 
             var newUrl = oldUrl.replace("Anup1998", "TIBCOSoftware"); 
-            $(this).attr("href", newUrl); 
+            jQuery(this).attr("href", newUrl); 
         });
     });
     </script>
