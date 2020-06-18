@@ -107,7 +107,7 @@ visualize({
     
     function paramsFromUrlQueryParams(str){
         var result = {};
-        if (str && !_.isEmpty(str)){
+        if (str && !_.isEmpty(str)&& str!=='?editor_console=true'){
             result =  str.substr('1', str.length)
                 .split('&')
                 .reduce(function (memo, str) {
