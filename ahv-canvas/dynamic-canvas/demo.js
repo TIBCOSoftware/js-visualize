@@ -13,7 +13,7 @@ visualize({
           type: "Table"
       },
       success: function() {
-        console.log("Arguments" + arguments);
+        console.log("Arguments", JSON.stringify(arguments));
       },
       error: function(e) {
         console.log(e);
