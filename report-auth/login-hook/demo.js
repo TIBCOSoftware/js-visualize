@@ -8,9 +8,9 @@ visualize({
         loginFn: function (properties, request) {
             //use whatever you want to establish authentication 
             //be aware of same domain policy, 'request' works only with JRS instance
-            alert("Send custom login request. To 'http://localhost:8080?/customLogin'");
+            alert("Send custom login request. To 'https://mobiledemo.jaspersoft.com/jasperserver-pro/rest_v2/login'");
             return request({
-                url: "http://localhost:8080/customLogin?username=" + properties.name + "&password=" + properties.password
+                url: "https://mobiledemo.jaspersoft.com/jasperserver-pro/rest_v2/login?j_username=" + properties.name + "&j_password=" + properties.password + "&orgId=" + properties.organization
             });
         },
         logoutFn: function (properties, request) {
@@ -18,7 +18,7 @@ visualize({
             //be aware of same domain policy, 'request' works only with  JRS instance
             alert("Send custom logout request. To 'http://localhost:8080/customLogout'");
             return request({
-                url: "http://localhost:8080/customLogout"
+                url: "https://mobiledemo.jaspersoft.com/jasperserver-pro/logout.html"
             });
         }
     }

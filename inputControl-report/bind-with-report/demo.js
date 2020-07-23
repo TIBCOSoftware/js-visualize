@@ -12,7 +12,7 @@ visualize({
         container: "#report",
         events: {
             reportCompleted: function(status) {
-                success: document.getElementById("loader").style.display = "none";
+                success: document.getElementById("ic").style.display = "none";
             }
         },
     });

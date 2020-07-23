@@ -35,7 +35,7 @@ visualize({
     function collectReportProperties(reportProperties) {
         var newProperties = findReportProperties(location.href);
         reportProperties =  _.extend(reportProperties, newProperties);
-        console.log('Report Properties:', reportProperties);
+        console.log('Report Properties:' , JSON.stringify(reportProperties));
         return reportProperties;
     }
     
@@ -107,7 +107,7 @@ visualize({
     
     function paramsFromUrlQueryParams(str){
         var result = {};
-        if (str && !_.isEmpty(str)){
+        if (str && !_.isEmpty(str)&& str!=='?editor_console=true'){
             result =  str.substr('1', str.length)
                 .split('&')
                 .reduce(function (memo, str) {
