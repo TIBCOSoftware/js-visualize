@@ -1,7 +1,8 @@
 visualize({
     auth: {
         name: "joeuser",
-        password: "joeuser"
+        password: "joeuser",
+        organization: "organization_1"
     }
 }, function (v) {
     //discover name through JRXML (field name by default)
