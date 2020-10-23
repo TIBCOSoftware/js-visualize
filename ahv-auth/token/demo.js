@@ -2,7 +2,7 @@
 
 visualize({
     auth : { 
-        tokenName: "myCustomTokenName"
+        tokenName: "myCustomTokenName",
         token : "ST-40-CZeUUnGPxEqgScNbxh9l-sso-cas.example.com"
     } 
 }, function (v){
