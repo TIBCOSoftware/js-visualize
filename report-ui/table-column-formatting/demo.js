@@ -41,7 +41,7 @@ visualize({
     });
     
     function printConditions(component){
-        console.log("Conditions: "+ component.conditions);
+        console.log("Conditions: " , component.conditions);
     }
     
     function showError(err) {
