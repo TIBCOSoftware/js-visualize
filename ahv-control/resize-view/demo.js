@@ -32,7 +32,7 @@ visualize({
 
   $('#selected_resource').prop('disabled', false);
 
-  $("#container").resizable({
+  $("#container").resizable && $("#container").resizable({
     resize: function(event, ui) {
       adv.resize();
     }
