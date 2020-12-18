@@ -8,17 +8,17 @@ visualize({
         loginFn: function (properties, request) {
             //use whatever you want to establish authentication 
             //be aware of same domain policy, 'request' works only with JRS instance
-            alert("Send custom login request. To 'https://infra-platforms-phase2-11723-rsarda.pfa.jaspersoft.com/jasperserver-pro/rest_v2/login'");
+            alert("Send custom login request. To 'https://mobiledemo.jaspersoft.com/jasperserver-pro/rest_v2/login'");
             return request({
-                url: "https://infra-platforms-phase2-11723-rsarda.pfa.jaspersoft.com/jasperserver-pro/rest_v2/login?j_username=" + properties.name + "&j_password=" + properties.password + "&orgId=" + properties.organization
+                url: "https://mobiledemo.jaspersoft.com/jasperserver-pro/rest_v2/login?j_username=" + properties.name + "&j_password=" + properties.password + "&orgId=" + properties.organization
             });
         },
         logoutFn: function (properties, request) {
             //use whatever you want to destroy session
             //be aware of same domain policy, 'request' works only with  JRS instance
-            alert("Send custom logout request. To 'https://infra-platforms-phase2-11723-rsarda.pfa.jaspersoft.com/jasperserver-pro/customLogout'");
+            alert("Send custom logout request. To 'https://mobiledemo.jaspersoft.com/jasperserver-pro/customLogout'");
             return request({
-                url: "https://infra-platforms-phase2-11723-rsarda.pfa.jaspersoft.com/jasperserver-pro/logout.html"
+                url: "https://mobiledemo.jaspersoft.com/jasperserver-pro/logout.html"
             });
         }
     }
