@@ -4,7 +4,8 @@ var visualType = "Table";
 visualize({
       auth: {
         name: "joeuser",
-        password: "joeuser"
+        password: "joeuser",
+        organization: "organization_1"
       }
     }, function(v) {
       function renderView() {

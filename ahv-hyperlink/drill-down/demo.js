@@ -3,7 +3,8 @@ var firstView = "/public/viz/Adhoc/Store_Sales3";
 visualize({
   auth: {
     name: "joeuser",
-    password: "joeuser"
+    password: "joeuser",
+    organization: "organization_1"
   }
 }, function(v) {
   function renderView() {
