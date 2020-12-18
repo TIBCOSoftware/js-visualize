@@ -16,7 +16,7 @@ visualize({
         logoutFn: function (properties, request) {
             //use whatever you want to destroy session
             //be aware of same domain policy, 'request' works only with  JRS instance
-            alert("Send custom logout request. To 'http://localhost:8080/customLogout'");
+            alert("Send custom logout request. To 'https://mobiledemo.jaspersoft.com/jasperserver-pro/customLogout'");
             return request({
                 url: "https://mobiledemo.jaspersoft.com/jasperserver-pro/logout.html"
             });

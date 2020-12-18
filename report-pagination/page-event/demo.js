@@ -3,8 +3,8 @@
 visualize({
 	auth: {
 		name: "joeuser", 
-		password: "joeuser",,
-        organization: "organization_1"
+		password: "joeuser",
+        	organization: "organization_1"
 	}
 }, function (v) {
     var currentPage = 1,
