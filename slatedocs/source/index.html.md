@@ -201,13 +201,13 @@ Token based authentication and initialization of the visualize.js library with a
 
 >*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
 
-[Render Table]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/basic-render/
-[customize with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/customize-css/
-[crosstab with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/crosstab-css/
-[chart with selector]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/chart-selector/
-[Load multiple views]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/multiple-views/
+[Render Table]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/basic-render/
+[customize with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/customize-css/
+[crosstab with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/crosstab-css/
+[chart with selector]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/chart-selector/
+[Load multiple views]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/multiple-views/
 
-[Set canvas type]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/
+[Set canvas type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/
 [dynamically from a list]: https://jsfiddle.net/gh/get/jQuery/3.4/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
 [Dynamic input control values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/
@@ -387,7 +387,7 @@ Try it:
 
 A sample UI providing users full authentication options to the JasperReport Server.
 
-[Simple report rendering]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-embed/report-render/
+[Simple report rendering]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/report-embed/report-render/
 [from a list]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-embed/report-list/
 [Load multiple reports]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-embed/common-config/
 
@@ -404,8 +404,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 
 [Basic drill-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link/
 [open report in new page]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
-[Parameter passing on selection]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing/
-[parameter in a new page]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
+[Parameter passing on selection]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing/
+[parameter in a new page]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
 
 [Page totals]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-events/page-totals/
 [report status]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-events/report-status/
@@ -526,7 +526,7 @@ Simple embedding of a report and it's associated input control.
 
 Try it:
 
-<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade/)</b>, <b>[cascade with multi and single selects]</b>
+<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade/)</b>, <b>[cascade with multi and single selects]</b>
 
 View all JRS input controls, with default values and cascades.
 
@@ -544,7 +544,7 @@ Change back to originally selected input control values.
 
 Try it:
 
-<b>[Listen for changes]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/)</b>
+<b>[Listen for changes]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/)</b>
 
 Provide events to listen to input control changes, updating the application as needed.
 
@@ -579,18 +579,18 @@ Example CSS overrides with JRS input controls.
 
 [Embed report and input control]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-report/bind-with-report/
 
-[Render input controls (all types)]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/render-all-types/
-[default values]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/default-values/
-[cascade with multi and single selects]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
+[Render input controls (all types)]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/render-all-types/
+[default values]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/default-values/
+[cascade with multi and single selects]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
 
 [Reset input controls]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-reset/reset-controls/
 
 [Listen for changes]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/control-changes/
 [Bind cascade with report]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade-report/
-[Validation]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/validation/
+[Validation]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-events/validation/
 
-[Specific CSS overrides]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/specific-overrides/
-[all types]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/
+[Specific CSS overrides]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-css/specific-overrides/
+[all types]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/
 
 
 
