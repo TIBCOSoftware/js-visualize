@@ -26,24 +26,6 @@ under the License.
 <!doctype html>
 <html>
   <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112380144-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-112380144-1');
-
-      <!-- Google Tag Manager -->
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5BNWTHP');
-      <!-- End Google Tag Manager -->
-    </script>
-
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -65,16 +47,6 @@ under the License.
     <% else %>
       <%= javascript_include_tag  "all_nosearch" %>
     <% end %>
-
-    <script>
-      jQuery(document).ready(function(){
-        jQuery('a[href^="https://"]').each(function(){
-          var oldUrl = jQuery(this).attr("href");
-          var newUrl = oldUrl.replace("CONTENT-URL", window.location.host.split(".")[0]);
-          jQuery(this).attr("href", newUrl).attr("target", "_blank");
-        });
-      });
-    </script>
 
     <% if current_page.data.code_clipboard %>
     <script>
