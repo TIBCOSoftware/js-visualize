@@ -71,7 +71,7 @@ under the License.
         jQuery('a[href^="https://"]').each(function(){
           var oldUrl = jQuery(this).attr("href");
           var newUrl = oldUrl.replace("CONTENT-URL", window.location.host.split(".")[0]);
-          jQuery(this).attr("href", newUrl);
+          jQuery(this).attr("href", newUrl).attr("target", "_blank");
         });
       });
     </script>

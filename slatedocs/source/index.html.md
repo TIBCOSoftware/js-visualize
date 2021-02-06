@@ -64,14 +64,14 @@ View and reuse the live Visualize.js API samples in this guide and(or) reference
 * Download our [sample application] on GitHub featuring Visualize.js
 
 [Visualize.js API reference guide]: https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs
-[JasperReport Server]: https://jaspersoft.com/download
-[installation]: https://jaspersoft.com/download
-[quick start guide]: https://jaspersoft.com/jaspersoft-quick-start-guide
+[JasperReport Server]: https://www.jaspersoft.com/download
+[installation]: https://www.jaspersoft.com/download
+[quick start guide]: https://www.jaspersoft.com/jaspersoft-quick-start-guide
 [API video tutorials]: https://community.jaspersoft.com/wiki/visualizejs-tutorials
-[sample set and guide]: https://github.com/TIBCOSoftware/JS-visualize
+[sample set and guide]: https://github.com/CONTENT-URL/JS-visualize
 [sample application]: https://github.com/TIBCOSoftware/JS-FDSample
 
-[Download JRS]: https://jaspersoft.com/download
+[Download JRS]: https://www.jaspersoft.com/download
 
 
 
@@ -113,7 +113,7 @@ Control the ad hoc view visualization type (canvas) for users to access. The def
 
 Try it:
 
-<b>[Paramater passing]</b>, <b>[basic drop-down]</b>
+<b>[Parameter passing](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/pass-param/)</b>, <b>[basic drop-down](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/)</b>
 
 Pass a simple set of hard-coded parameters to control ad hoc view output. This can be expanded with custom inputs controls such as a drop-down.
 
@@ -193,7 +193,7 @@ Hooks for both refreshing and destroying the authentication for an ad hoc view.
 
 Try it:
 
-<b>[Secure token authentication]</b>
+<b>[Secure token authentication](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/token/)</b>
 
 Token based authentication and initialization of the visualize.js library with a list of ad hoc views.
 
@@ -201,37 +201,34 @@ Token based authentication and initialization of the visualize.js library with a
 
 >*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
 
-[Render Table]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/basic-render/
-[customize with CSS]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/customize-css/
-[crosstab with CSS]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/crosstab-css/
-[chart with selector]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/chart-selector/
-[Load multiple views]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-embed/multiple-views/
+[Render Table]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/basic-render/
+[customize with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/customize-css/
+[crosstab with CSS]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/crosstab-css/
+[chart with selector]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/chart-selector/
+[Load multiple views]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-embed/multiple-views/
 
-[Set canvas type]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/set-canvas/
-[dynamically from a list]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
+[Set canvas type]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/
+[dynamically from a list]: https://jsfiddle.net/gh/get/jQuery/3.4/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
-[Paramater passing]: http://jsfiddle.net/umqfhs79/
-[basic drop-down]: http://jsfiddle.net/s4yofqz0/
-[Dynamic input control values]: http://jsfiddle.net/cbzgwhs0/
+[Dynamic input control values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/
 
-[Pass values]: http://jsfiddle.net/9x2pvaes/
-[fields and measures]: http://jsfiddle.net/mLjgvuo6/
-[Drill down on selection]: http://jsfiddle.net/26ngj3hs/
-[in new view]: http://jsfiddle.net/g6fnj1br/
-[Hyperlink changes beforeRender]: http://jsfiddle.net/vt67jr3m/
+[Pass values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/pass-values/
+[fields and measures]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/fields-measures/
+[Drill down on selection]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/drill-down/
+[in new view]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/new-view/
+[Hyperlink changes beforeRender]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/before-render/
 
-[Data rendered on page]: http://jsfiddle.net/qg1u27ys/
-[with D3 gauges]: http://jsfiddle.net/xoh6f6jv/
-[Loading of data]: http://jsfiddle.net/r6w3bvpn/
-[through return values]: http://jsfiddle.net/qaaLcto0/
+[Data rendered on page]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/data-rendered/
+[with D3 gauges]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/d3-gauge/
+[Loading of data]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/loading-data/
+[through return values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/return-values/
 
-[Table row selection]: http://jsfiddle.net/40792tab/
-[column selection with highlight]: http://jsfiddle.net/exrraxzw/
-[Resize Ad Hoc View]: http://jsfiddle.net/us4ycpfr/
+[Table row selection]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/row-selection/
+[column selection with highlight]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/col-selection/
+[Resize Ad Hoc View]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/resize-view/
 
-[Refresh]: http://jsfiddle.net/dnskca90/
-[destroy session]: http://jsfiddle.net/h571fp7v/
-[Secure token authentication]: http://jsfiddle.net/67ajbay2/
+[Refresh]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/refresh/
+[destroy session]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/destroy/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -280,7 +277,7 @@ Provide the ability to move quickly through reports with direct page anchors. Al
 
 Try it:
 
-<b>[Paramater passing]</b>, <b>[basic drop-down]</b>, <b>[render values]</b>
+<b>[Parameter passing](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/param-pass/)</b>, <b>[basic drop-down](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/drop-down/)</b>, <b>[render values]</b>
 
 Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.
 
@@ -370,7 +367,7 @@ Simple plain text authentication with demonstration of destroying session with r
 
 Try it:
 
-<b>[Secure token authentication]</b>
+<b>[Secure token authentication](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/token-auth/)</b>
 
 Token based authentication and initialization of the visualize.js library with a list of reports.
 
@@ -390,50 +387,47 @@ Try it:
 
 A sample UI providing users full authentication options to the JasperReport Server.
 
-[Simple report rendering]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-render/
-[from a list]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/report-list/
-[Load multiple reports]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-embed/common-config/
+[Simple report rendering]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-embed/report-render/
+[from a list]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-embed/report-list/
+[Load multiple reports]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-embed/common-config/
 
-[Next/previous]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/next-previous/
-[enter range]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-range/
-[pagination events]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-event/
+[Next/previous]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/next-previous/
+[enter range]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-range/
+[pagination events]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-event/
 
-[Anchors]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/page-anchor/
-[range with anchor]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/range-anchor/
-[anchor and page search]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-pagination/navigating-report/
+[Anchors]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/page-anchor/
+[range with anchor]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/range-anchor/
+[anchor and page search]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/navigating-report/
 
-[Paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/param-pass/
-[basic drop-down]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/drop-down/
-[render values]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-values/
-[Dynamic resource types]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-input/render-types/
+[render values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/render-values/
+[Dynamic resource types]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/render-types/
 
-[Basic drill-down]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link/
-[open report in new page]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
-[Parameter passing on selection]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing/
-[parameter in a new page]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
+[Basic drill-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link/
+[open report in new page]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/report-link-new-page/
+[Parameter passing on selection]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing/
+[parameter in a new page]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/report-hyperlink/parameter-passing-new-page/
 
-[Page totals]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/page-totals/
-[report status]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-events/report-status/
+[Page totals]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-events/page-totals/
+[report status]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-events/report-status/
 
-[Table column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-sorting/
-[table column conditional formatting]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/table-column-formatting/
+[Table column sorting order]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-ui/table-column-sorting/
+[table column conditional formatting]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-ui/table-column-formatting/
 
-[Crosstab column sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-column-sorting/
-[crosstab row sorting order]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-ui/crosstab-row-sorting/
+[Crosstab column sorting order]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-ui/crosstab-column-sorting/
+[crosstab row sorting order]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-ui/crosstab-row-sorting/
 
-[Export formats]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/export-formats/
-[auto export]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/auto-export/
-[Export CSV and render]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/csv-export-d3/
-[export JSON and render]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-export/json-export-d3/
+[Export formats]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-export/export-formats/
+[auto export]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-export/auto-export/
+[Export CSV and render]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-export/csv-export-d3/
+[export JSON and render]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-export/json-export-d3/
 
-[Save/Save As UI]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-save/save-as/
+[Save/Save As UI]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-save/save-as/
 
-[Basic Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/report-login/
-[Secure token authentication]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/token-auth/
+[Basic Login/Logout]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/report-login/
 
-[Login/logout with hooks]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/login-hook/
+[Login/logout with hooks]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/login-hook/
 
-[Login/logout UI]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/report-auth/auth-ui/
+[Login/logout UI]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/auth-ui/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -474,7 +468,7 @@ Simple authentication with demonstration of destroying session with dashboards.
 
 Try it:
 
-<b>[Dashboard paramater passing]</b>
+<b>[Dashboard parameter passing]</b>
 
 Various inputs for passing paramaters into a dashboard.
 
@@ -493,14 +487,14 @@ Try it:
 Passing hyperlinks from one dashboard to open and control a secondary report.
 
 
-[Dashboard render with input control]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-embed/dash-embed/
+[Dashboard render with input control]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-embed/dash-embed/
 
-[Dashboard Login/Logout]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-auth/dash-auth/
+[Dashboard Login/Logout]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-auth/dash-auth/
 
-[Dashboard paramater passing]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/dash-param/
-[Undo/redo parameter events]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-input/undo-redo/
+[Dashboard parameter passing]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-input/dash-param/
+[Undo/redo parameter events]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-input/undo-redo/
 
-[Dashboard hyperlink]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
+[Dashboard hyperlink]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/dashboard-hyperlink/dash-link/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -532,7 +526,7 @@ Simple embedding of a report and it's associated input control.
 
 Try it:
 
-<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade]</b>, <b>[cascade with multi and single selects]</b>
+<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade/)</b>, <b>[cascade with multi and single selects]</b>
 
 View all JRS input controls, with default values and cascades.
 
@@ -550,7 +544,7 @@ Change back to originally selected input control values.
 
 Try it:
 
-<b>[Listen for changes]</b>, <b>[with cascade]</b>
+<b>[Listen for changes]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/)</b>
 
 Provide events to listen to input control changes, updating the application as needed.
 
@@ -580,25 +574,23 @@ Example CSS overrides with JRS input controls.
 >This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 
 
-[Custom drop down]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/custom-dropdown/
-[show inside table]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-data/inside-table/
+[Custom drop down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/custom-dropdown/
+[show inside table]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/inside-table/
 
-[Embed report and input control]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-report/bind-with-report/
+[Embed report and input control]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-report/bind-with-report/
 
-[Render input controls (all types)]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/render-all-types/
-[default values]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/default-values/
-[with cascade]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade/
-[cascade with multi and single selects]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
+[Render input controls (all types)]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/render-all-types/
+[default values]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/default-values/
+[cascade with multi and single selects]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
 
-[Reset input controls]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-reset/reset-controls/
+[Reset input controls]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-reset/reset-controls/
 
-[Listen for changes]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/control-changes/
-[with cascade]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade/
-[Bind cascade with report]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/cascade-report/
-[Validation]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-events/validation/
+[Listen for changes]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/control-changes/
+[Bind cascade with report]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade-report/
+[Validation]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-events/validation/
 
-[Specific CSS overrides]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/specific-overrides/
-[all types]: http://jsfiddle.net/gh/get/mootools/1.5.2/TIBCOSoftware/JS-visualize/tree/master/inputControl-css/all-types/
+[Specific CSS overrides]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/specific-overrides/
+[all types]: https://jsfiddle.net/gh/get/mootools/1.5.2/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/
 
 
 
