@@ -370,8 +370,12 @@ html, body {
     background-color: #fdfdfd;
   }
 
+  .main-header {
+    @extend h1
+  }
+
   h1:first-child, div:first-child + h1 {
-    border-top-width: 0;
+    //border-top-width: 0;
     margin-top: 0;
   }
 
@@ -643,4 +647,8 @@ html, body {
 
 .copy-clipboard:hover {
   opacity: 0.8;
+}
+
+.notbold {
+  font-weight: normal;
 }

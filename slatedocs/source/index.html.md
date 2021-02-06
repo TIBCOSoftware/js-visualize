@@ -4,7 +4,11 @@ title: API Documentation
 search: true
 ---
 
-Visualize.js
+<div class="main-header">
+  <span class="notbold">Welcome to the</span> Visualize.js <span class="notbold">Live Sample Guide</span>
+</div>
+
+Introduction
 ============
 
 Visualize.js is a JavaScript API framework used to embed JasperReport Server reports & visualizations inside web applications.
