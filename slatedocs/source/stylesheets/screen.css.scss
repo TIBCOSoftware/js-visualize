@@ -371,7 +371,9 @@ html, body {
   }
 
   .main-header {
-    @extend h1
+    @extend h1;
+    background-color: inherit;
+    border-bottom: 0;
   }
 
   h1:first-child, div:first-child + h1 {
