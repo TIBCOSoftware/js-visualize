@@ -139,26 +139,27 @@ Two actions: `Build` and `Deploy` are created:
 ## How to update documentation
 - Fork this repo
 - Set up [Github pages](#github-pages) for your fork  
-- If you already forked the repo earlier - [reset](#how-to-reset-your-fork-to-mirror-original-repo) your fork to mirror original repo  
-- Made necessary changes to the `slatedocs/source/index.hxml.md` file in your fork
-- If new jsfiddle sample should be added updated - [do necessary changes](#add-new-jsfiddle-sample) as well
-- Test these changes by [running build](#build-docs) or by using [dev server](#start-dev-server)
-- Once changes are completed - push them to github (to your forked repo)
+- If you already forked the repo earlier - [reset](#how-to-reset-your-fork-to-mirror-original-repo) 
+  your fork's `master` branch to mirror the original repo's `master` branch  
+- Made necessary changes to the `slatedocs/source/index.html.md` file in your fork
+- If new jsfiddle sample should be added or updated - [do necessary changes](#add-new-jsfiddle-sample) as well
+- Test changes by [running build](#build-docs) or by using [dev server](#start-dev-server)
+- Once changes are completed - push them to github (forked repo)
 - Wait until github actions will be completed - visit `https://github.com/<username>/js-visualize/actions` to see all actions
 - Test your documentation changes on the public site: `https://<username>.github.io/js-visualize/`
 - Create PR to the original visualize docs repo's `master` branch. 
   (no need to create PR for `gh-pages` branch since it's content is generated automatically)
 
 ### How to reset your fork to mirror original repo
-- add new git remote to the original repo. Let's assume you are doing your changes in `master` branch:
+- checkout `master` branch
+- add new git remote to the original repo:
   ```shell
-  git remote add tibcovisualize git@github.com:TIBCOSoftware/js-visualize.git
-  git checkout master
-  git reset --hard tibcovisualize/master
+  git remote add vizdocs git@github.com:TIBCOSoftware/js-visualize.git
+  git reset --hard vizdocs/master
   ```
 - after this it might be necessary to do a force push:
   ```shell
-  git push origin/master
+  git push origin master --force
   ```
   
 [online documentation]: https://tibcosoftware.github.io/js-visualize/
