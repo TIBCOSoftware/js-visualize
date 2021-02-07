@@ -5,7 +5,8 @@
 
 Welcome to the **visualize.js** samples developer documentation.
 
->If you want to see visualize.js live samples visit [online documentation][online documentation] page
+>This document describes how to update **visualize.js** live samples documentation.
+>If you want to see visualize.js live samples itself - visit [online documentation][online documentation] page
 
 ##### Table of Contents
 - [Project structure](#project-structure)  
@@ -152,12 +153,15 @@ Two actions: `Build` and `Deploy` are created:
 
 ### How to reset your fork to mirror original repo
 - checkout `master` branch
-- add new git remote to the original repo:
+- add new git remote to your fork to reference the original repo:
   ```shell
-  git remote add vizdocs git@github.com:TIBCOSoftware/js-visualize.git
+  git remote add vizdocs git@github.com:TIBCOSoftware/js-visualize.git  
+  ```
+- hard reset your branch to the `master` branch of the original repo:
+  ```shell
   git reset --hard vizdocs/master
   ```
-- after this it might be necessary to do a force push:
+- after this it might be necessary to do a force push `master` branch of your fork:
   ```shell
   git push origin master --force
   ```
