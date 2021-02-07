@@ -372,6 +372,7 @@ html, body {
 
   .main-header {
     @extend h1;
+    font-weight: normal;
     background-color: inherit;
     border-bottom: 0;
   }
@@ -649,8 +650,4 @@ html, body {
 
 .copy-clipboard:hover {
   opacity: 0.8;
-}
-
-.notbold {
-  font-weight: normal;
 }

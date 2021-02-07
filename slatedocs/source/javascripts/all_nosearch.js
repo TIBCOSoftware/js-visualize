@@ -3,6 +3,11 @@
 //= require ./app/_toc
 //= require ./app/_lang
 
+/* Custom scripts */
+//= require ./app/_ga
+//= require ./app/_fixlinks
+/* End of custom scripts */
+
 function adjustLanguageSelectorWidth() {
   const elem = $('.dark-box > .lang-selector');
   elem.width(elem.parent().width());
