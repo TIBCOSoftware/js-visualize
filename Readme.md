@@ -8,7 +8,7 @@ Welcome to the **visualize.js** samples developer documentation.
 >If you want to see visualize.js live samples visit [online documentation][online documentation] page
 
 ##### Table of Contents
-- [Project structure](#documentation-project-structure)  
+- [Project structure](#project-structure)  
 - [Folders structure](#folders-structure)
 - [JSFiddle samples](#jsfiddle-samples)
     - [Add new jsfiddle sample](#add-new-jsfiddle-sample)
@@ -21,16 +21,17 @@ Welcome to the **visualize.js** samples developer documentation.
 - [Github actions](#github-actions)
 - [How to update documentation](#how-to-update-documentation)
   - [How to reset your fork to mirror original repo](#how-to-reset-your-fork-to-mirror-original-repo)
+- [License](#license)  
 
 ## Project structure
 Visualize.js documentation project consists of 3 parts:
 - **jsfiddle examples** - this is basically set of folders with jsfiddle examples. 
   we are using [jsfiddle github integration][jsfiddle github integration]
-  to show jsfiddle examples from our github repo. So if new sample should be added - read [this](#add-new-jsfiddle-sample) section
+  to show jsfiddle examples from our github repo. So if new sample should be added - read [add new jsfiddle sample](#add-new-jsfiddle-sample) section
 - **slatedocs** - [visualize.js docs page][online documentation] 
   is written using [slatedocs/slate][slatedocs] template. So if visualize document itself
   should be updated - read [this](#slatedocs) section
-- **github pages** - final result of the documentation made public using [github pages][github pages]
+- **github pages** - final result of the documentation made public using [github pages][github pages],
     namely `gh-pages` branch is used to show public documentation site
 
 ## Folders structure
@@ -140,7 +141,7 @@ Two actions: `Build` and `Deploy` are created:
 - Set up [Github pages](#github-pages) for your fork  
 - If you already forked the repo earlier - [reset](#how-to-reset-your-fork-to-mirror-original-repo) your fork to mirror original repo  
 - Made necessary changes to the `slatedocs/source/index.hxml.md` file in your fork
-- If new jsfiddle sample should be added updated - [do necessary changes](##add-new-jsfiddle-sample) as well
+- If new jsfiddle sample should be added updated - [do necessary changes](#add-new-jsfiddle-sample) as well
 - Test these changes by [running build](#build-docs) or by using [dev server](#start-dev-server)
 - Once changes are completed - push them to github (to your forked repo)
 - Wait until github actions will be completed - visit `https://github.com/<username>/js-visualize/actions` to see all actions
@@ -167,3 +168,18 @@ Two actions: `Build` and `Deploy` are created:
 [github pages]: https://pages.github.com/
 [github actions]: https://docs.github.com/en/actions
 [docker]: https://www.docker.com/
+
+## License
+
+Copyright © 2018 TIBCO Software Inc. All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of TIBCO Software Inc.  nor the names of any contributors may  be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT OWNER AND CONTRIBUTORS  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
