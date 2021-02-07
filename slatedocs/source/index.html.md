@@ -116,7 +116,7 @@ Control the ad hoc view visualization type (canvas) for users to access. The def
 
 Try it:
 
-<b>[Parameter passing](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/pass-param/)</b>, <b>[basic drop-down](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/)</b>
+<b>[Parameter passing][ahv parameter passing]</b>, <b>[basic drop-down][ahv basic drop-down]</b>
 
 Pass a simple set of hard-coded parameters to control ad hoc view output. This can be expanded with custom inputs controls such as a drop-down.
 
@@ -196,7 +196,7 @@ Hooks for both refreshing and destroying the authentication for an ad hoc view.
 
 Try it:
 
-<b>[Secure token authentication](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/token/)</b>
+<b>[Secure token authentication][ahv secure token authentication]</b>
 
 Token based authentication and initialization of the visualize.js library with a list of ad hoc views.
 
@@ -213,6 +213,8 @@ Token based authentication and initialization of the visualize.js library with a
 [Set canvas type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/
 [dynamically from a list]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
 
+[ahv parameter passing]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/pass-param/
+[ahv basic drop-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/
 [Dynamic input control values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/
 
 [Pass values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/pass-values/
@@ -232,6 +234,7 @@ Token based authentication and initialization of the visualize.js library with a
 
 [Refresh]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/refresh/
 [destroy session]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/destroy/
+[ahv secure token authentication]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/token/
 
 [Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
@@ -280,7 +283,7 @@ Provide the ability to move quickly through reports with direct page anchors. Al
 
 Try it:
 
-<b>[Parameter passing](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/param-pass/)</b>, <b>[basic drop-down](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/drop-down/)</b>, <b>[render values]</b>
+<b>[Parameter passing][report parameter passing]</b>, <b>[basic drop-down][report basic drop-down]</b>, <b>[render values]</b>
 
 Pass a simple set of hard-coded parameters to control report output. This can be expanded with custom inputs controls such as a drop-down. In addition, input control values can be rendered directly from the JasperReport Server.
 
@@ -370,7 +373,7 @@ Simple plain text authentication with demonstration of destroying session with r
 
 Try it:
 
-<b>[Secure token authentication](https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/token-auth/)</b>
+<b>[Secure token authentication][report secure token authentication]</b>
 
 Token based authentication and initialization of the visualize.js library with a list of reports.
 
@@ -402,6 +405,8 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [range with anchor]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/range-anchor/
 [anchor and page search]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-pagination/navigating-report/
 
+[report parameter passing]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/param-pass/
+[report basic drop-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/drop-down/
 [render values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/render-values/
 [Dynamic resource types]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-input/render-types/
 
@@ -427,7 +432,7 @@ A sample UI providing users full authentication options to the JasperReport Serv
 [Save/Save As UI]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-save/save-as/
 
 [Basic Login/Logout]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/report-login/
-
+[report secure token authentication]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/token-auth/
 [Login/logout with hooks]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/login-hook/
 
 [Login/logout UI]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/report-auth/auth-ui/
@@ -529,7 +534,7 @@ Simple embedding of a report and it's associated input control.
 
 Try it:
 
-<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade/)</b>, <b>[cascade with multi and single selects]</b>
+<b>[Render input controls (all types)]</b>, <b>[default values]</b>, <b>[with cascade][view with cascade]</b>, <b>[cascade with multi and single selects]</b>
 
 View all JRS input controls, with default values and cascades.
 
@@ -547,7 +552,7 @@ Change back to originally selected input control values.
 
 Try it:
 
-<b>[Listen for changes]</b>, <b>[with cascade](https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/)</b>
+<b>[Listen for changes]</b>, <b>[with cascade][events with cascade]</b>
 
 Provide events to listen to input control changes, updating the application as needed.
 
@@ -584,11 +589,13 @@ Example CSS overrides with JRS input controls.
 
 [Render input controls (all types)]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/render-all-types/
 [default values]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/default-values/
+[view with cascade]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade/
 [cascade with multi and single selects]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-view/cascade-multi-single/
 
 [Reset input controls]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-reset/reset-controls/
 
 [Listen for changes]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/control-changes/
+[events with cascade]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade/
 [Bind cascade with report]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-events/cascade-report/
 [Validation]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-events/validation/
 
