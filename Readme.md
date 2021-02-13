@@ -27,7 +27,7 @@ Welcome to the **visualize.js** samples developer documentation.
 ## Project structure
 Visualize.js documentation project consists of 3 parts:
 - **jsfiddle examples** - this is basically set of folders with jsfiddle examples. 
-  we are using [jsfiddle github integration][jsfiddle github integration]
+  We are using [jsfiddle github integration][jsfiddle github integration]
   to show jsfiddle examples from our github repo. So if new sample should be added - read [add new jsfiddle sample](#add-new-jsfiddle-sample) section
 - **slatedocs** - [visualize.js docs page][online documentation] 
   is written using [slatedocs/slate][slatedocs] template. So if visualize document itself
@@ -38,7 +38,7 @@ Visualize.js documentation project consists of 3 parts:
 ## Folders structure
 This github project has the following structure:
 ```
-|-<ahv-*> - adhoc view samples
+|-<ahv-*> - ad hoc view samples
 |-<dashboard-*> - dashboard samples
 |-<inputControl-*> - input control samples
 |-<report-*> - report samples
@@ -117,12 +117,12 @@ if necessary. To update template:
 - clone original [slatedocs repo][slatedocs]
 - copy all files and folders from the cloned repo except `.github` and `source/index.html.md` to `slatedocs` 
   folder and replace files if they exists
-- copy `.github` folder from cloned the repo to the root `.github` folder and replace files if they exists.
+- copy `.github` folder from the cloned repo to the root `.github` folder and replace files if they exists.
 - use some git diff tool to inspect difference and merge changes.
 
 ## Github pages
-[Github pages][github pages] used to made documentation site available online.
-To update documentation, please fork this repo and set up github pages to be server from a `gh-pages` branch:
+[Github pages][github pages] used to make documentation site available online.
+To update documentation, please fork this repo and set up github pages to be served from a `gh-pages` branch:
 - In the forked project got to the settings tab and scroll down to the `Github Pages` section.
 - Then select `gh-pages` branch as a source and click `save`
 - After this your site should be available at this url: `https://<username>.github.io/js-visualize/`
@@ -133,7 +133,7 @@ Two actions: `Build` and `Deploy` are created:
 - `Build` action runs on push/pull request to any branch and makes sure that documentation
   build process executed successfully
 - `Deploy` action runs on push to the `master` branch.
-   it executes documentation build process and then 
+   It executes documentation build process and then 
    it executes push of the `slatedocs/buld` folder to the `gh-pages` branch which
    updates the public documentation if [Github pages](#github-pages) has been set up.
 
@@ -142,7 +142,7 @@ Two actions: `Build` and `Deploy` are created:
 - Set up [Github pages](#github-pages) for your fork  
 - If you already forked the repo earlier - [reset](#how-to-reset-your-fork-to-mirror-original-repo) 
   your fork's `master` branch to mirror the original repo's `master` branch  
-- Made necessary changes to the `slatedocs/source/index.html.md` file in your fork
+- Make necessary changes to the `slatedocs/source/index.html.md` file in your fork
 - If new jsfiddle sample should be added or updated - [do necessary changes](#add-new-jsfiddle-sample) as well
 - Test changes by [running build](#build-docs) or by using [dev server](#start-dev-server)
 - Once changes are completed - push them to github (forked repo)
