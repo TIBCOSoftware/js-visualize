@@ -1,3 +1,7 @@
+# This file is part of the slatedocs/slate project.
+# Modified by TIBCO Jaspersoft:
+# - Feb 13 2021: changed working directory
+
 name: Build
 
 on:
