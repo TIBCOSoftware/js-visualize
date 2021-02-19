@@ -1,8 +1,5 @@
 # Visualize.js samples
 
-![Build](https://github.com/sprilukintibco/js-visualize/workflows/Build/badge.svg)
-![Deploy](https://github.com/sprilukintibco/js-visualize/workflows/Deploy/badge.svg)
-
 Welcome to the **visualize.js** samples developer documentation.
 
 >This document describes how to update **visualize.js** live samples documentation.
@@ -148,8 +145,9 @@ Two actions: `Build` and `Deploy` are created:
 - Once changes are completed - push them to github (forked repo)
 - Wait until github actions will be completed - visit `https://github.com/<username>/js-visualize/actions` to see all actions
 - Test your documentation changes on the public site: `https://<username>.github.io/js-visualize/`
-- Create PR to the original visualize docs repo's `master` branch. 
-  (no need to create PR for `gh-pages` branch since it's content is generated automatically)
+- Create PR from the forked `master` branch to the original visualize docs repo's `master` branch.
+- Create PR from the forked `gh-pages` branch to the original visualize docs repo's `gh-pages` branch.
+  (this step could be omitted once github actions will work for the original visualize docs repo)
 
 ### How to reset your fork to mirror original repo
 - checkout `master` branch
