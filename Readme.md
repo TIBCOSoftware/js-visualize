@@ -1,8 +1,5 @@
 # Visualize.js samples
 
-![Build](https://github.com/sprilukintibco/js-visualize/workflows/Build/badge.svg)
-![Deploy](https://github.com/sprilukintibco/js-visualize/workflows/Deploy/badge.svg)
-
 Welcome to the **visualize.js** samples developer documentation.
 
 >This document describes how to update **visualize.js** live samples documentation.
@@ -47,7 +44,7 @@ This github project has the following structure:
 |-slatedocs - documentation build system
 ```
 ## JSFiddle samples
-JSFiddle is basically a folder with has the following structure:
+JSFiddle is basically a folder which has the following structure:
 ```
 |-demo.css
 |-demo.html
@@ -64,7 +61,7 @@ Read [jsfiddle integration][jsfiddle github integration] for more details
 - integrate this sample into the documentation itself: see [How to update documentation](#how-to-update-documentation)
 
 ## Slatedocs
-[slatedocs][slatedocs] is used to generate [online documentation][online documentation]
+[slatedocs][slatedocs] is used to generate [online documentation][online documentation].
 All files related to `slatedocs` are placed under `slatedocs` folder.
 
 ### Slatetdocs folder structure
@@ -122,8 +119,8 @@ if necessary. To update template:
 
 ## Github pages
 [Github pages][github pages] used to make documentation site available online.
-To update documentation, please fork this repo and set up github pages to be served from a `gh-pages` branch:
-- In the forked project got to the settings tab and scroll down to the `Github Pages` section.
+To update documentation fork this repo and set up github pages to be served from a `gh-pages` branch:
+- In the forked project go to the settings tab and scroll down to the `Github Pages` section.
 - Then select `gh-pages` branch as a source and click `save`
 - After this your site should be available at this url: `https://<username>.github.io/js-visualize/`
 
@@ -148,8 +145,9 @@ Two actions: `Build` and `Deploy` are created:
 - Once changes are completed - push them to github (forked repo)
 - Wait until github actions will be completed - visit `https://github.com/<username>/js-visualize/actions` to see all actions
 - Test your documentation changes on the public site: `https://<username>.github.io/js-visualize/`
-- Create PR to the original visualize docs repo's `master` branch. 
-  (no need to create PR for `gh-pages` branch since it's content is generated automatically)
+- Create PR from the forked `master` branch to the original visualize docs repo's `master` branch.
+- Create PR from the forked `gh-pages` branch to the original visualize docs repo's `gh-pages` branch.
+  (this step could be omitted once github actions will work for the original visualize docs repo)
 
 ### How to reset your fork to mirror original repo
 - checkout `master` branch
