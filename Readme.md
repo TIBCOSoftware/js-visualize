@@ -92,6 +92,11 @@ The simplest way to build documentation is to use `docker`:
   Build result will be generated to `slatedocs/build` folder.
 - Now open this file `slatedocs/build/index.html` - you should see your documentation 
 
+For using Slate in native OS run next command in `slatedocs` folder:
+  ```shell
+    bundle exec middleman build
+  ```
+
 For other ways to build documentation - see slate [getting started][slatedocs getting started] docs
 
 ### Start dev server
@@ -106,7 +111,13 @@ The simplest way to build documentation is to use `docker`:
 - Every time you will do changes in the `slatedocs/sources` folder - changes will be available in the browser after 
   page refresh
 
-For other ways to build documentation - see slate [getting started][slatedocs getting started] docs
+For using Slate in native OS run next command in `slatedocs` folder:
+  ```shell
+    bundle exec middleman server
+  ```
+after that on the console you would see the URL to running server.
+
+For other ways to run standalone server - see slate [getting started][slatedocs getting started] docs
 
 ### Update slatedocs template to the latest version
 Template is slightly changed but generally it should be easy to update slate template to the latest version

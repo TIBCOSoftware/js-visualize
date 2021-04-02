@@ -1,12 +1,13 @@
+#container {
+  height: 400px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
 /*Use to turn off visualization selector*/
 #container .jr-mAdhoc-visualization-launcher.jr {
   display: none;
-}
-
-#container {
-  height: 400px;
-  margin-top: 10px;
-  margin-left: 20px;
 }
 
 /*Start of Crosstab specific styles*/
