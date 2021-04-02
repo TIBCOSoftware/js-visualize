@@ -616,7 +616,7 @@ This example shows List as per the resource type.
 
 ### Sorting
 
-Try it :now test
+Try it:
 
 <b>[Sorting List]</b>
 
