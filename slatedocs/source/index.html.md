@@ -572,14 +572,12 @@ Validation result in change event.
 
 
 ### CSS Overrides
-
+>This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 Try it:
 
 <b>[Specific CSS overrides]</b>, <b>[all types]</b>
 
 Example CSS overrides with JRS input controls.
-
->This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 
 [Custom drop down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/custom-dropdown/
 [show inside table]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/inside-table/
