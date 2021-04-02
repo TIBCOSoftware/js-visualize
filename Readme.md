@@ -151,9 +151,13 @@ Two actions: `Build` and `Deploy` are created:
 
 ### How to reset your fork to mirror original repo
 - checkout `master` branch
-- add new git remote to your fork to reference the original repo:
+- add new git remote to your fork to reference the original repo (if not done yet):
   ```shell
   git remote add vizdocs git@github.com:TIBCOSoftware/js-visualize.git  
+  ```
+- fetch changes from the original repo:
+  ```shell
+  git fetch vizdocs master
   ```
 - hard reset your branch to the `master` branch of the original repo:
   ```shell
