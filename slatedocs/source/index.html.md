@@ -603,4 +603,39 @@ Example CSS overrides with JRS input controls.
 [all types]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/
 
 
+Repository Samples
+=================
+
+### Get Repository List
+
+Try it:
+
+<b>[Repository List by Resource type]</b>
+
+This example shows List as per the resource type.
+
+### Sorting
+
+Try it:
+
+<b>[Sorting List]</b>
+
+Sorting Resource list by column name.
+
+
+### Limit and Offset
+
+Try it:
+
+<b>[List by Limit and Offset]</b>
+
+View repository list as per limit and offset.
+
+
+[Repository List by Resource type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-type/repository-list-by-type
+[Sorting List]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-sort/sorting-list
+[List by Limit and Offset]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-filter/limit-offset
+
+
+
 

@@ -1,0 +1,5 @@
+---
+ name: "Sorting List"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "provides sorting resource list by column name."
+ wrap: l
