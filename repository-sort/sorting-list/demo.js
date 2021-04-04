@@ -5,17 +5,7 @@ visualize({
         organization: "organization_1"
     }
 }, function(v) {
-
-    var sortByTypes = ['uri', 'description', 'type', 'creationDate', 'updateDate', 'accessTime', 'popularity'];
-
     var sortByElement = document.getElementById('sortBy');
-
-    sortByTypes.forEach(function(i) {
-        let option = document.createElement('option');
-        option.text = i;
-        option.label = i;
-        sortByElement.add(option)
-    });
     var search = v.resourcesSearch({
         folderUri: "/public",
         types: ["reportUnit"],
@@ -23,20 +13,17 @@ visualize({
         error: displayError
     });
 
-    document
-        .getElementById('sortBy')
-        .addEventListener("change", function() {
-            let res = document.getElementById('sortBy').value;
-            search
-                .sortBy(res)
-                .run()
-                .done(renderResults);
-        });
-
+    sortByElement.addEventListener("change", function() {
+        let columnName = sortByElement.value;
+        search
+            .sortBy(columnName)
+            .run()
+            .done(renderResults);
+    });
 
     // utility function
     function renderResults(results) {
-        document.getElementById('sortBy').disabled = false;
+        sortByElement.disabled = false;
         var tbody = document.getElementById("ResultsTableContent"),
             alt = false,
             html = [];

@@ -5,43 +5,7 @@ visualize({
         organization: "organization_1"
     }
 }, function(v) {
-
-    var resourceTypes = ['folder',
-        'dataType',
-        'jdbcDataSource',
-        'awsDataSource',
-        'jndiJdbcDataSource',
-        'virtualDataSource',
-        'customDataSource',
-        'beanDataSource',
-        'xmlaConnection',
-        'listOfValues',
-        'file',
-        'reportOptions',
-        'dashboard',
-        'adhocDataView',
-        'query',
-        'olapUnit',
-        'reportUnit',
-        'domainTopic',
-        'semanticLayerDataSource',
-        'secureMondrianConnection',
-        'mondrianXmlaDefinition',
-        'mondrianConnection',
-        'inputControl'
-    ];
-
-    var sortBySelectElement = document.getElementById('sortBy');
-
     var resourceTypeElement = document.getElementById('resourceType');
-
-    resourceTypes.forEach(function(i) {
-        let option = document.createElement('option');
-        option.text = i;
-        option.label = i;
-        resourceTypeElement.add(option)
-    });
-
     var search = v.resourcesSearch({
         folderUri: "/public",
         types: ["reportUnit"],
@@ -49,19 +13,18 @@ visualize({
         error: displayError
     });
 
-    document
-        .getElementById('resourceType')
+    resourceTypeElement
         .addEventListener("change", function() {
-            let res = document.getElementById('resourceType').value;
+            let resourceType = resourceTypeElement.value;
             search
-                .types([res])
+                .types([resourceType])
                 .run()
                 .done(renderResults);
         });
 
     // utility function
     function renderResults(results) {
-        document.getElementById('resourceType').disabled = false;
+        resourceTypeElement.disabled = false;
         var tbody = document.getElementById("ResultsTableContent"),
             alt = false,
             html = [];
