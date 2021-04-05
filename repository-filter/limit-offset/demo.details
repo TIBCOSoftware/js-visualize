@@ -1,0 +1,5 @@
+---
+ name: "List by Limit and Offset"
+ docs: "https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v610/api-reference-visualizejs"
+ description: "View repository list as per limit and offset."
+ wrap: l

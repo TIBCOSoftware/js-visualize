@@ -572,15 +572,12 @@ Validation result in change event.
 
 
 ### CSS Overrides
-
+>This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
 Try it:
 
 <b>[Specific CSS overrides]</b>, <b>[all types]</b>
 
 Example CSS overrides with JRS input controls.
-
->This is a sample set of JRS class names for CSS overrides. After embedding, additional class names can be discovered by inspecting the elements on a page.
-
 
 [Custom drop down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/custom-dropdown/
 [show inside table]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/inputControl-data/inside-table/
@@ -601,6 +598,41 @@ Example CSS overrides with JRS input controls.
 
 [Specific CSS overrides]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-css/specific-overrides/
 [all types]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/inputControl-css/all-types/
+
+
+Repository Samples
+=================
+
+### Get Repository List
+
+Try it:
+
+<b>[Repository list by resource type]</b>
+
+This example shows List as per the resource type.
+
+### Sorting
+
+Try it:
+
+<b>[Sorting list]</b>
+
+Sorting resource list by column name.
+
+
+### Limit and Offset
+
+Try it:
+
+<b>[List by limit and offset]</b>
+
+View repository list as per limit and offset.
+
+
+[Repository list by resource type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-type/repository-list-by-type
+[Sorting list]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-sort/sorting-list
+[List by limit and offset]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-filter/limit-offset
+
 
 
 
