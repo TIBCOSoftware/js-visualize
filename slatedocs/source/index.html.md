@@ -635,4 +635,10 @@ View repository list as per limit and offset.
 
 
 
+### Repository Search
 
+Try it:
+
+<b>[Repository Search by Access Type]</b>
+
+Filters the result as per the selected Access type.
