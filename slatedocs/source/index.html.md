@@ -66,7 +66,7 @@ View and reuse the live Visualize.js API samples in this guide and(or) reference
 * Fork this Visualize.js API [sample set and guide] for your own use
 * Download our [sample application] on GitHub featuring Visualize.js
 
-[Visualize.js API reference guide]: https://community.jaspersoft.com/documentation/tibco-jasperreports-server-visualizejs-guide/v62/api-reference-visualizejs
+[Visualize.js API reference guide]: https://community.jaspersoft.com/documentation/v790/tibco-jasperreports-server-visualizejs-guide
 [JasperReport Server]: https://www.jaspersoft.com/download
 [installation]: https://www.jaspersoft.com/download
 [quick start guide]: https://www.jaspersoft.com/jaspersoft-quick-start-guide
