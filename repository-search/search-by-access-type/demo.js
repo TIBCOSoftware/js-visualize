@@ -5,9 +5,9 @@ visualize({
          organization: "organization_1"
     }
   }, function(v) {
-    var accessTypeElement = document.getElementById('accessType');
+    const accessTypeElement = document.getElementById('accessType');
 
-    var search = v.resourcesSearch({
+    const search = v.resourcesSearch({
       folderUri: "/public",
       types: ["reportUnit"],
       success: renderResults,
@@ -26,11 +26,11 @@ visualize({
     // utility function
     function renderResults(results) {
       accessTypeElement.disabled = false
-      var tbody = document.getElementById("ResultsTableContent"),
-        alt = false,
+      const tbody = document.getElementById("ResultsTableContent"),
         html = [];
+      let alt = false;
   
-      for (var i = 0; i < results.length; i++) {
+      for (let i = 0; i < results.length; i++) {
         html.push((alt = !alt) ? '<tr>' : '<tr class="alt">');
         html.push("<td>" + results[i].label + "</td>");
         html.push("<td>" + results[i].uri + "</td>");
