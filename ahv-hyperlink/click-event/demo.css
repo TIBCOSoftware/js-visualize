@@ -1,0 +1,10 @@
+#container {
+  height: 400px;
+  margin-left: 20px;
+}
+
+.display {
+  padding: 20px;
+  font-size: 1.3em;
+  color: #3C1A06;
+}

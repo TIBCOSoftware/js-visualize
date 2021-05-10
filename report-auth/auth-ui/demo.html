@@ -1,25 +1,25 @@
 <!-- Visualize: UI for Login/Logout
   -->
 
-<script type='text/javascript' src="https://mobiledemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>
+<script src="https://mobiledemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>
 <div>
     <label class="control input text hidden" accesskey="o" for="orgId">
         <span class="wrap">Organization :</span>
         <input id="orgId" name="orgId" type="text" autocapitalize="off"/>
     </label>
-            
+
     <label class="control input text" for="j_username">
         <span class="wrap">User ID:</span>
         <input id="j_username" name="j_username" type="text" autocapitalize="off"/>
     </label>
-    
+
     <label class="control input password" for="j_password">
         <span class="wrap">Password:</span>
         <input class="" id="j_password" name="j_password" type="password"/>
     </label>
-    
+
     <div style="font-size: 8pt">Sample login - Organization: organization_1, User ID: joeuser, Password: joeuser</div>
-    
+
     <label class="control select" for="userLocale">
 	    <span class="wrap">Locale:</span>
 	    <select id="userLocale" name="userLocale">
@@ -33,7 +33,7 @@
             <option value="zh_CN">zh_CN</option>
         </select>
 	</label>
-    
+
 	<label class="control select" for="userTimezone">Time Zone:
 	    <select id="userTimezone" name="userTimezone">
             <option value="Europe/Helsinki" selected="">Europe/Helsinki - Eastern European Time</option>
@@ -65,5 +65,5 @@
 	<option value="/public/Samples/Reports/10g.PerformanceByStoreType">Performance By Store Type (dark) </option>
 	<option value="/public/Samples/Reports/14.PerformanceSummary">Performance Summary</option>
 </select>
-<!--Provide container to render your visualization-->
+<!-- container to render visualization -->
 <div id="container"></div>

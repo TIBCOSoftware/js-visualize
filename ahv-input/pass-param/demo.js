@@ -4,7 +4,7 @@ visualize({
     password: "joeuser",
     organization: "organization_1"
   }
-}, function(v) {
+}, function (v) {
   v.adhocView({
     resource: "/public/Samples/Ad_Hoc_Views/04__Product_Results_by_Store_Type",
     container: "#container",

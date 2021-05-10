@@ -1,0 +1,9 @@
+#container {
+  height: 400px;
+  margin-left: 5px;
+  margin-top: 9px;
+}
+
+#container .jr-jAdhocLauncherButton {
+  display: none;
+}

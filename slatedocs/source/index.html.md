@@ -77,86 +77,85 @@ View and reuse the live Visualize.js API samples in this guide and(or) reference
 [Download JRS]: https://www.jaspersoft.com/download
 
 
-
-
 Ad Hoc View Samples
 =======
 
 ### Basic Embed
 
-Try it:
+Check out the basic example of displaying Ad Hoc View based on table: <b>[code sample][table adhoc]</b>
 
-<b>[Render table], [customize with CSS], [crosstab with CSS], [chart with selector]</b>
+And the similar code which displays Ad Hoc View based on chart: <b>[code sample][chart adhoc]</b>
+<br/>Also, in this example you can see how we specify the container in a different way: v("#container").adhocView(...);
 
-Initialization of the visualize.js library with simple rendering of ad hoc views using plain text authentication. See full authentication samples in this guide for securing data and views with the JasperReports Server and Visualize.js.
+If you want to display several Ad Hoc View resources on the same page it's possible to call v() function as
+many times as you need: <b>[code sample][multiple adhoc-views]</b>
 
->You can easily change the resource to embed a different view from the JasperReport Server.
+In case you need to refresh Ad Hoc View to display fresh data you may use next sample: <b>[code sample][refresh adhoc]</b>
 
->For example:
+To remove Ad Hoc View if you don't need it anymore you may use .destroy() method: <b>[code sample][remove adhoc]</b>
 
-``` javascript
-        resource: "/public/viz/Adhoc/Change_Visualization2"
-``` 
+There are two callbacks 'success' and 'error' which can be called if Ad Hoc View was rendered successfully or with an error: <b>[code sample][adhoc callbacks]</b>
 
-Try it:
+[table adhoc]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-basic/table-adhoc/
+[chart adhoc]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-basic/chart-adhoc/
+[multiple adhoc-views]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-basic/multiple-views/
+[refresh adhoc]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-basic/refresh/
+[remove adhoc]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-basic/remove/
+[adhoc callbacks]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-basic/callbacks/
 
-<b>[Load multiple views]</b>
+### Visualization Type
 
-Use a common configuration to load multiple views.
+In case you need to control visualization type (Table, Crosstab, Charts) you may pass the type as shown in the next example: <b>[code sample][Set canvas type]</b>.
 
-### Control Canvas
+By reading metadata from Ad Hoc View we can see what visualization types are available for this Ad Hoc View resource. Also, in this sample you can see how to change visualization type after the Ad Hoc View has been rendered: <b>[code sample][dynamically from a list]</b>
 
-Try it:
+And in case you don't need to change visualization type you may hide the selector with CSS: <b>[code sample][hidden vis type selector]</b>.
 
-<b>[Set canvas type]</b>, <b>[dynamically from a list]</b>
-
-Control the ad hoc view visualization type (canvas) for users to access. The default visualization selector can be turned off with a line of CSS and only select visualizations used. See dynamic list example for all available visualizations and each name reference.
+[Set canvas type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/vis-type/
+[dynamically from a list]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-vis-type-selector/
+[hidden vis type selector]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/hidden-vis-selector/
 
 ### Input Controls
 
-Try it:
+Code sample where we pass one input parameter to Ad Hoc View: <b>[code sample][ahv parameter passing]</b>.
 
-<b>[Parameter passing][ahv parameter passing]</b>, <b>[basic drop-down][ahv basic drop-down]</b>
+Sample with static select options used to change input parameters to control Ad Hoc View: <b>[code sample][ahv basic drop-down]</b>.
 
-Pass a simple set of hard-coded parameters to control ad hoc view output. This can be expanded with custom inputs controls such as a drop-down.
+In next example we do the similar control of Ad Hoc View Sample but with the help of dynamically formed select using data from Input Control component: <b>[code sample][Dynamic input control values]</b>
 
-Try it:
-
-<b>[Dynamic input control values]</b>
-
-Build a custom input control dynamically using input control data from an ad hoc view.
-
->Try: A hard coded or dynamic variable...
-
-``` javascript
-      inputSelection = "Non-Consumable"
-``` 
-
->for parameter control...
-
-``` javascript
-      "ProductFamily": ["Food", inputSelection]
-``` 
+[ahv basic drop-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/
+[ahv parameter passing]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/pass-param/
+[Dynamic input control values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/
 
 ### Hyperlinks
 
-Try it:
+In some cases you would like to do some actions when user clicks on Ad Hoc View Table and Crosstab's cells or numbers, or react to
+click on chart element, like bar, like, point, etc. This can be achieved by the help of Hyperlinks, the mechanism which
+allows you to get your code executed on these events.
 
-<b>[Pass values]</b>, <b>[fields and measures]</b>
+Consider the simple examples where we define click event listener to the table cells and display some
+information brought by Visualize.js: <b>[code sample][hyperlink click event]</b>
 
-On selection of a data point pass it's value or field and measure.
+As you might see this is very close to native event listener, but we provide some extra data within second argument.
 
-Try it:
+Here you may see almost the same sample but we are displaying field and measure names in separate areas: <b>[code sample][fields and measures]</b>
 
-<b>[Drill down on selection]</b>, <b>[in new view]</b>
+The next sample shows how you can drill down the cells once you clicked them. Also, in this sample we don't use .destroy() method
+before rendering new Ad Hoc View because it checks for existing resource automatically and removes it. <b>[code sample][Drill down on selection]</b>
 
-Select an ad hoc view data point to drill down into data within the same view (container) based on the selected field and measure, updating the visualization type. Pass the same values to render a new ad hoc view on the page.
+In this sample we are ding almost the same drill down, but instead of replacing existing Ad Hoc View we are launching a new one: <b>[code sample][new view]</b>
 
-Try it:
+In case you need to change in any way the cells of Ad Hoc View Table or Crosstab you might need to use 'beforeRender' hook
+available as a part of Hyperlinks. This hook allows you to get cells with their data and DOM elements, and do whatever you want.
+In the next sample we are customizing cell nodes with some styling: <b>[code sample][before render]</b>
+<br/>
+Just as a note: you can do the same with common CSS styling, more samples on which you may find below.
 
-<b>[Hyperlink changes beforeRender]</b>
-
-Take action on hyperlinks before they render. Useful for changing the styles on hyperlinks.
+[hyperlink click event]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/click-event/
+[fields and measures]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/fields-measures/
+[Drill down on selection]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/drill-down/
+[new view]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/new-view/
+[before render]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/before-render/
 
 ### Custom Visualization
 
@@ -172,6 +171,11 @@ Try it:
 
 Navigate the internal data API and return values to update and return the number of columns and rows.
 
+[Data rendered on page]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/data-rendered/
+[with D3 gauges]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/d3-gauge/
+[Loading of data]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/loading-data/
+[through return values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/return-values/
+
 ### UI Controls
 
 Try it:
@@ -184,61 +188,33 @@ Try it:
 
 <b>[Resize Ad Hoc View]</b>
 
-Ad hoc views are web responsive and the container size can be changed as needed.
-
-### Authentication
-
-Try it:
-
-<b>[Refresh]</b>, <b>[destroy session]</b>
-
-Hooks for both refreshing and destroying the authentication for an ad hoc view.
-
-Try it:
-
-<b>[Secure token authentication][ahv secure token authentication]</b>
-
-Token based authentication and initialization of the visualize.js library with a list of ad hoc views.
-
-[JRS - Authentication Cookbook >][Cookbook]
-
->*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Authentication Cookbook] for details on configuring authentication correctly.*
-
-[Render Table]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/basic-render/
-[customize with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/customize-css/
-[crosstab with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/crosstab-css/
-[chart with selector]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/chart-selector/
-[Load multiple views]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-embed/multiple-views/
-
-[Set canvas type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/set-canvas/
-[dynamically from a list]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-canvas/dynamic-canvas/
-
-[ahv parameter passing]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/pass-param/
-[ahv basic drop-down]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/basic-drop/
-[Dynamic input control values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-input/dynamic-values/
-
-[Pass values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/pass-values/
-[fields and measures]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/fields-measures/
-[Drill down on selection]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/drill-down/
-[in new view]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/new-view/
-[Hyperlink changes beforeRender]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-hyperlink/before-render/
-
-[Data rendered on page]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/data-rendered/
-[with D3 gauges]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/d3-gauge/
-[Loading of data]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/loading-data/
-[through return values]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-custom/return-values/
+Ad Hoc Views are web responsive and the container size can be changed as needed.
 
 [Table row selection]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/row-selection/
 [column selection with highlight]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/col-selection/
 [Resize Ad Hoc View]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-control/resize-view/
 
-[Refresh]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/refresh/
-[destroy session]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/destroy/
-[ahv secure token authentication]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/token/
+### Authentication
 
-[Authentication Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
+Token based authentication and initialization of the visualize.js library with a list of Ad Hoc Views: <b>[sample code][token authentication]</b>
+
+Also, check out next page to find more information: [JRS - Authentication Cookbook][Cookbook]
+
+>*Note: Proper authentication needs to be set up with the JasperReport Server and SSO before using token based authentication. View the [Cookbook] for details on configuring authentication correctly.*
+
+[token authentication]: https://jsfiddle.net/gh/get/jQuery/3.4.1/CONTENT-URL/JS-visualize/tree/master/ahv-auth/token/
 [Cookbook]: https://community.jaspersoft.com/documentation/jasperreports-server-authentication-cookbook/introduction
 
+### CSS Styling
+
+You can customize the look of the Ad Hoc View with CSS as much as you want, here are some examples:
+
+<b>[Table customization][table with CSS]</b>
+
+<b>[Crosstab customization][crosstab with CSS]</b>
+
+[table with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-custom/table-css/
+[crosstab with CSS]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/ahv-custom/crosstab-css/
 
 Report Samples
 =======

@@ -4,21 +4,20 @@ visualize({
     password: "joeuser",
     organization: "organization_1"
   }
-}, function(v) {
-  var ahv = v.adhocView({
+}, function (v) {
+  v.adhocView({
     resource: "/public/viz/Adhoc/Table1",
     container: "#container",
-    success: {
-    	
-    },
     linkOptions: {
-      beforeRender: function(elemToLinkPairs) {
-        elemToLinkPairs.forEach(function(pair) {
-          pair.element.style.textDecoration = "underline";
-          pair.element.style.cursor = "pointer";
-          pair.element.style.fontStyle = "italic";
-          pair.element.style.color = "#7C3414";
-          console.log(JSON.stringify(pair));
+      beforeRender: function (cells) {
+        cells.forEach(function (cell) {
+
+          console.log('Cell:', cell);
+
+          cell.element.style.textDecoration = "underline";
+          cell.element.style.cursor = "pointer";
+          cell.element.style.fontStyle = "italic";
+          cell.element.style.color = "#7C3414";
         });
       }
     }

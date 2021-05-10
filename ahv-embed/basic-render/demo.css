@@ -1,9 +1,0 @@
-/*Disabled visualization selector*/
-#container .jr-mAdhoc-visualization-launcher.jr {
-  display: none;
-}
-
-#container {
-  position: relative;
-  height: 310px;
-}

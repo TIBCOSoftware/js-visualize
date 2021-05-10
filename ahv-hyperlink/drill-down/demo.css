@@ -1,3 +1,8 @@
+#firstContainer {
+  height: 350px;
+  margin-bottom: 10px;
+}
+
 .selected {
   display: inline;
   font-size: 1.3em;
@@ -6,11 +11,6 @@
 
 #field {
   margin-right: 20px;
-}
-
-#firstContainer {
-  height: 350px;
-  margin-bottom: 10px;
 }
 
 #backButton {
