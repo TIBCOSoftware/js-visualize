@@ -133,7 +133,7 @@ In some cases you would like to do some actions when user clicks on Ad Hoc View 
 click on chart element, like bar, like, point, etc. This can be achieved by the help of Hyperlinks, the mechanism which
 allows you to get your code executed on these events.
 
-Consider the simple examples where we define click event listener to the table cells and display some
+Consider the simple example where we define click event listener to the table cells and display some
 information brought by Visualize.js: <b>[code sample][hyperlink click event]</b>
 
 As you might see this is very close to native event listener, but we provide some extra data within second argument.
