@@ -15,7 +15,7 @@ visualize({
     });
   
     accessTypeElement.addEventListener("change", function() {
-        let resourceType = accessTypeElement.value;
+        const resourceType = accessTypeElement.value;
         search
           .accessType(resourceType)
           .run()
