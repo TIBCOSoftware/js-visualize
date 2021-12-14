@@ -33,7 +33,7 @@ Professional (and as an add-on with Jaspersoft Reporting).
 Installing Jaspersoft
 ----------------------
 
-*Note: All fiddles in this guide are live and available to view before install*
+*Note: All fiddles in this guide are live (referring [https://mobiledemo.jaspersoft.com/jasperserver-pro/][MobileDemo JRS Instance] JasperReports Server instance) and available to view before install*
 
 * Download the commercial edition of [JasperReport Server]
 * Use our [quick start guide] for installation and configuration
@@ -75,6 +75,7 @@ View and reuse the live Visualize.js API samples in this guide and(or) reference
 [sample application]: https://github.com/TIBCOSoftware/JS-FDSample
 
 [Download JRS]: https://www.jaspersoft.com/download
+[MobileDemo JRS Instance]: https://mobiledemo.jaspersoft.com/jasperserver-pro/
 
 
 
