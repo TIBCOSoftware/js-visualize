@@ -4,18 +4,12 @@ visualize({
     password: "joeuser",
     organization: "organization_1"
   }
-}, function(v) {
-  var ahv = v.adhocView({
-    resource: "/public/viz/Adhoc/Table1",
+}, function (v) {
+  v.adhocView({
+    resource: "/public/Samples/Ad_Hoc_Views/04__Product_Results_by_Store_Type",
     container: "#container",
-    //Use linkOptions to pass selected value
-    linkOptions: {
-      events: {
-        click: function(ev, data) {
-         $(".selected").html("<span>Clicked: <b>" + ev.currentTarget.innerText + "</b></span>")
-          console.log(data);
-        }
-      }
+    params: {
+      sales__store__store_contact__store_country_1: ["Canada"]
     }
   });
 });

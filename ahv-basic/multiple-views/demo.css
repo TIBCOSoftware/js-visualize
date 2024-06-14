@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+#firstContainer {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+#secondContainer {
+  width: 100%;
+  float: left;
+  height: 50%;
+}
