@@ -13,7 +13,7 @@ function loadGoogleAnalytics() {
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-112380144-1');
+  gtag('config', 'G-FKZVK278B5');
 
   <!-- Google Tag Manager -->
   (function (w, d, s, l, i) {
@@ -32,5 +32,5 @@ function loadGoogleAnalytics() {
   <!-- End Google Tag Manager -->
 }
 
-loadScript('https://www.googletagmanager.com/gtag/js?id=UA-112380144-1');
+loadScript('https://www.googletagmanager.com/gtag/js?id=G-FKZVK278B5');
 loadGoogleAnalytics();
