@@ -90,8 +90,8 @@ html, body {
   // This is the logo at the top of the ToC
   .logo {
     display: block;
-    max-width: 100%;
-    margin-bottom: $logo-margin;
+    max-width: 200px;
+    margin: $logo-margin;
   }
 
   &>.search {
