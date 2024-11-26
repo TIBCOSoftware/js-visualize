@@ -10,6 +10,36 @@
   font-style: normal;
 }
 
+/* --------------------- */
+/*  FONT DEFINITION JRS  */
+/* --------------------- */
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+  url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+  url('../fonts/sourcesanspro-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url('../fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+  url('../fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+  url('../fonts/sourcesanspro-semibold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('../fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+  url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+  url('../fonts/sourcesanspro-bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 %icon {
   font-family: 'slate';
   speak: none;

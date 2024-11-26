@@ -98,29 +98,39 @@ html, body {
     position: relative;
 
     input {
+      //border-width: 0 0 1px 0;
+      //border-color: $search-box-border-color;
+      //border-radius: 0;
+      //padding: 6px 0 6px 20px;
       background: $nav-bg;
-      border-width: 0 0 1px 0;
-      border-color: $search-box-border-color;
-      padding: 6px 0 6px 20px;
       box-sizing: border-box;
-      margin: $nav-v-padding $nav-padding;
-      width: $nav-width - ($nav-padding*2);
-      outline: none;
       color: $nav-text;
-      border-radius: 0; /* ios has a default border radius */
+      margin: $nav-v-padding $nav-padding;
+      outline: none;
+      width: $nav-width - ($nav-padding*2);
+      /* styles below added by Anna, Nov 2024 */
+      border: 1px solid #f3f7f9;
+      border-radius: 2px;
+      font-family: source_sans_proregular, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      padding: 6px 0 6px 8px;
     }
 
     &:before {
+      //top: 17px;
+      //left: $nav-padding;
       position: absolute;
-      top: 17px;
-      left: $nav-padding;
       color: $nav-text;
       @extend %icon-search;
+      /* styles below added by Anna, Nov 2024 */
+      top: 19px;
+      right: 24px;
     }
   }
 
   .search-results {
-    margin-top: 0;
+    //margin-top: 0;
+    margin: 4px 15px; /* added by Anna, Nov 2024 */
     box-sizing: border-box;
     height: 0;
     overflow-y: auto;
@@ -130,18 +140,33 @@ html, body {
     transition-timing-function: ease-in-out;
     background: $nav-subitem-bg;
     &.visible {
-      height: 30%;
+      //height: 30%;
       margin-bottom: 1em;
+      /* styles below added by Anna, Nov 2024 */
+      height: auto;
+      max-height: 30%;
+      font-family: source_sans_proregular, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin-top: 2px;
+      border-radius: 0 0 2px 2px;
     }
 
     li {
-      margin: 1em $nav-padding;
-      line-height: 1;
+      //margin: 1em $nav-padding;
+      //line-height: 1;
+      /* styles below added by Anna, Nov 2024 */
+      margin: 10px;
+      line-height: 1.4;
+      color: #212121;
+      font-weight: normal;
     }
 
     a {
-      color: $nav-text;
+      //color: $nav-text;
       text-decoration: none;
+      /* styles below added by Anna, Nov 2024 */
+      color: #333;
+      font-size: 14px;
+      font-weight: normal;
 
       &:hover {
         text-decoration: underline;
@@ -149,6 +174,10 @@ html, body {
     }
   }
 
+  .search:has(+ .search-results.visible) input.search {
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 0;
+  } /* added by Anna, Nov 2024 */
 
   // The Table of Contents is composed of multiple nested
   // unordered lists.  These styles remove the default
@@ -167,28 +196,66 @@ html, body {
     transition-duration: 200ms;
   }
 
+  .toc-h1.toc-link {
+    padding-left: 22px;
+  } /* added by Anna, Nov 2024 */
+
   // This is the currently selected ToC entry
   .toc-link.active {
-    background-color: $nav-active-bg;
-    color: $nav-active-text;
+    //background-color: $nav-active-bg;
+    //color: $nav-active-text;
+    background-color: inherit; /* added by Anna, Nov 2024 */
   }
+
+  .toc-h1.toc-link.active:before {
+    left: 6px;
+  } /* added by Anna, Nov 2024 */
+
+  .toc-list-h1 li > a.active {
+    background-color: #014777;
+  } /* added by Anna, Nov 2024 */
+
+  .toc-link.active:before {
+    background-color: #88ceff;
+    border-radius: 6px;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 19px;
+    top: 11px;
+  } /* added by Anna, Nov 2024 */
 
   // this is parent links of the currently selected ToC entry
   .toc-link.active-parent {
-    background-color: $nav-active-parent-bg;
+    //background-color: $nav-active-parent-bg;
+    background-color: inherit;  /* added by Anna, Nov 2024 */
     color: $nav-active-parent-text;
   }
 
   .toc-list-h2 {
     display: none;
-    background-color: $nav-subitem-bg;
+    //background-color: $nav-subitem-bg;
+    background-color: #014777;  /* added by Anna, Nov 2024 */
     font-weight: 500;
   }
 
   .toc-h2 {
+    //font-size: 12px;
     padding-left: $nav-padding + $nav-indent;
-    font-size: 12px;
+    /* styles below added by Anna, Nov 2024 */
+    font-size: 14px;
+    position: relative;
   }
+
+  .toc-list-h1 > li:has(.active-parent) {
+    background-color: #014777;
+  } /* added by Anna, Nov 2024 */
+
+  .toc-list-h2.active {
+    padding-bottom: 4px;
+  } /* added by Anna, Nov 2024 */
 
   .toc-footer {
     padding: 1em 0;
@@ -212,8 +279,13 @@ html, body {
   }
 }
 
+.toc-wrapper #toc {
+  margin-top: 20px;
+} /* added by Anna, Nov 2024 */
+
 .toc-wrapper ul, .toc-wrapper li {
-  line-height: 30px;
+  line-height: 32px;
+  position: relative;
 } /* added by Anna, Nov 2024 */
 
 .toc-link, .toc-footer li {
@@ -227,6 +299,10 @@ html, body {
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 130ms;
+  /* rules below added by Anna, Nov 2024 */
+  font-family: source_sans_proregular, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: .25px;
 }
 
 // button to show navigation on mobile devices
@@ -394,6 +470,9 @@ html, body {
     font-weight: normal;
     background-color: inherit;
     border-bottom: 0;
+    /* styles below added by Anna, Nov 2024 */
+    font-family: source_sans_prosemibold, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 32px;
   }
 
   h1:first-child, div:first-child + h1 {
