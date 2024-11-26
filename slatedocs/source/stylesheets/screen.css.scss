@@ -212,6 +212,10 @@ html, body {
   }
 }
 
+.toc-wrapper ul, .toc-wrapper li {
+  line-height: 30px;
+} /* added by Anna, Nov 2024 */
+
 .toc-link, .toc-footer li {
   padding: 0 $nav-padding 0 $nav-padding;
   display: block;
@@ -256,6 +260,18 @@ html, body {
 
   &:hover { opacity: 1; }
   &.open {left: $nav-width}
+}
+
+// Special rules for Visualize Components item, added by Anna, Nov 2024
+.toc-list-h1 a[data-title='Visualize Components']:after {
+  background-color: #9bff9b;
+  border-radius: 10px;
+  color: #085d08;
+  content: "NEW";
+  flex: 0 1 auto;
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 3px 8px;
 }
 
 

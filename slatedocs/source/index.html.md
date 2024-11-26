@@ -645,3 +645,7 @@ Try it:
 Filters the result as per the selected Access type.
 
 [Repository search by access type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-search/search-by-access-type
+
+
+Visualize Components
+=================
