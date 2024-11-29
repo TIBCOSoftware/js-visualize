@@ -645,3 +645,15 @@ Try it:
 Filters the result as per the selected Access type.
 
 [Repository search by access type]: https://jsfiddle.net/gh/get/library/pure/CONTENT-URL/JS-visualize/tree/master/repository-search/search-by-access-type
+
+
+Visualize Components
+=================
+
+Jaspersoft Visualize Components is a toolkit of React components that work together with Visualize.js to provide web 
+developers rich, modern UI components that interact with their existing JasperReports Server® installation. 
+Web developers can forge their own user experience with these components by using the reporting concepts found in 
+JasperReports Server.
+
+Visit [Jaspersoft Visualize Components](https://jaspersoft.github.io/js-visualize-components-samples/) page for more
+information about the components and how to use them.

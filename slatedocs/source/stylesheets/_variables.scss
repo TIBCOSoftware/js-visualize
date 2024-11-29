@@ -25,12 +25,12 @@ under the License.
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #2D638A !default;
-$examples-bg: #306388 !default;
-$code-bg: #0b2435 !default;
-$code-annotation-bg: #1F5175 !default;
-$nav-subitem-bg: #386D96 !default;
-$nav-active-bg: #0F75D4 !default;
+$nav-bg: #0076ad !default; // changed from 2D638A by Anna
+$examples-bg: #0076ad !default; // changed from 306388 by Anna
+$code-bg: #212121 !default; // changed from 0b2435 by Anna
+$code-annotation-bg: #014777 !default; // changed from 1F5175 by Anna
+$nav-subitem-bg: #F3F7F9 !default; // changed from 386D96 by Anna
+$nav-active-bg: #88ceff !default; // changed from 0F75D4 by Anna
 $nav-active-parent-bg: #1B5177 !default; // parent links of the current section
 $lang-select-border: #000 !default;
 $lang-select-bg: #1E2224 !default;
@@ -65,7 +65,7 @@ $logo-margin: 15px !default; // margin below logo
 $main-padding: 28px !default; // padding to left and right of content & examples
 $nav-padding: 15px !default; // padding to left and right of navbar
 $nav-v-padding: 10px !default; // padding used vertically around search boxes and results
-$nav-indent: 10px !default; // extra padding for ToC subitems
+$nav-indent: 21px !default; // extra padding for ToC subitems, changed from 10px by Anna
 $code-annotation-padding: 13px !default; // padding inside code annotations
 $h1-margin-bottom: 21px !default; // padding under the largest header tags
 $tablet-width: 930px !default; // min width before reverting to tablet size
@@ -94,7 +94,7 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 // OTHER
 ////////////////////
 $nav-footer-border-color: #666 !default;
-$search-box-border-color: #FFF !default;
+$search-box-border-color: #c7dae2 !default; // changed from FFF by Anna
 
 
 ////////////////////////////////////////////////////////////////////////////////
