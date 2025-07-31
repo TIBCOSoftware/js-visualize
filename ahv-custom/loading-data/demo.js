@@ -6,7 +6,7 @@ visualize({
   }
 }, function(v) {
   var adv = v.adhocView({
-    //	container: "#container",
+    container: "#container",
     resource: "/public/viz/Adhoc/Table1",
     error: function() {
       console.log(arguments);
