@@ -7,7 +7,7 @@ visualize({
 },function(v) {
     
     v.inputControls({
-        resource: "/public/Samples/Reports/9g.CustomerDetailReport",
+        resource: "/public/Samples/Reports/04._Product_Results_by_Store_Type_Report",
         success: function (controls) {
             controls.forEach(buildControl);
             //Remove custom loading indicator once data has successfully loaded
