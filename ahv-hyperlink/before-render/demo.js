@@ -18,7 +18,7 @@ visualize({
           pair.element.style.cursor = "pointer";
           pair.element.style.fontStyle = "italic";
           pair.element.style.color = "#7C3414";
-          console.log(JSON.stringify(pair));
+          //console.log(JSON.stringify(pair));
         });
       }
     }

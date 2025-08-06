@@ -10,14 +10,9 @@ visualize({
     adv = v.adhocView({
       resource: "/public/Samples/Ad_Hoc_Views/04__Product_Results_by_Store_Type",
       //uncomment here and in html to render ad hoc view on page
-      //container: "#container",
+      container: "#container",
       success: function() {
-      	var data = adv.data()._dataset_internal_.levelDataNodes[0].all.children[0].group.children[0].detail;
-      	var counts = adv.data()._dataset_internal_.counts;
-        
-        //render select ad hoc view data
-				renderData(data, counts);
-
+      	console.log("Table is rendered");
       },
       error: function(e) {
       	console.log(e);
